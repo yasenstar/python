@@ -4,7 +4,7 @@
 
 ``` C
 #include <stdio.h>
-int mian()
+int main()
 {
     printf("Goodbye World\n");
     return 0;
