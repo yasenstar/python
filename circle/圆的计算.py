@@ -8,7 +8,7 @@ print('3 - 体积')
 
 type = int(input())
 
-print('请输入圆的周长')
+print('请输入圆的半径')
 r = float(input())
 
 圆的周长 = '圆的周长 = 2 x PI x 半径'
