@@ -8,7 +8,7 @@ pip install itchat
 
 安装完成后导入包，再登陆自己的微信。过程中会产生一个登陆二维码，扫描之后即可登陆。登陆成功后可以把登陆的微信账号的好友相关信息爬下来。
 
-```
+```python
 import itchat
 itchat.login()
 # 爬取自己好友相关信息，返回一个json文件
