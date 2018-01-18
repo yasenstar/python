@@ -45,3 +45,69 @@ total = len(friends[1:])
 print ("男性好友：  %.2f%%" % (float(male)/total*100) + "" + "女性好友：  %.2f%%" % (float(famale)/total*100) + "" + "不明性别好友：  %.2f%%" % (float(other)/total*100))
 ```
 
+出来的结果可以调用R来做出好看的图表。
+
+# 自己微信好友的城市分布
+
+作为准备，安装pandas
+
+```
+pip install pandas
+```
+
+再仔细观察friends列表，发现里面还包含了好友昵称、省份、城市、个人简介等等的数据，可以用来分析好友城市发布，最好的方式是定义一个函数来把数据都爬下来，存到数据框中，再进行分析。如下：
+
+```python
+# 定义一个函数，用来爬取各个变量
+def get_var(var):
+	variable = []
+	for i in friends:
+		value = i[var]
+		variable.append(value)
+	return variable
+
+# 调用函数得到各变量，并把数据存到csv文件中，保存到桌面
+NickName = get_var("NickName")
+Sex = get_var("Sex")
+Province = get_var("Province")
+City = get_var("City")
+Signature = get_var("Signature")
+from pandas import DataFrame
+data = {"NickName": NickName, "Sex": Sex, "Province": Province, "City": City, "Signature": Signature}
+frame = DataFrame(data)
+frame.to_csv("data.csv", index=True)
+```
+
+以上会得到一个叫data.csv的文件，用R打开并简单做一下数据预处理，就可以作图了。
+
+# 自己微信好友的个人签名
+
+作为准备，安装jieba
+
+```
+pip install jieba
+```
+
+打印出好友的个性签名(Signature)，对于某些表情等等无关词汇，需要先替换掉，另外，还有类似<>/=之类的符号，也需要用正则替换掉，再把所有结果拼起来，得到text字符串
+
+```python
+import re
+siglist = []
+for i in friends:
+    signature = i["Signature"].strip().replace("span","").replace("class","").replace("emoji","")
+    rep = re.compile("1fd+w*|[<>/=]")
+    signature = rep.sub("", signature)
+    siglist.append(signature)
+text = "".join(siglist)
+```
+
+使用jieba分词：
+
+```python
+import jieba
+wordlist = jieba.cut(text, cut_all=True)
+word_space_split = " ".join(wordlist)
+```
+
+---
+感谢[alfred](http://mp.weixin.qq.com/s/mW7PTofuCOQrW5e34Ei2Pw)
