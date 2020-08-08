@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Aug  8 04:01:48 2020
+
+@author: yasen
+Function: Input one number, split each bit and print out length of number
+"""
+
+a = input('Please input one number: ')
+l = len(a)
+x = int(a)
+
+print('The number you input is :', x)
+
+print('length of the number: ', l)
+
+separate = []
+
+for i in range(1,l+1):
+    separate.append (x % 10)
+    x = x // 10
+
+separate.reverse()
+print('Each bit is: ', separate)
