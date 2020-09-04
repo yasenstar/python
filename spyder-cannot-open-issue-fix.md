@@ -1,4 +1,4 @@
-# Usage Tips in Python withiu Ubuntu
+## Usage Tips in Python within Ubuntu - Spyder error handling
 
 My Ubuntu info:
 
@@ -6,9 +6,7 @@ My Ubuntu info:
 $ uname -a
 Linux yasen-Latitude-E7240 5.4.0-46-generic #50-Ubuntu SMP Fri Aug 28 15:33:36 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
 ```
-
-## Spyder error handling
-
+ 
 Installed Spyder3 via APT, `sudo apt install spyder3`, when running, get following error:
 
 ```
