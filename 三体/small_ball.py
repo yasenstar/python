@@ -7,7 +7,8 @@ import os
 # 定义必要的全局变量
 WINDOW_W, WINDOW_H = 640, 480    # 窗体尺寸
 FPS = 50    # 显示帧频，即每秒刷新多少次
-g = 9.8 * 100    # 重力加速度 （此处用的单位是像素每二次方秒）
+g = round(9.8 * 100  / 1, 2)  # 重力加速度 （此处用的单位是像素每二次方秒）
+# g为可以调整的加速度， 1 - 地球标准， 1/6 - 月球
 
 # 创建窗体
 pygame.init()    # 初始化pygame
@@ -16,7 +17,8 @@ os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (200,100)
 # 创建一个窗口
 screen = pygame.display.set_mode((WINDOW_W, WINDOW_H), pygame.DOUBLEBUF, 32)
 # 设置窗口标题
-pygame.display.set_caption("小球弹跳，Hello World!")
+text = "小球弹跳，Hello World! 加速度=" + str(g)
+pygame.display.set_caption(text)
 # 创建时钟对象（可以用来控制循环频率）
 clock = pygame.time.Clock()
 
