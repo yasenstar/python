@@ -1,3 +1,5 @@
+# 模拟小球落地弹落并施加一个水平力
+
 # 导入pygame
 import pygame
 import os
@@ -39,6 +41,7 @@ if __name__ == '__main__':
     x, y = WINDOW_W/2, 10    # 球的坐标
     vx, vy = 0, 0    # 球在 x, y 方向上的速度
     # 游戏主循环
+    vx = 150
     while True:
         # 遍历事件
         for event in pygame.event.get():
@@ -48,11 +51,12 @@ if __name__ == '__main__':
         
         # 小球下一个时刻的速度、位置计算
         vy += g * 1 / FPS
-        vx += 50 / FPS
+        #vx += 50 / FPS
+
         x += vx * 1 / FPS
         y += vy * 1 / FPS
-        if x>= WINDOW_W - 10:
-            # 到达地面则是其竖直速度反向
+        if x >= WINDOW_W - 10 or x <= 10:
+            # 到达地面则是其水平速度反向
             vx = -vx
         if y>= WINDOW_H - 10:
             # 到达地面则是其竖直速度反向
