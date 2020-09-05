@@ -1,3 +1,6 @@
+# learn from https://blog.csdn.net/qq_37963615/article/details/98514615
+# date: 2020-09-05
+
 # 导入pygame
 import pygame
 import os
