@@ -12,8 +12,9 @@ import exifread
 
 def FindImageGPS(filepath):
     
-    gps = {}
-    date = ""
+    # gps = {}
+    colorspace = {}
+    # date = ""
     f = open(filepath, 'rb')
     tags = exifread.process_file(f)
     ## Print directly
@@ -24,8 +25,11 @@ def FindImageGPS(filepath):
     #     print(i)
     
     ## Using .items() to convert dict to tuple/list then print key & value
-    for key,value in tags.items():
-        print(key, value)
+    for tag,value in tags.items():
+        # print(tag, value)
+        if re.match('EXIF ColorSpace', tag):
+            colorspace['EXIF ColorSpace'] = str(value)
+    print(colorspace)    
 
 if __name__ == '__main__':
     FindImageGPS(r'/home/yasen/Pictures/2018-12-12 031650.jpg')
