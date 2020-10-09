@@ -6,4 +6,4 @@ while i > -3.0:
     if result1 < result:
         result = result1
         print(i, round(i+1,4), round(i+2,4), round(i+3,4), "\t\t", result)
-    i = round(i-0.0001, 3)
+    i = round(i-0.001, 3)
