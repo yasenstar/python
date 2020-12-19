@@ -159,3 +159,75 @@ if __name__ == '__main__":
     app.run(debug=True)
 ```
 
+To run the application, make sure that the virtual environment you created earlier is activated. Now open your web browser and type `http://127.0.0.1:5000/` or `http://localhost:5000/` int he address bar.
+
+Then, launch the application with the command:
+
+```
+(venv) $ python hello.py
+* Running on http://127.0.0.1:5000/
+* Restarting with reloader
+```
+
+Enhanced version of the application below adds a second route that is dynamic. When you visit the URL, you are presented with a personalized greeting.
+
+```python
+# hello2.py: Flask application with a dynamic route
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return '<h1>Hello World!</h1>
+
+@app.route('/user/<name>')
+def user(name):
+    return '<h1> Hello, %s!</h1> % name
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+To test the dynamic route, make sure the server is running and then navigate to `http://localhost:5000/user/yasen`. The application will respond with a customized greeting: `Hello yasen!`, generated using the name dynamic argument.
+
+# The Request-Respose Cycle
+
+## Application and Request Contexts
+
+_request object_, is encapsulating the HTTP request sent by the client.
+
+To avoide cluttering view functions with lots of arguments that may or may not be needed, Flask uses _contexts_ to temporarily make certain objects globally accessible.
+
+See below sample on using context to make view functions work as:
+
+```python
+# user_agent.py
+from flask import Flask
+from flask import request
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    user_agent = request.headers.get('User-Agent')
+    return '<p>Your browser\'s type is %s, good day!</p>' % user_agent
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+__Note__: A _thread_ is the smallest sequence of instructions that can be managed independently. It is common for a process to have multiple active threads, sometimes sharing such as memory or file handles. Multithread web server start a pool of threads and select a thread from the pool to handle each incoming request.
+
+There're two contexts in Flask:
+
+- The _application context_, and
+- the _request context_
+
+__Table: Flask Context Globals__
+
+| Variable Name | Context | Description |
+| --- | --- | --- |
+| `current_app` | Application context | The application instance for the active application |
+| `g` | Application context | An object that the application can use for temporary storage during the handling of a request. This variable is reset with each request. |
+| `request` | Request context | The request object, which encapsulates the contents of a HTTP request sent by the client. |
+| `session` | Request context | The user session, a dictionary that the application can use to store values that are "remembered" between requests. |
+
