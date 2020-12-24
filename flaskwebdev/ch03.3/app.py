@@ -1,6 +1,6 @@
 # 3.3 rendering a template
 from flask import Flask, render_template
-from flask.ext.bootstrap import Bootstrap
+from flask_bootstrap import Bootstrap
 
 app = Flask(__name__)
 bootstrap = Bootstrap(app)
