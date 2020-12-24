@@ -30,3 +30,38 @@ Installing Flask
 pip install --user flask
 ```
 
+### HelloWorld.py
+
+```python
+from flask import Flask     # imports Flask from the package flask
+
+app = Flask(__name__)       # create an instance of the Flask object using module's name as a parameter
+
+@app.route("/")     # Python decorator.
+# this URL routing decorator means that the function directly below it should be called wheneven a user visits the main root page of web application (which is defined by the single forward slash).
+
+def index():
+    return "Hello World! (Flask By Example)"
+
+if __name__ == '__main__':
+    app.run(port=5000, debug=True)
+# a Python idiom with simple conditional statement that evaluates to True if our application is run directly.
+```
+
+Run the code via `python helloworld.py`, with following output in Terminal:
+
+```
+ * Serving Flask app "helloworld" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 644-002-446
+127.0.0.1 - - [24/Dec/2020 12:55:34] "GET / HTTP/1.1" 200 -
+```
+
+The last line is when visiting from web browser, will have new line when refresh the webpage.
+
