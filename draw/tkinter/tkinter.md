@@ -1,3 +1,13 @@
+If there's no tkinter module, you will have following error:
+
+```python
+[Running] /usr/bin/env python3 "..."
+Traceback (most recent call last):
+  File "...", line 5, in <module>
+    from tkinter import Label, mainloop
+ModuleNotFoundError: No module named 'tkinter'
+```
+
 # Install tkinter in python3
 
 It was told that tkinter is now built in Python3, but seems not true, below still need to install that first.
@@ -51,7 +61,3 @@ $ python -m tkinter
 ```
 
 You will be able to see one sample window
-
-# Using color in Tkinter
-
-![tk-rgb](images/tk-rgb.jpeg)
