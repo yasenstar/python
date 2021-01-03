@@ -46,7 +46,7 @@ def move():
 def main():
     setup(420, 420, 370, 0)
     hideturtle()
-    tracer(Fales)
+    tracer(False)
     listen()
     onkey(lambda: change(10, 0), "Right")
     onkey(lambda: change(-10, 0), "Left")
