@@ -51,3 +51,7 @@ $ python -m tkinter
 ```
 
 You will be able to see one sample window
+
+# Using color in Tkinter
+
+![tk-rgb](images/tk-rgb.jpeg)
