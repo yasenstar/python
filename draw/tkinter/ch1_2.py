@@ -4,5 +4,5 @@ from tkinter import *
 root = Tk()
 root.title("MyWindow")
 root.geometry("500x400")
-root.configure(bg='darkgreen')
+root.configure(bg='ivory')
 root.mainloop()
