@@ -39,7 +39,8 @@ def move():
     ontimer(move, 300)
 
 def main():
-    setup(600, 500, 800, 0)
+    # setup(600, 500, 800, 0)
+    setup(1.0, 1.0)
     hideturtle()
     tracer(False)
     listen()
