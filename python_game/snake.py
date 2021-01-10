@@ -41,7 +41,7 @@ def move():
 
     square(food.x, food.y, 9, 'green')
     update()
-    ontimer(move, 300)
+    ontimer(move, 500-(len(snake)-1)*50)
 
 def main():
     setup(420, 420, 370, 0)
