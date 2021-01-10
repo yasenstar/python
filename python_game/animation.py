@@ -5,11 +5,10 @@ from pygame.locals import *
 pygame.init()
 
 # set up the window
-WINDOWWIDTH = 800
+WINDOWWIDTH = 400
 WINDOWHEIGHT = 400
-windowSurface = pygame.display.set_mode((WINDOWWIDTH, WINDOWHEIGHT), 0, 32)
-
-pygame.display.set_caption('Learn Animation')
+windowSurface = pygame.display.set_mode((WINDOWHEIGHT, WINDOWHEIGHT), 0, 32)
+pygame.display.set_caption('Animation')
 
 # set up direction variables
 DOWNLEFT = 1
@@ -17,18 +16,18 @@ DOWNRIGHT = 3
 UPLEFT = 7
 UPRIGHT = 9
 
-MOVESPEED = 2
+MOVESPEED = 5
 
 # set up the colors
-BLACK = (0,0,0)
-RED = (255,0,0)
-GREEN = (0,255,0)
-BLUE = (0,0,255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
 
 # set up the block data structure
-b1 = {'rect':pygame.Rect(300,80,50,100),'color':RED,'dir':UPRIGHT}
-b2 = {'rect':pygame.Rect(200,200,20,20),'color':GREEN,'dir':UPLEFT}
-b3 = {'rect':pygame.Rect(100,150,60,60),'color':BLUE,'dir':DOWNLEFT}
+b1 = {'rect':pygame.Rect(300, 80, 50, 100), 'colcr':RED, 'dir':UPRIGHT}
+b2 = {'rect':pygame.Rect(200, 200, 20, 20), 'colcr':GREEN, 'dir':UPLEFT}
+b3 = {'rect':pygame.Rect(100, 150, 60, 60), 'colcr':BLUE, 'dir':DOWNLEFT}
 blocks = [b1, b2, b3]
 
 # run the game loop
@@ -38,7 +37,7 @@ while True:
         if event.type == QUIT:
             pygame.quit()
             sys.exit()
-    
+
     # draw the black background onto the surface
     windowSurface.fill(BLACK)
 
@@ -56,7 +55,7 @@ while True:
         if b['dir'] == UPRIGHT:
             b['rect'].left += MOVESPEED
             b['rect'].top -= MOVESPEED
-        
+
         # check if the block has move out of the window
         if b['rect'].top < 0:
             # block has moved past the top
@@ -82,9 +81,9 @@ while True:
                 b['dir'] = DOWNLEFT
             if b['dir'] == UPRIGHT:
                 b['dir'] = UPLEFT
-        
+
         # draw the block onto the surface
-        pygame.draw.rect(windowSurface, b['color'], b['rect'])
+        pygame.draw.rect(windowSurface, b['colcr'], b['rect'])
 
     # draw the window onto the screen
     pygame.display.update()

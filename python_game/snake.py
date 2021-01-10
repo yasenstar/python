@@ -41,12 +41,12 @@ def move():
 
     square(food.x, food.y, 9, 'green')
     update()
-    ontimer(move, 300)
+    ontimer(move, 500-(len(snake)-1)*50)
 
 def main():
     setup(420, 420, 370, 0)
     hideturtle()
-    tracer(Fales)
+    tracer(False)
     listen()
     onkey(lambda: change(10, 0), "Right")
     onkey(lambda: change(-10, 0), "Left")

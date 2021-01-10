@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Yasen Info Harbor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Financial / Loan Calculator</h1>
+        <form action="." method="post">
+            <p>
+                Vehicle Selling Price(CNY): <input type="text" name="selling_price">
+            </p>
+            <p>
+                Down Payment(%):            <input type="text" name="downpayment">
+            </p>
+            <p>
+                Annual Rate(%):             <input type="text" name="annual_rate">
+            </p>
+            <p>
+                Terms:                      <input type="text" name="term">
+            </p>
+            <p>
+                <input type="submit" value="Calculate">
+            </p>
+        </form>
+        <h2>Monthly Payment (CNY): {{ monthlypayment }}</h2>
+    </body>
+</html>
