@@ -30,7 +30,7 @@ bokeh @ file:///opt/concourse/worker/volumes/live/b2253281-9b72-4dcb-624e-e22924
 boto==2.49.0
 Bottleneck==1.3.2
 brotlipy==0.7.0
-certifi==2020.12.5
+certifi==2022.12.7
 cffi @ file:///opt/concourse/worker/volumes/live/730e9a28-66f9-4e03-51ad-252ec8e40d81/volume/cffi_1606255126408/work
 chardet @ file:///opt/concourse/worker/volumes/live/a5a7c56b-23cb-471d-7404-f4130b8aed33/volume/chardet_1605303184529/work
 click==7.1.2
