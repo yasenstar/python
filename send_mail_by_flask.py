@@ -1,5 +1,5 @@
-from flask import Flask.render_template
-from flash_mail import Mail.Message
+from flask import render_template
+from flash_mail import Mail, Message
 
 app = Flash(__name__)
 
@@ -23,4 +23,4 @@ def index():
 	return '<h1>邮件发送成功，祝贺啊</h1>'
 
 if __name__ == '__main__':
-	app.run(debug=Ture)```
+	app.run(debug=Ture)
