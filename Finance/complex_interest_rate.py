@@ -1,4 +1,6 @@
 # Purpose: use to calculate final principal after x years with compound interest
+# Author: Xiaoqi Zhao
+# Version: 1.0  Date: 2023/12/17
 # Variables:
 #   principal: 本金
 #   rate: interest rate 年存款利率
