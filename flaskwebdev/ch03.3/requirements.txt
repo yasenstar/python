@@ -64,7 +64,7 @@ flake8 @ file:///tmp/build/80754af9/flake8_1601911421857/work
 Flask==1.1.2
 Flask-Bootstrap==3.3.7.1
 fsspec @ file:///tmp/build/80754af9/fsspec_1602684995936/work
-future==0.18.2
+future==0.18.3
 gevent @ file:///opt/concourse/worker/volumes/live/e6b243ce-c4b8-40bb-4934-ef3bf1c512f2/volume/gevent_1601397552921/work
 glob2==0.7
 gmpy2==2.0.8
