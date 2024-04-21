@@ -1,6 +1,6 @@
 # Create Graphical User Interfaces with Python
 
-Author: Laura Sach, Marting O'Hanlon
+Author: Laura Sach, Martin O'Hanlon
 
 This repo aim to learn the book about GUI in Python with practicing!
 
