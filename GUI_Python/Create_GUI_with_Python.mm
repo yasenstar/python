@@ -92,11 +92,15 @@
 </html>
 </richcontent>
 <node TEXT="CH01 Introduction to GUIs" POSITION="bottom_or_right" ID="ID_1433266949" CREATED="1713710941769" MODIFIED="1713710949628">
-<node TEXT="Installing guizero" FOLDED="true" ID="ID_1393039933" CREATED="1713712774098" MODIFIED="1713712859662" LINK="https://lawsie.github.io/guizero/">
+<node TEXT="Installing guizero" ID="ID_1393039933" CREATED="1713712774098" MODIFIED="1713712859662" LINK="https://lawsie.github.io/guizero/">
 <node TEXT="pip3 install guizero" ID="ID_1807940324" CREATED="1713712781244" MODIFIED="1713712785523"/>
+<node TEXT="from guizero import App" ID="ID_430040480" CREATED="1713718080565" MODIFIED="1713718089702"/>
 </node>
-<node TEXT="Run &quot;Hello World&quot; in GUI" ID="ID_572564828" CREATED="1713712943075" MODIFIED="1713712955598"/>
-<node TEXT="Adding widgets" ID="ID_39937976" CREATED="1713712961500" MODIFIED="1713712965015">
+<node TEXT="Run &quot;Hello World&quot; in GUI" ID="ID_572564828" CREATED="1713712943075" MODIFIED="1713712955598">
+<node TEXT="app = App(&quot;Hello World&quot;)" ID="ID_596760900" CREATED="1713718064398" MODIFIED="1713718076968"/>
+</node>
+<node TEXT="Adding widgets" ID="ID_39937976" CREATED="1713712961500" MODIFIED="1713719108439" LINK="https://lawsie.github.io/guizero">
+<node TEXT="from guizero import App, Text" ID="ID_405535140" CREATED="1713718092262" MODIFIED="1713718104787"/>
 <node TEXT="Text(app, text=&quot;string&quot;)" ID="ID_652278969" CREATED="1713717235910" MODIFIED="1713717253696"/>
 </node>
 </node>
@@ -114,7 +118,9 @@
 <node TEXT="htmlcolorcodes.com" ID="ID_1604225667" CREATED="1713717113211" MODIFIED="1713717118848" LINK="https://htmlcolorcodes.com/"/>
 </node>
 <node TEXT="Add pictures" ID="ID_1926729751" CREATED="1713717008235" MODIFIED="1713717012148">
+<node TEXT="from guizero import App, Text, Picture" ID="ID_581798392" CREATED="1713718110646" MODIFIED="1713718149725"/>
 <node TEXT="Picture(app, image=&quot;pic_name&quot;)" ID="ID_902889310" CREATED="1713717211058" MODIFIED="1713717232707"/>
+<node TEXT="Get free pictures from PIXABAY" ID="ID_1257794346" CREATED="1713717465717" MODIFIED="1713717523820" LINK="https://pixabay.com/"/>
 </node>
 </node>
 <node TEXT="CH03 Spy Name Chooser" POSITION="bottom_or_right" ID="ID_1259924064" CREATED="1713710955476" MODIFIED="1713710962191"/>
