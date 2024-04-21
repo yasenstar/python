@@ -1,6 +1,6 @@
 <map version="freeplane 1.11.5">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Create GUI with Python&#xa;(guizero library)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1713710932564">
+<node TEXT="Create GUI with Python&#xa;(guizero library)" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1713714295968" LINK="https://store.rpipress.cc/products/create-graphical-user-interfaces-with-python">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#f9f9f8">
@@ -79,7 +79,25 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="CH01 Introduction to GUIs" POSITION="bottom_or_right" ID="ID_1433266949" CREATED="1713710941769" MODIFIED="1713710949628"/>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Get free PDF: https://magpi.raspberrypi.com/books/create-guis/pdf/download
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="CH01 Introduction to GUIs" POSITION="bottom_or_right" ID="ID_1433266949" CREATED="1713710941769" MODIFIED="1713710949628">
+<node TEXT="Installing guizero" FOLDED="true" ID="ID_1393039933" CREATED="1713712774098" MODIFIED="1713712859662" LINK="https://lawsie.github.io/guizero/">
+<node TEXT="pip3 install guizero" ID="ID_1807940324" CREATED="1713712781244" MODIFIED="1713712785523"/>
+</node>
+<node TEXT="Run &quot;Hello World&quot; in GUI" ID="ID_572564828" CREATED="1713712943075" MODIFIED="1713712955598"/>
+<node TEXT="Adding widgets" ID="ID_39937976" CREATED="1713712961500" MODIFIED="1713712965015"/>
+</node>
 <node TEXT="CH02 Wanted Poster" POSITION="bottom_or_right" ID="ID_1496937770" CREATED="1713710949832" MODIFIED="1713710955068"/>
 <node TEXT="CH03 Spy Name Chooser" POSITION="bottom_or_right" ID="ID_1259924064" CREATED="1713710955476" MODIFIED="1713710962191"/>
 <node TEXT="CH04 Meme Generator" POSITION="bottom_or_right" ID="ID_27606916" CREATED="1713710962517" MODIFIED="1713710968245"/>
