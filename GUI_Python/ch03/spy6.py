@@ -14,7 +14,7 @@ app = App("TOP SECRET")
 
 title = Text(app, "Push the RED button to find out your spy name")
 
-button = PushButton(app, choose_name, args=[first_names,last_names], text="Tell me!")
+button = PushButton(app, command=choose_name, args=[first_names,last_names], text="Tell me!")
 button.bg = "red"
 button.text_color = "white"
 button.text_size = 30

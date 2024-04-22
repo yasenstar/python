@@ -52,7 +52,33 @@ Get free PDF: https://magpi.raspberrypi.com/books/create-guis/pdf/download
 
 # CH03 Spy Name Chooser
 
+## Add a button
+
+### button=PushButton()
+
+## Create a function
+
+### def functionName():
+
+### Transfer argument to function: use "command=lambda:function(arg1,arg2...)"
+
+## Add some names
+
+### random, choice
+
+## Put the name in the GUI
+
 # CH04 Meme Generator
+
+## Create a meme as Drawing
+
+## Customize your meme generator
+
+### TextBox
+
+### Combo
+
+### Slider
 
 # CH05 World's Worst GUI
 
@@ -73,3 +99,57 @@ Get free PDF: https://magpi.raspberrypi.com/books/create-guis/pdf/download
 # Appendix B: Getting Started with Python
 
 # Appendix C: Widgets in guizero
+
+# guizero core
+
+## Commands (Function)
+ (see:Create a function)
+## Multiple windows
+
+## Layouts
+
+## Pop-ups
+
+## Sizes
+
+## Colors
+
+## Images
+
+## Loops and sleeping
+
+## Events
+
+## Using tkinter
+
+# guizero Widgets
+
+## App
+
+## Box
+
+## ButtonGroup
+
+## CheckBox
+
+## Combo
+ (see:Combo)
+## Drawing
+ (see:Create a meme as Drawing)
+## ListBox
+
+## Picture
+ (see:Add pictures)
+## PushButton
+ (see:Add a button)
+## Slider
+ (see:Slider)
+## Text
+ (see:Text(app, text="string")Add text in different fonts, sizes and colors)
+## TextBox
+ (see:TextBox)
+## TitleBox
+
+## Waffle
+
+## Window
