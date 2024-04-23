@@ -24,7 +24,7 @@ def clear_board():
 def choose_square(x,y):
     board_squares[x][y].text = turn
     board_squares[x][y].disable()
-    # message.value=str(x) + " " + str(y)
+    print(str(x) + " " + str(y))
     toggle_player()
     check_win()
 
