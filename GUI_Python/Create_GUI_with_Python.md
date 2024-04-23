@@ -72,9 +72,11 @@ Get free PDF: https://magpi.raspberrypi.com/books/create-guis/pdf/download
 
 ## Create a meme as Drawing
 
-## Customize your meme generator
+### Drawing
 
 ### TextBox
+
+## Customize your meme generator
 
 ### Combo
 
@@ -82,7 +84,47 @@ Get free PDF: https://magpi.raspberrypi.com/books/create-guis/pdf/download
 
 # CH05 World's Worst GUI
 
+## It's Hard to Read
+
+## The Wrong Widget
+
+## Pop-ups
+
 # CH06 Tic-Tac-Toe
+
+## 1. Create the board
+
+### tictactoe1.py
+
+### Using Box for Board container
+
+### Using PushButton inside the Board
+
+### FOR loop to create 3x3 board
+
+## 2. Underlying data structure
+
+### tictactoe2.py
+
+## 3. Make the buttons work
+
+### tictactoe3.py
+
+### Using Text for Message about Turn
+
+## 4. Alternating between players
+
+### tictactoe4.py
+
+## 5. Do we have a winner?
+
+### tictactoe5.py
+
+## 6. Reset the game
+
+## 7. Draw game
+
+### tictactoe6.py
 
 # CH07 Destroy the Dots
 
@@ -113,11 +155,11 @@ Get free PDF: https://magpi.raspberrypi.com/books/create-guis/pdf/download
 ## Sizes
 
 ## Colors
-
+ (see:Change background color)
 ## Images
 
 ## Loops and sleeping
-
+ (see:FOR loop to create 3x3 board)
 ## Events
 
 ## Using tkinter
@@ -125,15 +167,15 @@ Get free PDF: https://magpi.raspberrypi.com/books/create-guis/pdf/download
 # guizero Widgets
 
 ## App
-
+ (see:app = App("Hello World")Pop-ups)
 ## Box
-
+ (see:Using Box for Board container)
 ## ButtonGroup
-
+ (see:Using PushButton inside the Board)
 ## CheckBox
 
 ## Combo
- (see:Combo)
+ (see:ComboThe Wrong Widget)
 ## Drawing
  (see:Create a meme as Drawing)
 ## ListBox
@@ -145,7 +187,7 @@ Get free PDF: https://magpi.raspberrypi.com/books/create-guis/pdf/download
 ## Slider
  (see:Slider)
 ## Text
- (see:Text(app, text="string")Add text in different fonts, sizes and colors)
+ (see:Text(app, text="string")Add text in different fonts, sizes and colorsIt's Hard to ReadUsing Text for Message about Turn)
 ## TextBox
  (see:TextBox)
 ## TitleBox
