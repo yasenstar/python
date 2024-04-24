@@ -128,7 +128,55 @@ Get free PDF: https://magpi.raspberrypi.com/books/create-guis/pdf/download
 
 # CH07 Destroy the Dots
 
+## 1. Aim of the game
+
+## 2. Set up the game
+
+### Waffle
+
+## 3. Bring on the dots
+
+### from random import randint
+
+## 4. Dot or not?
+
+### def add_dot()
+
+### waffle[x,y].dotty
+
+## 5. Destroy the dot
+
+## 6. More dots!
+
+## 7. Add a score
+
+## 8. Put the player under pressure
+
+## 9. Gave over
+
 # CH08 Flood It
+
+## 1. Aim of the game
+
+## 2. Set up
+
+## 3. Create the board
+
+### Waffle
+
+## 4. Create the palette
+
+## 5. Colour in the board
+
+### random.choice(list)
+
+## 6. Colour in the palette
+
+## 7. Start the flood
+
+## 8. Winning the game
+
+## 9. Test your game
 
 # CH09 Emoji Match
 
@@ -193,5 +241,5 @@ Get free PDF: https://magpi.raspberrypi.com/books/create-guis/pdf/download
 ## TitleBox
 
 ## Waffle
-
+ (see:WaffleWaffle)
 ## Window
