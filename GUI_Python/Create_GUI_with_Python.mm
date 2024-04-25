@@ -220,6 +220,12 @@
 <node TEXT="CH09 Emoji Match" POSITION="bottom_or_right" ID="ID_1287415163" CREATED="1713711001486" MODIFIED="1713711005886">
 <node TEXT="1. Loading emojis" ID="ID_1823294019" CREATED="1714006733334" MODIFIED="1714006780193">
 <node TEXT="from random import shuffle" ID="ID_415220920" CREATED="1714006789282" MODIFIED="1714006799762"/>
+<node TEXT="twitter emoji website is ceased of using" ID="ID_911101980" CREATED="1714007050040" MODIFIED="1714007342843" LINK="https://emojipedia.org/twitter">
+<icon BUILTIN="closed"/>
+</node>
+<node TEXT="emojis in magpi.cc (directly zip download)" ID="ID_638132990" CREATED="1714007098395" MODIFIED="1714007348999" LINK="magpi.cc/guizeroemojis">
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 </node>
 <node TEXT="CH10 Paint" POSITION="bottom_or_right" ID="ID_525310427" CREATED="1713711006044" MODIFIED="1713711009159"/>
