@@ -1,3 +1,4 @@
 ~$*.pptx
 
-flaskwebdev/*.*
+flaskwebdev/
+flaskbyexample/
