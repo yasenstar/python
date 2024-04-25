@@ -11,7 +11,7 @@ import random
 
 colours = ["white", "black", "red", "green", "blue", "cyan", "yellow", "magenta"]
 board_size = 14
-moves_limit = 50
+moves_limit = 30
 moves_taken = 0
 
 # ------------------------------
@@ -72,25 +72,41 @@ def start_flood(x, y):
     flood(0, 0, target, flood_colour)
     win_check()
 
-def show_info():
-    if instruction.value == "":
-        instruction.value = "This game aims to flood the board with all squares the same color."
+def show_instruction():
+    if instruction1.value=="" and instruction2.value=="":
+        instruction1.value = "The game aims to flood the board with all squares the same color."
+        instruction2.value = "Beginning with the top-left square, you choose a colour to flood into."
+        info.text = "Hide Instruction"
     else:
-        instruction.value = ""
+        instruction1.value=""
+        instruction2.value=""
+        info.text = "Show Instruction"
+
+def game_reset():
+    global moves_taken
+    fill_board()
+    moves_taken = 0
+    palette.enable()
+    steps_left.value = "You have " + str(moves_limit - moves_taken) + " steps left."
+    win_text.value = ""
         
 # ------------------------------
 # App
 # ------------------------------
 app = App("Flood It")
 
-info = PushButton(app, text="See Instructure", command=show_info)
+info = PushButton(app, text="Show Instruction", command=show_instruction)
 
 board = Waffle(app, width=board_size, height=board_size, pad=0)
 palette = Waffle(app, width=8, height=1, dotty=True, command=start_flood)
 
 steps_left = Text(app, text = "You have " + str(moves_limit - moves_taken) + " steps left.")
-instruction = Text(app, text="")
 win_text = Text(app)
+
+reset = PushButton(app, text="Reset Game", command=game_reset)
+
+instruction1 = Text(app, text="")
+instruction2 = Text(app, text="")
 
 fill_board()
 init_palette()
