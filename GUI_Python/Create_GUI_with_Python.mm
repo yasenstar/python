@@ -194,7 +194,7 @@
 <node TEXT="8. Put the player under pressure" ID="ID_732147524" CREATED="1713916707848" MODIFIED="1713916714716"/>
 <node TEXT="9. Gave over" ID="ID_160707192" CREATED="1713916879691" MODIFIED="1713916882749"/>
 </node>
-<node TEXT="CH08 Flood It" POSITION="bottom_or_right" ID="ID_698084358" CREATED="1713710992374" MODIFIED="1713711001324">
+<node TEXT="CH08 Flood It" FOLDED="true" POSITION="bottom_or_right" ID="ID_698084358" CREATED="1713710992374" MODIFIED="1713711001324">
 <node TEXT="1. Aim of the game" ID="ID_406163236" CREATED="1713968661629" MODIFIED="1713968668482"/>
 <node TEXT="2. Set up" ID="ID_30782719" CREATED="1713968668991" MODIFIED="1713968676273">
 <node TEXT="floodit_starter.py" ID="ID_1199279518" CREATED="1713993373556" MODIFIED="1713993382227" LINK="https://github.com/themagpimag/createguis/blob/master/Chapter%208%20Flood%20It/floodit_starter.py"/>
@@ -217,7 +217,7 @@
 <node TEXT="Appendix A: Setting Up" POSITION="bottom_or_right" ID="ID_1526468538" CREATED="1713711015432" MODIFIED="1713711022300"/>
 <node TEXT="Appendix B: Getting Started with Python" POSITION="bottom_or_right" ID="ID_1618190413" CREATED="1713711022445" MODIFIED="1713711030913"/>
 <node TEXT="Appendix C: Widgets in guizero" POSITION="bottom_or_right" ID="ID_125872287" CREATED="1713711031062" MODIFIED="1713711043728"/>
-<node TEXT="guizero core" FOLDED="true" POSITION="top_or_left" ID="ID_1823492449" CREATED="1713806344775" MODIFIED="1713806696981" LINK="https://lawsie.github.io/guizero/#">
+<node TEXT="guizero core" POSITION="top_or_left" ID="ID_1823492449" CREATED="1713806344775" MODIFIED="1713806696981" LINK="https://lawsie.github.io/guizero/#">
 <node TEXT="Commands (Function)" ID="ID_1965701194" CREATED="1713806352044" MODIFIED="1713807561897" LINK="https://lawsie.github.io/guizero/commands/">
 <arrowlink DESTINATION="ID_957497282"/>
 </node>
