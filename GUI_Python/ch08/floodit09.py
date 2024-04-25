@@ -2,7 +2,7 @@
 # Imports
 # ------------------------------
 
-from guizero import App, Waffle, Text, PushButton, info
+from guizero import App, Waffle, Text, PushButton, info, TextBox
 import random
 
 # ------------------------------
