@@ -105,7 +105,15 @@
 <node TEXT="Transforming a Square into a Circle" ID="ID_1740838145" CREATED="1731412298593" MODIFIED="1731503711259"/>
 <node TEXT="Positioning MobjectS" ID="ID_482986914" CREATED="1731412367011" MODIFIED="1731412380230"/>
 <node TEXT="Using .animate syntax to animate methods" ID="ID_1657303519" CREATED="1731412412857" MODIFIED="1731412423190"/>
-<node TEXT="Transform vs. ReplacementTransform" ID="ID_1386461022" CREATED="1731412438562" MODIFIED="1731412451916"/>
+<node TEXT="Transform vs. ReplacementTransform" ID="ID_1386461022" CREATED="1731412438562" MODIFIED="1731412451916">
+<node TEXT="Transform(mob1, mob2)" ID="ID_1173570152" CREATED="1731671854134" MODIFIED="1731671866878">
+<node TEXT="transforms the points (as well as other attributes like color) of mob1 into the points/attributes of mob2" ID="ID_112446762" CREATED="1731671866882" MODIFIED="1731671893327"/>
+<node TEXT="In some cases it&apos;s more beneficial to use Transform, like when you are transforming several mobjects one after the other." ID="ID_1815397705" CREATED="1731671956734" MODIFIED="1731671990250"/>
+</node>
+<node TEXT="ReplacementTransform(mob1, mob2)" ID="ID_1170888679" CREATED="1731671894694" MODIFIED="1731671903845">
+<node TEXT="on the other hand literally replaces mob1 on the scene with mob2" ID="ID_1758223508" CREATED="1731671903848" MODIFIED="1731671922318"/>
+</node>
+</node>
 </node>
 <node TEXT="Homepage&apos;s Examples" FOLDED="true" ID="ID_1215655236" CREATED="1731412707826" MODIFIED="1731484060773" VGAP_QUANTITY="3 pt">
 <node TEXT="Example: ContinousMotion" ID="ID_1335818196" CREATED="1731412741643" MODIFIED="1731412765639"/>
