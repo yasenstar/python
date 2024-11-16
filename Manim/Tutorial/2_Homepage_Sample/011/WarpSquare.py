@@ -5,7 +5,8 @@ class WarpSquare(Scene):
         square = Square()
         self.play(
             ApplyPointwiseFunction(
-                lambda point: complex_to_R3(),
+                lambda point: complex_to_R3(np.exp(R3_to_complex(point))),
                 square
             )
         )
+        self.wait()
