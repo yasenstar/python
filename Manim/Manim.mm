@@ -3,7 +3,7 @@
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1731483731299" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <hook NAME="MapStyle" background="#ffffff">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" associatedTemplateLocation="template:/light_super_hero_template.mm"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -94,7 +94,7 @@
 </node>
 <node TEXT="Tutorials &amp; Guides" POSITION="bottom_or_right" ID="ID_1759134914" CREATED="1731412235228" MODIFIED="1731412247186">
 <node TEXT="Tutorials" ID="ID_938155600" CREATED="1731412247192" MODIFIED="1731412253573">
-<node TEXT="1. Quickstart" ID="ID_1252296146" CREATED="1731412253581" MODIFIED="1731677181142">
+<node TEXT="1. Quickstart" FOLDED="true" ID="ID_1252296146" CREATED="1731412253581" MODIFIED="1731677181142">
 <node TEXT="New Project, Animating a Circle" FOLDED="true" ID="ID_658640489" CREATED="1731412279490" MODIFIED="1731412292284">
 <node TEXT="manim -pql .\scene.py CreateCircle" ID="ID_1252971590" CREATED="1731508810108" MODIFIED="1731508835073"/>
 <node TEXT="If the PATH is not effective" ID="ID_247090648" CREATED="1731508835779" MODIFIED="1731508843463">
@@ -115,14 +115,14 @@
 </node>
 </node>
 </node>
-<node TEXT="2. Homepage&apos;s Examples" ID="ID_1215655236" CREATED="1731412707826" MODIFIED="1731679960106" LINK="https://www.manim.community/" VGAP_QUANTITY="3 pt">
+<node TEXT="2. Homepage&apos;s Examples" FOLDED="true" ID="ID_1215655236" CREATED="1731412707826" MODIFIED="1731679960106" LINK="https://www.manim.community/" VGAP_QUANTITY="3 pt">
 <node TEXT="Example: ContinousMotion" ID="ID_1335818196" CREATED="1731412741643" MODIFIED="1731412765639"/>
 <node TEXT="Example: OpeningManim" ID="ID_573002913" CREATED="1731412741810" MODIFIED="1731412803481"/>
 <node TEXT="Example: SquareToCircle" ID="ID_602626986" CREATED="1731412717491" MODIFIED="1731484061544"/>
 <node TEXT="Example: UnionExample" ID="ID_262791385" CREATED="1731412745498" MODIFIED="1731412824950"/>
 <node TEXT="Example: WarpSquare" ID="ID_1067358148" CREATED="1731412746470" MODIFIED="1731412751328"/>
 </node>
-<node TEXT="3. Manim&apos;s Output Settings" FOLDED="true" ID="ID_1579266090" CREATED="1731412471779" MODIFIED="1731677188089">
+<node TEXT="3. Manim&apos;s Output Settings" ID="ID_1579266090" CREATED="1731412471779" MODIFIED="1731677188089">
 <node TEXT="Manim Output Folders" ID="ID_1041352639" CREATED="1731413062835" MODIFIED="1731413068805"/>
 <node TEXT="Sections" ID="ID_1697259484" CREATED="1731413069262" MODIFIED="1731413074382"/>
 <node TEXT="Some Command Line Flags" ID="ID_367989811" CREATED="1731413083277" MODIFIED="1731413088421"/>
