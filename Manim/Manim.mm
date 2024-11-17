@@ -144,12 +144,48 @@
 <node TEXT="--format gif: output animations in .gif format instead of default .mp4" ID="ID_1170086896" CREATED="1731820234701" MODIFIED="1731823887171"/>
 </node>
 </node>
-<node TEXT="4. Manim&apos;s Buidling Blocks" ID="ID_41258804" CREATED="1731413090500" MODIFIED="1731677190094">
-<node TEXT="Mobjects" ID="ID_1256892739" CREATED="1731413108956" MODIFIED="1731413112163">
-<node TEXT="Creating and Displaying mobjects" ID="ID_1395858482" CREATED="1731413120243" MODIFIED="1731413148174"/>
-<node TEXT="Placing mobjects" ID="ID_924292030" CREATED="1731413128280" MODIFIED="1731413136715"/>
-<node TEXT="Styling mobjects" ID="ID_680763027" CREATED="1731414376583" MODIFIED="1731414380952"/>
-<node TEXT="Mobject on-screen order" ID="ID_1449211440" CREATED="1731414386672" MODIFIED="1731414391907"/>
+<node TEXT="4. Manim&apos;s Buidling Blocks" ID="ID_41258804" CREATED="1731413090500" MODIFIED="1731833896349" LINK="https://docs.manim.community/en/stable/tutorials/building_blocks.html">
+<node TEXT="Mobjects" ID="ID_1256892739" CREATED="1731413108956" MODIFIED="1731833888113"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Mobjects are the basic building blocks for all manim animations.
+    </p>
+    <p>
+      Each class that derives from Mobject represents an object that can be displayed on the screen.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Creating and Displaying mobjects" ID="ID_1395858482" CREATED="1731413120243" MODIFIED="1731413148174">
+<node TEXT="Display a mobject: call add() method on the containing Scene" ID="ID_710365637" CREATED="1731834100574" MODIFIED="1731834141063"/>
+<node TEXT="Remove a mobject: call remove() method from the containing Scene" ID="ID_1071018153" CREATED="1731834141405" MODIFIED="1731834162320"/>
+</node>
+<node TEXT="Placing mobjects" FOLDED="true" ID="ID_924292030" CREATED="1731413128280" MODIFIED="1731413136715">
+<node TEXT="shift(): shift one unit in the direction from the origin" ID="ID_1426895312" CREATED="1731834193439" MODIFIED="1731834213079"/>
+<node TEXT="move_to(): use absolute units (measured relative to the ORIGIN)" ID="ID_1320076754" CREATED="1731834245198" MODIFIED="1731834300592"/>
+<node TEXT="next_to(): uses relative units (measured from the mobject passes as the first argument)" ID="ID_505525908" CREATED="1731834263399" MODIFIED="1731834321472"/>
+<node TEXT="align_to(): use direction not as measuring units but as a way to determine the border to use for alignment" ID="ID_42266646" CREATED="1731834267062" MODIFIED="1731834360120">
+<node TEXT="The coordinates of the borders of a mobject are determined using an imaginary bounding box around it." ID="ID_1983661672" CREATED="1731834478702" MODIFIED="1731834500649" LINK="https://www.keymakr.com/blog/what-are-bounding-boxes/"/>
+</node>
+</node>
+<node TEXT="Styling mobjects" FOLDED="true" ID="ID_680763027" CREATED="1731414376583" MODIFIED="1731414380952">
+<node TEXT="instances of VMobject" ID="ID_1191293382" CREATED="1731834814287" MODIFIED="1731834822154">
+<node TEXT="set_stroke(): change visual style of the mobject&apos;s border" POSITION="bottom_or_right" ID="ID_1248476555" CREATED="1731834615311" MODIFIED="1731834645225"/>
+<node TEXT="set_fill(): change visual style of the mobject&apos;s interior" POSITION="bottom_or_right" ID="ID_927512118" CREATED="1731834645407" MODIFIED="1731834662778"/>
+</node>
+<node TEXT="instances of Mobject: sef_color()" ID="ID_1671170347" CREATED="1731834808303" MODIFIED="1731834839786"/>
+<node TEXT="opacity (不透明度) parameter" ID="ID_1431381486" CREATED="1731834697278" MODIFIED="1731834756953">
+<node TEXT="By default, most mobjectis have a fully transparent interior" ID="ID_258919346" CREATED="1731834666992" MODIFIED="1731834693961"/>
+<node TEXT="An opacity of 1.0 means fully opaque, while 0.0 means fully transparent" ID="ID_212727227" CREATED="1731834711152" MODIFIED="1731834729704"/>
+</node>
+</node>
+<node TEXT="Mobject on-screen order" FOLDED="true" ID="ID_1449211440" CREATED="1731414386672" MODIFIED="1731414391907">
+<node TEXT="the order of the arguments of add() determines the order that the mobjects are displayed on the screen, with the left-most arguments being put in the back" ID="ID_1225968558" CREATED="1731834887304" MODIFIED="1731834891161"/>
+</node>
 </node>
 <node TEXT="Animations" FOLDED="true" ID="ID_1621498316" CREATED="1731414396625" MODIFIED="1731414398998">
 <node TEXT="Animating methods" ID="ID_1069110668" CREATED="1731414406518" MODIFIED="1731414412844"/>
