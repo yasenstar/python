@@ -160,7 +160,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="Creating and Displaying mobjects" ID="ID_1395858482" CREATED="1731413120243" MODIFIED="1731413148174">
+<node TEXT="Creating and Displaying mobjects" FOLDED="true" ID="ID_1395858482" CREATED="1731413120243" MODIFIED="1731413148174">
 <node TEXT="Display a mobject: call add() method on the containing Scene" ID="ID_710365637" CREATED="1731834100574" MODIFIED="1731834141063"/>
 <node TEXT="Remove a mobject: call remove() method from the containing Scene" ID="ID_1071018153" CREATED="1731834141405" MODIFIED="1731834162320"/>
 </node>
@@ -172,22 +172,22 @@
 <node TEXT="The coordinates of the borders of a mobject are determined using an imaginary bounding box around it." ID="ID_1983661672" CREATED="1731834478702" MODIFIED="1731834500649" LINK="https://www.keymakr.com/blog/what-are-bounding-boxes/"/>
 </node>
 </node>
-<node TEXT="Styling mobjects" FOLDED="true" ID="ID_680763027" CREATED="1731414376583" MODIFIED="1731414380952">
+<node TEXT="Styling mobjects" ID="ID_680763027" CREATED="1731414376583" MODIFIED="1731414380952">
 <node TEXT="instances of VMobject" ID="ID_1191293382" CREATED="1731834814287" MODIFIED="1731834822154">
 <node TEXT="set_stroke(): change visual style of the mobject&apos;s border" POSITION="bottom_or_right" ID="ID_1248476555" CREATED="1731834615311" MODIFIED="1731834645225"/>
 <node TEXT="set_fill(): change visual style of the mobject&apos;s interior" POSITION="bottom_or_right" ID="ID_927512118" CREATED="1731834645407" MODIFIED="1731834662778"/>
 </node>
-<node TEXT="instances of Mobject: sef_color()" ID="ID_1671170347" CREATED="1731834808303" MODIFIED="1731834839786"/>
+<node TEXT="instances of Mobject: set_color()" ID="ID_1671170347" CREATED="1731834808303" MODIFIED="1731845959738"/>
 <node TEXT="opacity (不透明度) parameter" ID="ID_1431381486" CREATED="1731834697278" MODIFIED="1731834756953">
 <node TEXT="By default, most mobjectis have a fully transparent interior" ID="ID_258919346" CREATED="1731834666992" MODIFIED="1731834693961"/>
 <node TEXT="An opacity of 1.0 means fully opaque, while 0.0 means fully transparent" ID="ID_212727227" CREATED="1731834711152" MODIFIED="1731834729704"/>
 </node>
 </node>
-<node TEXT="Mobject on-screen order" FOLDED="true" ID="ID_1449211440" CREATED="1731414386672" MODIFIED="1731414391907">
+<node TEXT="Mobject on-screen order" ID="ID_1449211440" CREATED="1731414386672" MODIFIED="1731414391907">
 <node TEXT="the order of the arguments of add() determines the order that the mobjects are displayed on the screen, with the left-most arguments being put in the back" ID="ID_1225968558" CREATED="1731834887304" MODIFIED="1731834891161"/>
 </node>
 </node>
-<node TEXT="Animations" FOLDED="true" ID="ID_1621498316" CREATED="1731414396625" MODIFIED="1731414398998">
+<node TEXT="Animations" ID="ID_1621498316" CREATED="1731414396625" MODIFIED="1731414398998">
 <node TEXT="Animating methods" ID="ID_1069110668" CREATED="1731414406518" MODIFIED="1731414412844"/>
 <node TEXT="Animating run time" ID="ID_1220379991" CREATED="1731414416920" MODIFIED="1731414421090"/>
 <node TEXT="Creating a custom animation" ID="ID_19909403" CREATED="1731414425287" MODIFIED="1731414431592"/>
