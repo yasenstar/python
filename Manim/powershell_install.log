@@ -1,0 +1,382 @@
+PS C:\WINDOWS\system32> Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+Set-ExecutionPolicy : Windows PowerShell updated your execution policy successfully, but the setting is overridden by a policy defined at a more specific scope.  Due to the override, your shell will retain its current effective executio
+n policy of RemoteSigned. Type "Get-ExecutionPolicy -List" to view your execution policy settings. For more information please see "Get-Help Set-ExecutionPolicy".
+At line:1 char:1
++ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.Service ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (:) [Set-ExecutionPolicy], SecurityException
+    + FullyQualifiedErrorId : ExecutionPolicyOverride,Microsoft.PowerShell.Commands.SetExecutionPolicyCommand
+Forcing web requests to allow TLS v1.2 (Required for requests to Chocolatey.org)
+Getting latest version of the Chocolatey package for download.
+Not using proxy.
+Getting Chocolatey from https://community.chocolatey.org/api/v2/package/chocolatey/2.4.0.
+Downloading https://community.chocolatey.org/api/v2/package/chocolatey/2.4.0 to C:\Users\v0cn037\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip
+Not using proxy.
+Extracting C:\Users\v0cn037\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip to C:\Users\v0cn037\AppData\Local\Temp\chocolatey\chocoInstall
+Installing Chocolatey on the local machine
+Creating ChocolateyInstall as an environment variable (targeting 'Machine')
+  Setting ChocolateyInstall to 'C:\ProgramData\chocolatey'
+WARNING: It's very likely you will need to close and reopen your shell
+  before you can use choco.
+Restricting write permissions to Administrators
+We are setting up the Chocolatey package repository.
+The packages themselves go to 'C:\ProgramData\chocolatey\lib'
+  (i.e. C:\ProgramData\chocolatey\lib\yourPackageName).
+A shim file for the command line goes to 'C:\ProgramData\chocolatey\bin'
+  and points to an executable in 'C:\ProgramData\chocolatey\lib\yourPackageName'.
+
+Creating Chocolatey CLI folders if they do not already exist.
+
+chocolatey.nupkg file not installed in lib.
+ Attempting to locate it from bootstrapper.
+PATH environment variable does not have C:\ProgramData\chocolatey\bin in it. Adding...
+WARNING: Not setting tab completion: Profile file does not exist at 'C:\Users\v0cn037\OneDrive - Volvo Group\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
+Chocolatey CLI (choco.exe) is now ready.
+You can call choco from anywhere, command line or powershell by typing choco.
+Run choco /? for a list of functions.
+You may need to shut down and restart powershell and/or consoles
+ first prior to using choco.
+Ensuring Chocolatey commands are on the path
+Ensuring chocolatey.nupkg is in the lib folder
+PS C:\WINDOWS\system32> choco
+Chocolatey v2.4.0
+Please run 'choco -?' or 'choco <command> -?' for help menu.
+PS C:\WINDOWS\system32> choco install manimce
+Chocolatey v2.4.0
+3 validations performed. 2 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable --name="exitOnRebootDetected"
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+manimce
+By installing, you accept licenses for the packages.
+Downloading package from source 'https://community.chocolatey.org/api/v2/'
+Progress: Downloading chocolatey-compatibility.extension 1.0.0... 100%
+
+chocolatey-compatibility.extension v1.0.0 [Approved]
+chocolatey-compatibility.extension package files install completed. Performing other installation steps.
+ Installed/updated chocolatey-compatibility extensions.
+ The install of chocolatey-compatibility.extension was successful.
+  Deployed to 'C:\ProgramData\chocolatey\extensions\chocolatey-compatibility'
+Downloading package from source 'https://community.chocolatey.org/api/v2/'
+Progress: Downloading chocolatey-core.extension 1.4.0... 100%
+
+chocolatey-core.extension v1.4.0 [Approved]
+chocolatey-core.extension package files install completed. Performing other installation steps.
+ Installed/updated chocolatey-core extensions.
+ The install of chocolatey-core.extension was successful.
+  Deployed to 'C:\ProgramData\chocolatey\extensions\chocolatey-core'
+Downloading package from source 'https://community.chocolatey.org/api/v2/'
+Progress: Downloading chocolatey-windowsupdate.extension 1.0.5... 100%
+
+chocolatey-windowsupdate.extension v1.0.5 [Approved]
+chocolatey-windowsupdate.extension package files install completed. Performing other installation steps.
+ Installed/updated chocolatey-windowsupdate extensions.
+ The install of chocolatey-windowsupdate.extension was successful.
+  Deployed to 'C:\ProgramData\chocolatey\extensions\chocolatey-windowsupdate'
+Downloading package from source 'https://community.chocolatey.org/api/v2/'
+Progress: Downloading ffmpeg 7.1.0... 100%
+
+ffmpeg v7.1.0 [Approved]
+ffmpeg package files install completed. Performing other installation steps.
+The package ffmpeg wants to run 'chocolateyInstall.ps1'.
+Note: If you don't run this script, the installation will fail.
+Note: To confirm automatically next time, use '-y' or consider:
+choco feature enable -n allowGlobalConfirmation
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): A
+
+Extracting 64-bit C:\ProgramData\chocolatey\lib\ffmpeg\tools\ffmpeg-release-essentials.7z to C:\ProgramData\chocolatey\lib\ffmpeg\tools...
+C:\ProgramData\chocolatey\lib\ffmpeg\tools
+Removing extracted archive.
+Sleeping for 2 seconds to allow anti-viruses to finish scanning...
+Renaming ffmpeg directory to common name (Try 1 / 3)
+Successfully renamed directory.
+ ShimGen has successfully created a shim for ffmpeg.exe
+ ShimGen has successfully created a shim for ffplay.exe
+ ShimGen has successfully created a shim for ffprobe.exe
+ The install of ffmpeg was successful.
+  Deployed to 'C:\ProgramData\chocolatey\lib\ffmpeg\tools'
+Downloading package from source 'https://community.chocolatey.org/api/v2/'
+Progress: Downloading KB2919442 1.0.20160915... 100%
+
+KB2919442 v1.0.20160915 [Approved]
+KB2919442 package files install completed. Performing other installation steps.
+Skipping installation because this hotfix only applies to Windows 8.1 and Windows Server 2012 R2.
+ The install of KB2919442 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Downloading package from source 'https://community.chocolatey.org/api/v2/'
+Progress: Downloading KB2919355 1.0.20160915... 100%
+
+KB2919355 v1.0.20160915 [Approved]
+KB2919355 package files install completed. Performing other installation steps.
+Skipping installation because this hotfix only applies to Windows 8.1 and Windows Server 2012 R2.
+ The install of KB2919355 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Downloading package from source 'https://community.chocolatey.org/api/v2/'
+Progress: Downloading KB2999226 1.0.20181019... 100%
+
+KB2999226 v1.0.20181019 [Approved]
+KB2999226 package files install completed. Performing other installation steps.
+Skipping installation because update KB2999226 does not apply to this operating system (Microsoft Windows 11 Enterprise).
+ The install of KB2999226 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Downloading package from source 'https://community.chocolatey.org/api/v2/'
+Progress: Downloading KB3035131 1.0.3... 100%
+
+KB3035131 v1.0.3 [Approved]
+KB3035131 package files install completed. Performing other installation steps.
+Skipping installation because update KB3035131 does not apply to this operating system (Microsoft Windows 11 Enterprise).
+ The install of KB3035131 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Downloading package from source 'https://community.chocolatey.org/api/v2/'
+Progress: Downloading KB3033929 1.0.5... 100%
+
+KB3033929 v1.0.5 [Approved]
+KB3033929 package files install completed. Performing other installation steps.
+Skipping installation because update KB3033929 does not apply to this operating system (Microsoft Windows 11 Enterprise).
+ The install of KB3033929 was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+Downloading package from source 'https://community.chocolatey.org/api/v2/'
+Progress: Downloading vcredist140 14.42.34433... 100%
+
+vcredist140 v14.42.34433 [Approved]
+vcredist140 package files install completed. Performing other installation steps.
+Runtime for architecture x86 version 14.42.34433 is already installed.
+Downloading vcredist140-x64 64 bit
+  from 'https://download.visualstudio.microsoft.com/download/pr/c7dac50a-e3e8-40f6-bbb2-9cc4e3dfcabe/1821577409C35B2B9505AC833E246376CC68A8262972100444010B57226F0940/VC_redist.x64.exe'
+Progress: 100% - Completed download of C:\Users\v0cn037\AppData\Local\Temp\chocolatey\vcredist140\14.42.34433\VC_redist.x64.exe (24.45 MB).
+Download of VC_redist.x64.exe (24.45 MB) completed.
+Hashes match.
+Installing vcredist140-x64...
+vcredist140-x64 has been installed.
+  vcredist140 may be able to be automatically uninstalled.
+ The install of vcredist140 was successful.
+  Software installed as 'exe', install location is likely default.
+Downloading package from source 'https://community.chocolatey.org/api/v2/'
+Progress: Downloading vcredist2015 14.0.24215.20170201... 100%
+
+vcredist2015 v14.0.24215.20170201 [Approved]
+vcredist2015 package files install completed. Performing other installation steps.
+ The install of vcredist2015 was successful.
+  Deployed to 'C:\ProgramData\chocolatey\lib\vcredist2015'
+Downloading package from source 'https://community.chocolatey.org/api/v2/'
+Progress: Downloading python312 3.12.6... 100%
+
+python312 v3.12.6 [Approved]
+python312 package files install completed. Performing other installation steps.
+Installing 64-bit python312...
+python312 has been installed.
+Added C:\ProgramData\chocolatey\bin\python3.12.exe shim pointed to 'c:\python312\python.exe'.
+Python installed to: 'C:\Python312'
+Restricting write permissions to Administrators
+  python312 can be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of python312 was successful.
+  Software installed as 'exe', install location is likely default.
+Downloading package from source 'https://community.chocolatey.org/api/v2/'
+Progress: Downloading python3 3.12.6... 100%
+
+python3 v3.12.6 [Approved]
+python3 package files install completed. Performing other installation steps.
+ The install of python3 was successful.
+  Deployed to 'C:\ProgramData\chocolatey\lib\python3'
+Downloading package from source 'https://community.chocolatey.org/api/v2/'
+Progress: Downloading python 3.12.6... 100%
+
+python v3.12.6 [Approved]
+python package files install completed. Performing other installation steps.
+ The install of python was successful.
+  Deployed to 'C:\ProgramData\chocolatey\lib\python'
+Downloading package from source 'https://community.chocolatey.org/api/v2/'
+Progress: Downloading manimce 0.18.1.20240903... 100%
+
+manimce v0.18.1.20240903 [Approved]
+manimce package files install completed. Performing other installation steps.
+Found Python 3.12 from Registry
+Found Install Path - C:\Python312\python.exe
+Found python at 'C:\Python312\python.exe' using it.
+Using python version Python 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]
+C:\tools\Manim
+C:\tools\Manim\installInfo.json
+Upgrading pip and installing wheel, setuptools
+Looking in links: c:\Users\v0cn037\AppData\Local\Temp\tmp59mff8qp
+Requirement already satisfied: pip in c:\python312\lib\site-packages (24.2)
+Requirement already satisfied: pip in c:\python312\lib\site-packages (24.2)
+Collecting pip
+  Using cached pip-24.3.1-py3-none-any.whl.metadata (3.7 kB)
+Collecting wheel
+  Using cached wheel-0.45.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting setuptools
+  Using cached setuptools-75.5.0-py3-none-any.whl.metadata (6.8 kB)
+Using cached pip-24.3.1-py3-none-any.whl (1.8 MB)
+Using cached wheel-0.45.0-py3-none-any.whl (72 kB)
+Using cached setuptools-75.5.0-py3-none-any.whl (1.2 MB)
+Installing collected packages: wheel, setuptools, pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.2
+    Uninstalling pip-24.2:
+      Successfully uninstalled pip-24.2
+Successfully installed pip-24.3.1 setuptools-75.5.0 wheel-0.45.0
+Installing Manim to C:\tools\Manim
+Collecting manim==0.18.1
+  Downloading manim-0.18.1-py3-none-any.whl.metadata (10 kB)
+Collecting Pillow>=9.1 (from manim==0.18.1)
+  Downloading pillow-11.0.0-cp312-cp312-win_amd64.whl.metadata (9.3 kB)
+Collecting Pygments>=2.0.0 (from manim==0.18.1)
+  Downloading pygments-2.18.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting click>=8.0 (from manim==0.18.1)
+  Downloading click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+Collecting cloup>=2.0.0 (from manim==0.18.1)
+  Downloading cloup-3.0.5-py2.py3-none-any.whl.metadata (6.7 kB)
+Collecting decorator>=4.3.2 (from manim==0.18.1)
+  Downloading decorator-5.1.1-py3-none-any.whl.metadata (4.0 kB)
+Collecting isosurfaces>=0.1.0 (from manim==0.18.1)
+  Downloading isosurfaces-0.1.2-py3-none-any.whl.metadata (3.3 kB)
+Collecting manimpango<1.0.0,>=0.5.0 (from manim==0.18.1)
+  Downloading ManimPango-0.6.0-cp312-cp312-win_amd64.whl.metadata (8.2 kB)
+Collecting mapbox-earcut>=1.0.0 (from manim==0.18.1)
+  Downloading mapbox_earcut-1.0.2-cp312-cp312-win_amd64.whl.metadata (2.2 kB)
+Collecting moderngl<6.0.0,>=5.0.0 (from manim==0.18.1)
+  Downloading moderngl-5.12.0-cp312-cp312-win_amd64.whl.metadata (8.0 kB)
+Collecting moderngl-window>=2.0.0 (from manim==0.18.1)
+  Downloading moderngl_window-2.4.6-py3-none-any.whl.metadata (8.8 kB)
+Collecting networkx>=2.6 (from manim==0.18.1)
+  Downloading networkx-3.4.2-py3-none-any.whl.metadata (6.3 kB)
+Collecting numpy>=1.26 (from manim==0.18.1)
+  Downloading numpy-2.1.3-cp312-cp312-win_amd64.whl.metadata (60 kB)
+Collecting pycairo<2.0.0,>=1.13 (from manim==0.18.1)
+  Downloading pycairo-1.27.0-cp312-cp312-win_amd64.whl.metadata (2.3 kB)
+Collecting pydub>=0.20.0 (from manim==0.18.1)
+  Downloading pydub-0.25.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting rich>=12.0.0 (from manim==0.18.1)
+  Downloading rich-13.9.4-py3-none-any.whl.metadata (18 kB)
+Collecting scipy>=1.6.0 (from manim==0.18.1)
+  Downloading scipy-1.14.1-cp312-cp312-win_amd64.whl.metadata (60 kB)
+Collecting screeninfo>=0.7 (from manim==0.18.1)
+  Downloading screeninfo-0.8.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting skia-pathops>=0.7.0 (from manim==0.18.1)
+  Downloading skia_pathops-0.8.0.post2-cp312-cp312-win_amd64.whl.metadata (2.4 kB)
+Collecting srt>=3.0.0 (from manim==0.18.1)
+  Downloading srt-3.5.3.tar.gz (28 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting svgelements>=1.8.0 (from manim==0.18.1)
+  Downloading svgelements-1.9.6-py2.py3-none-any.whl.metadata (44 kB)
+Collecting tqdm>=4.0.0 (from manim==0.18.1)
+  Downloading tqdm-4.67.0-py3-none-any.whl.metadata (57 kB)
+Collecting typing-extensions>=4.0.0 (from manim==0.18.1)
+  Downloading typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting watchdog>=2.0.0 (from manim==0.18.1)
+  Downloading watchdog-6.0.0-py3-none-win_amd64.whl.metadata (44 kB)
+Collecting colorama (from click>=8.0->manim==0.18.1)
+  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting glcontext>=3.0.0 (from moderngl<6.0.0,>=5.0.0->manim==0.18.1)
+  Downloading glcontext-3.0.0-cp312-cp312-win_amd64.whl.metadata (6.2 kB)
+Collecting pyglet>=2.0.0 (from moderngl-window>=2.0.0->manim==0.18.1)
+  Downloading pyglet-2.0.18-py3-none-any.whl.metadata (7.9 kB)
+Collecting numpy>=1.26 (from manim==0.18.1)
+  Downloading numpy-1.26.4-cp312-cp312-win_amd64.whl.metadata (61 kB)
+Collecting pyrr<1,>=0.10.3 (from moderngl-window>=2.0.0->manim==0.18.1)
+  Downloading pyrr-0.10.3-py3-none-any.whl.metadata (832 bytes)
+Collecting markdown-it-py>=2.2.0 (from rich>=12.0.0->manim==0.18.1)
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=12.0.0->manim==0.18.1)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting multipledispatch (from pyrr<1,>=0.10.3->moderngl-window>=2.0.0->manim==0.18.1)
+  Downloading multipledispatch-1.0.0-py3-none-any.whl.metadata (3.8 kB)
+Downloading manim-0.18.1-py3-none-any.whl (585 kB)
+   -------------------------------------- 585.2/585.2 kB 828.4 kB/s eta 0:00:00
+Downloading click-8.1.7-py3-none-any.whl (97 kB)
+Downloading cloup-3.0.5-py2.py3-none-any.whl (54 kB)
+Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Downloading isosurfaces-0.1.2-py3-none-any.whl (11 kB)
+Downloading ManimPango-0.6.0-cp312-cp312-win_amd64.whl (4.1 MB)
+   ---------------------------------------- 4.1/4.1 MB 3.5 MB/s eta 0:00:00
+Downloading mapbox_earcut-1.0.2-cp312-cp312-win_amd64.whl (73 kB)
+Downloading moderngl-5.12.0-cp312-cp312-win_amd64.whl (108 kB)
+Downloading moderngl_window-2.4.6-py3-none-any.whl (370 kB)
+Downloading networkx-3.4.2-py3-none-any.whl (1.7 MB)
+   ---------------------------------------- 1.7/1.7 MB 15.5 MB/s eta 0:00:00
+Downloading numpy-1.26.4-cp312-cp312-win_amd64.whl (15.5 MB)
+   ---------------------------------------- 15.5/15.5 MB 11.4 MB/s eta 0:00:00
+Downloading pillow-11.0.0-cp312-cp312-win_amd64.whl (2.6 MB)
+   ---------------------------------------- 2.6/2.6 MB 8.7 MB/s eta 0:00:00
+Downloading pycairo-1.27.0-cp312-cp312-win_amd64.whl (844 kB)
+   ---------------------------------------- 844.1/844.1 kB 9.4 MB/s eta 0:00:00
+Downloading pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Downloading pygments-2.18.0-py3-none-any.whl (1.2 MB)
+   ---------------------------------------- 1.2/1.2 MB 20.1 MB/s eta 0:00:00
+Downloading rich-13.9.4-py3-none-any.whl (242 kB)
+Downloading scipy-1.14.1-cp312-cp312-win_amd64.whl (44.5 MB)
+   ---------------------------------------- 44.5/44.5 MB 7.7 MB/s eta 0:00:00
+Downloading screeninfo-0.8.1-py3-none-any.whl (12 kB)
+Downloading skia_pathops-0.8.0.post2-cp312-cp312-win_amd64.whl (2.9 MB)
+   ---------------------------------------- 2.9/2.9 MB 7.1 MB/s eta 0:00:00
+Downloading svgelements-1.9.6-py2.py3-none-any.whl (137 kB)
+Downloading tqdm-4.67.0-py3-none-any.whl (78 kB)
+Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Downloading watchdog-6.0.0-py3-none-win_amd64.whl (79 kB)
+Downloading glcontext-3.0.0-cp312-cp312-win_amd64.whl (12 kB)
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+Downloading pyglet-2.0.18-py3-none-any.whl (941 kB)
+   --------------------------------------- 941.1/941.1 kB 14.4 MB/s eta 0:00:00
+Downloading pyrr-0.10.3-py3-none-any.whl (46 kB)
+Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading multipledispatch-1.0.0-py3-none-any.whl (12 kB)
+Building wheels for collected packages: srt
+  Building wheel for srt (setup.py): started
+  Building wheel for srt (setup.py): finished with status 'done'
+  Created wheel for srt: filename=srt-3.5.3-py3-none-any.whl size=22557 sha256=cd1bd1cd307bd1679c66a091c20d99ed45f820c6f4b6dc259cb68a1dc7e08adc
+  Stored in directory: C:\Users\v0cn037\AppData\Local\Temp\pip-ephem-wheel-cache-cyvuwuez\wheels\7e\75\5b\e1d5c3756631e4bda806f6cc9640153b39484bb6f7b0b8def3
+Successfully built srt
+Installing collected packages: svgelements, pydub, multipledispatch, glcontext, watchdog, typing-extensions, srt, skia-pathops, screeninfo, Pygments, pyglet, pycairo, Pillow, numpy, networkx, moderngl, mdurl, manimpango, decorator, colorama, tqdm, scipy, pyrr, markdown-it-py, mapbox-earcut, isosurfaces, click, rich, moderngl-window, cloup, manim
+Successfully installed Pillow-11.0.0 Pygments-2.18.0 click-8.1.7 cloup-3.0.5 colorama-0.4.6 decorator-5.1.1 glcontext-3.0.0 isosurfaces-0.1.2 manim-0.18.1 manimpango-0.6.0 mapbox-earcut-1.0.2 markdown-it-py-3.0.0 mdurl-0.1.2 moderngl-5.12.0 moderngl-window-2.4.6 multipledispatch-1.0.0 networkx-3.4.2 numpy-1.26.4 pycairo-1.27.0 pydub-0.25.1 pyglet-2.0.18 pyrr-0.10.3 rich-13.9.4 scipy-1.14.1 screeninfo-0.8.1 skia-pathops-0.8.0.post2 srt-3.5.3 svgelements-1.9.6 tqdm-4.67.0 typing-extensions-4.12.2 watchdog-6.0.0
+Making C:\Python312\python.exe detect the Manim
+C:\Python312\Lib\site-packages
+Adding C:\tools\Manim\Scripts to $PATH
+PATH environment variable does not have C:\tools\Manim\Scripts in it. Adding...
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of manimce was successful.
+  Software install location not explicitly set, it could be in package or
+  default install location of installer.
+
+Chocolatey installed 15/15 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+Installed:
+ - chocolatey-compatibility.extension v1.0.0
+ - chocolatey-core.extension v1.4.0
+ - chocolatey-windowsupdate.extension v1.0.5
+ - ffmpeg v7.1.0
+ - KB2919355 v1.0.20160915
+ - KB2919442 v1.0.20160915
+ - KB2999226 v1.0.20181019
+ - KB3033929 v1.0.5
+ - KB3035131 v1.0.3
+ - manimce v0.18.1.20240903
+ - python v3.12.6
+ - python3 v3.12.6
+ - python312 v3.12.6
+ - vcredist140 v14.42.34433
+ - vcredist2015 v14.0.24215.20170201
+
+Packages requiring reboot:
+ - vcredist140 (exit code 3010)
+
+The recent package changes indicate a reboot is necessary.
+ Please reboot at your earliest convenience.
+PS C:\WINDOWS\system32>

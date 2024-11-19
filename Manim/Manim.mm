@@ -1,9 +1,10 @@
-<map version="freeplane 1.11.5">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1731483731299" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#ffffff">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false"/>
+<hook NAME="MapStyle" background="#ffffffff" zoom="1.21">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" show_tags="UNDER_NODES"/>
+    <tags category_separator="::"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
@@ -18,6 +19,9 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details" COLOR="#fff024" BACKGROUND_COLOR="#000000">
 <font BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
+<font SIZE="10"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
 <font SIZE="9"/>
@@ -82,10 +86,12 @@
 </map_styles>
 </hook>
 <hook URI="img/Manim-logo.png" SIZE="1.0" NAME="ExternalObject"/>
-<node TEXT="Manim Installation" FOLDED="true" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1731483795770">
-<node TEXT="Windows OS" FOLDED="true" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1731412234251">
+<node TEXT="Manim Installation" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1731483795770">
+<node TEXT="Windows OS" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1731412234251">
 <node TEXT="Chocolatey" ID="ID_1509641050" CREATED="1731502035707" MODIFIED="1731502092214">
-<node TEXT="choco install manimce" ID="ID_784627188" CREATED="1731502092218" MODIFIED="1731502103192"/>
+<node TEXT="choco install manimce" ID="ID_784627188" CREATED="1731502092218" MODIFIED="1731502103192">
+<node TEXT="get choco via powershell" ID="ID_1881852512" CREATED="1732004915667" MODIFIED="1732004934262" LINK="https://chocolatey.org/install"/>
+</node>
 <node TEXT="choco install manim-latex" ID="ID_376459071" CREATED="1731502103541" MODIFIED="1731502111642">
 <node TEXT="Failures&#xa; - manim-latex (exited 1) - manim-latex not installed. An error occurred during installation:&#xa; Unable to obtain lock file access on &apos;C:\ProgramData\chocolatey\lib\882c7ec97e70db2a7b0eb9aa773bfab65350d8a6&apos; for operations on &apos;C:\ProgramData\chocolatey\lib\manim-latex&apos;. This may mean that a different user or administrator is holding this lock and that this process does not have permission to access it. If no other process is currently performing an operation on this file it may mean that an earlier NuGet process crashed and left an inaccessible lock file, in this case removing the file &apos;C:\ProgramData\chocolatey\lib\882c7ec97e70db2a7b0eb9aa773bfab65350d8a6&apos; will allow NuGet to continue. " ID="ID_1606275912" CREATED="1731502111645" MODIFIED="1731502116665"/>
 </node>
@@ -145,7 +151,7 @@
 </node>
 </node>
 <node TEXT="4. Manim&apos;s Buidling Blocks" ID="ID_41258804" CREATED="1731413090500" MODIFIED="1731833896349" LINK="https://docs.manim.community/en/stable/tutorials/building_blocks.html">
-<node TEXT="Mobjects" ID="ID_1256892739" CREATED="1731413108956" MODIFIED="1731833888113"><richcontent TYPE="NOTE">
+<node TEXT="Mobjects" FOLDED="true" ID="ID_1256892739" CREATED="1731413108956" MODIFIED="1731833888113"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -158,8 +164,7 @@
       Each class that derives from Mobject represents an object that can be displayed on the screen.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Creating and Displaying mobjects" FOLDED="true" ID="ID_1395858482" CREATED="1731413120243" MODIFIED="1731413148174">
 <node TEXT="Display a mobject: call add() method on the containing Scene" ID="ID_710365637" CREATED="1731834100574" MODIFIED="1731834141063"/>
 <node TEXT="Remove a mobject: call remove() method from the containing Scene" ID="ID_1071018153" CREATED="1731834141405" MODIFIED="1731834162320"/>
@@ -188,6 +193,7 @@
 </node>
 </node>
 <node TEXT="Animations" ID="ID_1621498316" CREATED="1731414396625" MODIFIED="1731414398998">
+<node TEXT="Aminations Basic" ID="ID_775585047" CREATED="1731996092385" MODIFIED="1731996102325"/>
 <node TEXT="Animating methods" ID="ID_1069110668" CREATED="1731414406518" MODIFIED="1731414412844"/>
 <node TEXT="Animating run time" ID="ID_1220379991" CREATED="1731414416920" MODIFIED="1731414421090"/>
 <node TEXT="Creating a custom animation" ID="ID_19909403" CREATED="1731414425287" MODIFIED="1731414431592"/>

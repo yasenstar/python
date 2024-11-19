@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/016/media/videos/SomeAnimations/480p15/partial_movie_files/SomeAnimations/1185818338_3650454768_223132457.mp4'
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/016/media/videos/SomeAnimations/480p15/partial_movie_files/SomeAnimations/624642324_180748073_3256495558.mp4'
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/016/media/videos/SomeAnimations/480p15/partial_movie_files/SomeAnimations/624642324_3890345977_566319098.mp4'
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/016/media/videos/SomeAnimations/480p15/partial_movie_files/SomeAnimations/624642324_4205785322_1409972333.mp4'
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/016/media/videos/SomeAnimations/480p15/partial_movie_files/SomeAnimations/624642324_2268829491_1409972333.mp4'
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/016/media/videos/SomeAnimations/480p15/partial_movie_files/SomeAnimations/624642324_3890345977_1071484169.mp4'
