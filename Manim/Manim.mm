@@ -86,15 +86,41 @@
 </map_styles>
 </hook>
 <hook URI="img/Manim-logo.png" SIZE="1.0" NAME="ExternalObject"/>
-<node TEXT="Manim Installation" FOLDED="true" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1731483795770">
+<node TEXT="Manim Installation" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1731483795770">
 <node TEXT="Windows OS" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1732073773204" VGAP_QUANTITY="3 pt">
 <node TEXT="Chocolatey" ID="ID_1509641050" CREATED="1731502035707" MODIFIED="1732073773202">
 <node TEXT="choco install manimce" ID="ID_784627188" CREATED="1731502092218" MODIFIED="1731502103192">
 <node TEXT="get choco via powershell" ID="ID_1881852512" CREATED="1732004915667" MODIFIED="1732004934262" LINK="https://chocolatey.org/install"/>
 </node>
 <node TEXT="choco install manim-latex" ID="ID_376459071" CREATED="1731502103541" MODIFIED="1731502111642">
-<node TEXT="Failures&#xa; - manim-latex (exited 1) - manim-latex not installed. An error occurred during installation:&#xa; Unable to obtain lock file access on &apos;C:\ProgramData\chocolatey\lib\882c7ec97e70db2a7b0eb9aa773bfab65350d8a6&apos; for operations on &apos;C:\ProgramData\chocolatey\lib\manim-latex&apos;. This may mean that a different user or administrator is holding this lock and that this process does not have permission to access it. If no other process is currently performing an operation on this file it may mean that an earlier NuGet process crashed and left an inaccessible lock file, in this case removing the file &apos;C:\ProgramData\chocolatey\lib\882c7ec97e70db2a7b0eb9aa773bfab65350d8a6&apos; will allow NuGet to continue. " ID="ID_1606275912" CREATED="1731502111645" MODIFIED="1731502116665"/>
+<node TEXT="Error Message" ID="ID_1606275912" CREATED="1731502111645" MODIFIED="1732079805158"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Failures
+    </p>
+    <p>
+      &#xa0;- manim-latex (exited 1) - manim-latex not installed. An error occurred during installation:
+    </p>
+    <p>
+      &#xa0;Unable to obtain lock file access on 'C:\ProgramData\chocolatey\lib\882c7ec97e70db2a7b0eb9aa773bfab65350d8a6' for operations on 'C:\ProgramData\chocolatey\lib\manim-latex'. This may mean that a different user or administrator is holding this lock and that this process does not have permission to access it. If no other process is currently performing an operation on this file it may mean that an earlier NuGet process crashed and left an inaccessible lock file, in this case removing the file 'C:\ProgramData\chocolatey\lib\882c7ec97e70db2a7b0eb9aa773bfab65350d8a6' will allow NuGet to continue.&#xa0;
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node TEXT="https://github.com/rstudio/tinytex-releases/releases/download/v2024.11/TinyTeX-1-v2024.11.zip" ID="ID_1045700163" CREATED="1732073400200" MODIFIED="1732073404543"/>
+</node>
+<node TEXT="Use scoop for installing tinytex" POSITION="bottom_or_right" ID="ID_285663471" CREATED="1732079784224" MODIFIED="1732079826801">
+<node TEXT="install scoop: powershell in Windows" FOLDED="true" ID="ID_1043109206" CREATED="1732079827335" MODIFIED="1732079856531" LINK="https://scoop.sh/">
+<node TEXT="Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser&#xa;Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression" ID="ID_41266388" CREATED="1732079838224" MODIFIED="1732079846164"/>
+</node>
+<node TEXT="scoop bucket add r-bucket https://github.com/cderv/r-bucket.git" POSITION="bottom_or_right" ID="ID_675051919" CREATED="1732079894190" MODIFIED="1732079901353"/>
+<node TEXT="scoop install tinytex" ID="ID_90384983" CREATED="1732079881702" MODIFIED="1732079889292">
+<node TEXT="error:&#xa;Installing &apos;tinytex&apos; (2024.11) [64bit] from &apos;r-bucket&apos; bucket&#xa;TinyTeX-1-v2024.11.zip (109.7 MB) [=======================================================&gt;                   ]  75%&#xa;The operation has timed out.&#xa;URL https://github.com/yihui/tinytex-releases/releases/download/v2024.11/TinyTeX-1-v2024.11.zip is not valid" ID="ID_173018822" CREATED="1732079902733" MODIFIED="1732079991039"/>
+</node>
 </node>
 </node>
 </node>
