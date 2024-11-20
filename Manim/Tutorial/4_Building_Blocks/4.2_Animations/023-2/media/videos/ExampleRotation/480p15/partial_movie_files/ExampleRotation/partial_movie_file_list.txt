@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/023-2/media/videos/ExampleRotation/480p15/partial_movie_files/ExampleRotation/1266937967_3192192283_2969017746.mp4'
