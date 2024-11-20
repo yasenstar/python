@@ -89,11 +89,13 @@
 <node TEXT="Manim Installation" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1731483795770">
 <node TEXT="Windows OS" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1732073773204" VGAP_QUANTITY="3 pt">
 <node TEXT="Chocolatey" ID="ID_1509641050" CREATED="1731502035707" MODIFIED="1732073773202">
-<node TEXT="choco install manimce" ID="ID_784627188" CREATED="1731502092218" MODIFIED="1731502103192">
+<node TEXT="choco install manimce" FOLDED="true" ID="ID_784627188" CREATED="1731502092218" MODIFIED="1731502103192">
 <node TEXT="get choco via powershell" ID="ID_1881852512" CREATED="1732004915667" MODIFIED="1732004934262" LINK="https://chocolatey.org/install"/>
 </node>
-<node TEXT="choco install manim-latex" ID="ID_376459071" CREATED="1731502103541" MODIFIED="1731502111642">
-<node TEXT="Error Message" ID="ID_1606275912" CREATED="1731502111645" MODIFIED="1732079805158"><richcontent TYPE="NOTE">
+<node TEXT="choco install manim-latex" FOLDED="true" ID="ID_376459071" CREATED="1731502103541" MODIFIED="1731502111642">
+<node TEXT="Error Message" ID="ID_1606275912" CREATED="1731502111645" MODIFIED="1732088235488">
+<icon BUILTIN="button_cancel"/>
+<richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -113,13 +115,134 @@
 </node>
 <node TEXT="https://github.com/rstudio/tinytex-releases/releases/download/v2024.11/TinyTeX-1-v2024.11.zip" ID="ID_1045700163" CREATED="1732073400200" MODIFIED="1732073404543"/>
 </node>
-<node TEXT="Use scoop for installing tinytex" POSITION="bottom_or_right" ID="ID_285663471" CREATED="1732079784224" MODIFIED="1732079826801">
-<node TEXT="install scoop: powershell in Windows" FOLDED="true" ID="ID_1043109206" CREATED="1732079827335" MODIFIED="1732079856531" LINK="https://scoop.sh/">
+<node TEXT="Use scoop for installing tinytex" FOLDED="true" POSITION="bottom_or_right" ID="ID_285663471" CREATED="1732079784224" MODIFIED="1732079826801">
+<node TEXT="install scoop: powershell in Windows" ID="ID_1043109206" CREATED="1732079827335" MODIFIED="1732079856531" LINK="https://scoop.sh/">
 <node TEXT="Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser&#xa;Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression" ID="ID_41266388" CREATED="1732079838224" MODIFIED="1732079846164"/>
 </node>
 <node TEXT="scoop bucket add r-bucket https://github.com/cderv/r-bucket.git" POSITION="bottom_or_right" ID="ID_675051919" CREATED="1732079894190" MODIFIED="1732079901353"/>
-<node TEXT="scoop install tinytex" ID="ID_90384983" CREATED="1732079881702" MODIFIED="1732079889292">
-<node TEXT="error:&#xa;Installing &apos;tinytex&apos; (2024.11) [64bit] from &apos;r-bucket&apos; bucket&#xa;TinyTeX-1-v2024.11.zip (109.7 MB) [=======================================================&gt;                   ]  75%&#xa;The operation has timed out.&#xa;URL https://github.com/yihui/tinytex-releases/releases/download/v2024.11/TinyTeX-1-v2024.11.zip is not valid" ID="ID_173018822" CREATED="1732079902733" MODIFIED="1732079991039"/>
+<node TEXT="scoop install tinytex" ID="ID_90384983" CREATED="1732079881702" MODIFIED="1732088264683">
+<icon BUILTIN="button_cancel"/>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      error:
+    </p>
+    <p>
+      Installing 'tinytex' (2024.11) [64bit] from 'r-bucket' bucket
+    </p>
+    <p>
+      TinyTeX-1-v2024.11.zip (109.7 MB) [=======================================================&gt;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;]&#xa0;&#xa0;75%
+    </p>
+    <p>
+      The operation has timed out.
+    </p>
+    <p>
+      URL https://github.com/yihui/tinytex-releases/releases/download/v2024.11/TinyTeX-1-v2024.11.zip is not valid
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node TEXT="Use choco to install miktex" POSITION="bottom_or_right" ID="ID_1758272189" CREATED="1732088159083" MODIFIED="1732088169644">
+<node TEXT="In Windows, open CMD with administrative permission" ID="ID_119263749" CREATED="1732088169659" MODIFIED="1732088183035"/>
+<node TEXT="run: choco install miktex.install" ID="ID_1394446757" CREATED="1732088183605" MODIFIED="1732088250476">
+<icon BUILTIN="button_ok"/>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      PS C:\Users\v0cn037&gt; choco install miktex.install
+    </p>
+    <p>
+      Chocolatey v2.4.0
+    </p>
+    <p>
+      Installing the following packages:
+    </p>
+    <p>
+      miktex.install
+    </p>
+    <p>
+      By installing, you accept licenses for the packages.
+    </p>
+    <p>
+      Downloading package from source 'https://community.chocolatey.org/api/v2/'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      miktex.install v24.4.0 [Approved]
+    </p>
+    <p>
+      miktex.install package files install completed. Performing other installation steps.
+    </p>
+    <p>
+      The package miktex.install wants to run 'chocolateyinstall.ps1'.
+    </p>
+    <p>
+      Note: If you don't run this script, the installation will fail.
+    </p>
+    <p>
+      Note: To confirm automatically next time, use '-y' or consider:
+    </p>
+    <p>
+      choco feature enable -n allowGlobalConfirmation
+    </p>
+    <p>
+      Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): Y
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Extracting 64-bit C:\ProgramData\chocolatey\lib\miktex.install\tools\miktexsetup-5.5.0+1763023-x64.zip to C:\ProgramData\chocolatey\lib\miktex.install\tools...
+    </p>
+    <p>
+      Downloading a &quot;Basic&quot; package set to install.
+    </p>
+    <p>
+      WARNING: No registry key found based on&#xa0;&#xa0;'miktex*'
+    </p>
+    <p>
+      Creating a temporary repository at 'C:\Users\v0cn037\AppData\Local\Temp\chocolatey\MiKTeX-repository'.
+    </p>
+    <p>
+      Installing from temporary MiKTeX repository for all users.
+    </p>
+    <p>
+      &#xa0;&#xa0;miktex.install may be able to be automatically uninstalled.
+    </p>
+    <p>
+      Environment Vars (like PATH) have changed. Close/reopen your shell to
+    </p>
+    <p>
+      &#xa0;see the changes (or in powershell/cmd.exe just type `refreshenv`).
+    </p>
+    <p>
+      &#xa0;The install of miktex.install was successful.
+    </p>
+    <p>
+      &#xa0;&#xa0;Deployed to 'C:\Program Files\MiKTeX'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Chocolatey installed 1/1 packages.
+    </p>
+    <p>
+      &#xa0;See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -274,7 +397,7 @@
 <arrowlink DESTINATION="ID_680763027"/>
 </node>
 </node>
-<node TEXT="Animations" FOLDED="true" ID="ID_1621498316" CREATED="1731414396625" MODIFIED="1731414398998">
+<node TEXT="Animations" ID="ID_1621498316" CREATED="1731414396625" MODIFIED="1731414398998">
 <node TEXT="Aminations Basic" FOLDED="true" ID="ID_775585047" CREATED="1731996092385" MODIFIED="1731996102325">
 <node TEXT="lecture 016" ID="ID_1951023472" CREATED="1732067978195" MODIFIED="1732067987626">
 <icon BUILTIN="video"/>
@@ -329,7 +452,7 @@
 <arrowlink DESTINATION="ID_1297510803"/>
 </node>
 </node>
-<node TEXT="Creating a custom animation" ID="ID_19909403" CREATED="1731414425287" MODIFIED="1731414431592">
+<node TEXT="Creating a custom animation" FOLDED="true" ID="ID_19909403" CREATED="1731414425287" MODIFIED="1731414431592">
 <node TEXT="lecture 020: missing LaTex" ID="ID_262895461" CREATED="1732068014712" MODIFIED="1732073789340">
 <icon BUILTIN="video"/>
 </node>
@@ -342,8 +465,15 @@
 <node TEXT="lecture 022" POSITION="bottom_or_right" ID="ID_1507291477" CREATED="1732068041913" MODIFIED="1732068049221">
 <icon BUILTIN="video"/>
 </node>
+<node TEXT="The color name used bases manim_colors" POSITION="bottom_or_right" ID="ID_101193643" CREATED="1732101364103" MODIFIED="1732101400820" LINK="https://docs.manim.community/en/stable/reference/manim.utils.color.manim_colors.html#module-manim.utils.color.manim_colors">
+<arrowlink DESTINATION="ID_309090101"/>
 </node>
-<node TEXT="Transforming mobjects into other mobjects" ID="ID_205777661" CREATED="1731414457033" MODIFIED="1731414474814"/>
+</node>
+<node TEXT="Transforming mobjects into other mobjects" FOLDED="true" ID="ID_205777661" CREATED="1731414457033" MODIFIED="1731414474814">
+<node TEXT="lecture 023" ID="ID_848847159" CREATED="1732100939367" MODIFIED="1732100948790">
+<icon BUILTIN="video"/>
+</node>
+</node>
 </node>
 <node TEXT="Scenes" ID="ID_908281644" CREATED="1731414481353" MODIFIED="1731414500296"/>
 </node>
@@ -450,7 +580,7 @@
 <node TEXT="SineCurveUnitCircle" ID="ID_262986036" CREATED="1731484405066" MODIFIED="1731484413475"/>
 </node>
 </node>
-<node TEXT="Reference Manual" FOLDED="true" POSITION="bottom_or_right" ID="ID_900317964" CREATED="1731418977575" MODIFIED="1731419054903">
+<node TEXT="Reference Manual" POSITION="bottom_or_right" ID="ID_900317964" CREATED="1731418977575" MODIFIED="1731419054903">
 <node TEXT="Animations" FOLDED="true" ID="ID_838548366" CREATED="1731419057095" MODIFIED="1731419079701">
 <node TEXT="01 animation" FOLDED="true" ID="ID_1882491247" CREATED="1732071270033" MODIFIED="1732071276614">
 <node TEXT="Animation" ID="ID_1164229823" CREATED="1732071896622" MODIFIED="1732071901809">
@@ -495,7 +625,17 @@
 </node>
 </node>
 <node TEXT="Scenes" ID="ID_1838509499" CREATED="1731419090947" MODIFIED="1731419092631"/>
-<node TEXT="Utilities and other modules" ID="ID_656726846" CREATED="1731419092798" MODIFIED="1731419097544"/>
+<node TEXT="Utilities and other modules" ID="ID_656726846" CREATED="1731419092798" MODIFIED="1731419097544">
+<node TEXT="01 bezier" ID="ID_1137582455" CREATED="1732101276152" MODIFIED="1732101281550"/>
+<node TEXT="02 color" ID="ID_1522759625" CREATED="1732101281695" MODIFIED="1732101291218" LINK="https://docs.manim.community/en/stable/reference/manim.utils.color.html">
+<node TEXT="core" ID="ID_1984904663" CREATED="1732101334808" MODIFIED="1732101345844"/>
+<node TEXT="manim_colors" ID="ID_309090101" CREATED="1732101346064" MODIFIED="1732101426146" LINK="https://docs.manim.community/en/stable/reference/manim.utils.color.html"/>
+<node TEXT="AS2700" ID="ID_315497093" CREATED="1732101349424" MODIFIED="1732101352787"/>
+<node TEXT="BS381" ID="ID_44466997" CREATED="1732101353032" MODIFIED="1732101355572"/>
+<node TEXT="XKCD" ID="ID_326326804" CREATED="1732101355960" MODIFIED="1732101357912"/>
+<node TEXT="X11" ID="ID_1658637074" CREATED="1732101358097" MODIFIED="1732101359365"/>
+</node>
+</node>
 </node>
 </node>
 </map>

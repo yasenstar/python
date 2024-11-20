@@ -8,11 +8,11 @@ class Count(Animation):
     
     def interpolate_mobject(self, alpha: float) -> None:
         value = self.start + (alpha * (self.end - self.start))
-        self.mboject.set_value(value)
+        self.mobject.set_value(value)
 
 class CountingScene(Scene):
     def construct(self):
-        number = DecimalNumber()
+        number = DecimalNumber().set_color(WHITE).scale(5)
         
         number.add_updater(lambda number: number.move_to(ORIGIN))
 
@@ -20,6 +20,6 @@ class CountingScene(Scene):
 
         self.wait()
 
-        self.play(Count(number, 0, 100), run_time = 4, rate_func = linear)
+        self.play(Count(number, 0, 100), run_time=4, rate_func=linear)
 
         self.wait()
