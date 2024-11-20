@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/018/media/videos/AnitmateExample/480p15/partial_movie_files/AnimateExample/1185818338_1332077962_4173930198.mp4'
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/018/media/videos/AnitmateExample/480p15/partial_movie_files/AnimateExample/624642324_3890345977_3120531477.mp4'
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/018/media/videos/AnitmateExample/480p15/partial_movie_files/AnimateExample/624642324_1624981740_1962880573.mp4'
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/018/media/videos/AnitmateExample/480p15/partial_movie_files/AnimateExample/624642324_3890345977_3222475621.mp4'
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/018/media/videos/AnitmateExample/480p15/partial_movie_files/AnimateExample/624642324_3890345977_154809019.mp4'
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/018/media/videos/AnitmateExample/480p15/partial_movie_files/AnimateExample/624642324_1201861786_2766070613.mp4'
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/018/media/videos/AnitmateExample/480p15/partial_movie_files/AnimateExample/624642324_3890345977_2097976554.mp4'
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/018/media/videos/AnitmateExample/480p15/partial_movie_files/AnimateExample/624642324_2056234734_4188445542.mp4'
+file 'file:C:/GitHub/python/Manim/Tutorial/4_Building_Blocks/4.2_Animations/018/media/videos/AnitmateExample/480p15/partial_movie_files/AnimateExample/624642324_3890345977_1413354544.mp4'
