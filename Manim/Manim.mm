@@ -3,7 +3,7 @@
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1731483731299" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <hook NAME="MapStyle" background="#ffffffff" zoom="1.21">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" show_tags="UNDER_NODES"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -86,9 +86,9 @@
 </map_styles>
 </hook>
 <hook URI="img/Manim-logo.png" SIZE="1.0" NAME="ExternalObject"/>
-<node TEXT="Manim Installation" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1731483795770">
+<node TEXT="Manim Installation" FOLDED="true" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1731483795770">
 <node TEXT="Windows OS" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1731412234251">
-<node TEXT="Chocolatey" ID="ID_1509641050" CREATED="1731502035707" MODIFIED="1731502092214">
+<node TEXT="Chocolatey" FOLDED="true" ID="ID_1509641050" CREATED="1731502035707" MODIFIED="1731502092214">
 <node TEXT="choco install manimce" ID="ID_784627188" CREATED="1731502092218" MODIFIED="1731502103192">
 <node TEXT="get choco via powershell" ID="ID_1881852512" CREATED="1732004915667" MODIFIED="1732004934262" LINK="https://chocolatey.org/install"/>
 </node>
@@ -97,20 +97,38 @@
 </node>
 </node>
 </node>
+<node TEXT="lecture 001" ID="ID_481944545" CREATED="1732067585609" MODIFIED="1732067596198">
+<icon BUILTIN="video"/>
+</node>
 </node>
 <node TEXT="Tutorials &amp; Guides" POSITION="bottom_or_right" ID="ID_1759134914" CREATED="1731412235228" MODIFIED="1731412247186">
 <node TEXT="Tutorials" ID="ID_938155600" CREATED="1731412247192" MODIFIED="1731412253573">
 <node TEXT="1. Quickstart" FOLDED="true" ID="ID_1252296146" CREATED="1731412253581" MODIFIED="1731677181142">
 <node TEXT="New Project, Animating a Circle" FOLDED="true" ID="ID_658640489" CREATED="1731412279490" MODIFIED="1731412292284">
+<node TEXT="lecture 002" ID="ID_314717080" CREATED="1732067609511" MODIFIED="1732067620878">
+<icon BUILTIN="video"/>
+</node>
 <node TEXT="manim -pql .\scene.py CreateCircle" ID="ID_1252971590" CREATED="1731508810108" MODIFIED="1731508835073"/>
 <node TEXT="If the PATH is not effective" ID="ID_247090648" CREATED="1731508835779" MODIFIED="1731508843463">
 <node TEXT="You can use full path of manim.exe to execute" ID="ID_1466995711" CREATED="1731508843467" MODIFIED="1731508857144"/>
 <node TEXT="You can restart VS Code then the PATH will be working" ID="ID_836157082" CREATED="1731508857532" MODIFIED="1731508874215"/>
 </node>
 </node>
-<node TEXT="Transforming a Square into a Circle" ID="ID_1740838145" CREATED="1731412298593" MODIFIED="1731503711259"/>
-<node TEXT="Positioning MobjectS" ID="ID_482986914" CREATED="1731412367011" MODIFIED="1731412380230"/>
-<node TEXT="Using .animate syntax to animate methods" ID="ID_1657303519" CREATED="1731412412857" MODIFIED="1731412423190"/>
+<node TEXT="Transforming a Square into a Circle" FOLDED="true" ID="ID_1740838145" CREATED="1731412298593" MODIFIED="1731503711259">
+<node TEXT="lecture 003" ID="ID_306196292" CREATED="1732067627272" MODIFIED="1732067639318">
+<icon BUILTIN="video"/>
+</node>
+</node>
+<node TEXT="Positioning MobjectS" FOLDED="true" ID="ID_482986914" CREATED="1731412367011" MODIFIED="1731412380230">
+<node TEXT="lecture 004" ID="ID_1839559635" CREATED="1732067648166" MODIFIED="1732067655906">
+<icon BUILTIN="video"/>
+</node>
+</node>
+<node TEXT="Using .animate syntax to animate methods" FOLDED="true" ID="ID_1657303519" CREATED="1731412412857" MODIFIED="1731412423190">
+<node TEXT="lecture 005" ID="ID_532949150" CREATED="1732067664253" MODIFIED="1732067672062">
+<icon BUILTIN="video"/>
+</node>
+</node>
 <node TEXT="Transform vs. ReplacementTransform" FOLDED="true" ID="ID_1386461022" CREATED="1731412438562" MODIFIED="1731412451916">
 <node TEXT="Transform(mob1, mob2)" ID="ID_1173570152" CREATED="1731671854134" MODIFIED="1731671866878">
 <node TEXT="transforms the points (as well as other attributes like color) of mob1 into the points/attributes of mob2" ID="ID_112446762" CREATED="1731671866882" MODIFIED="1731671893327"/>
@@ -119,17 +137,43 @@
 <node TEXT="ReplacementTransform(mob1, mob2)" ID="ID_1170888679" CREATED="1731671894694" MODIFIED="1731671903845">
 <node TEXT="on the other hand literally replaces mob1 on the scene with mob2" ID="ID_1758223508" CREATED="1731671903848" MODIFIED="1731671922318"/>
 </node>
+<node TEXT="lecture 006" ID="ID_717697208" CREATED="1732067681284" MODIFIED="1732067688279">
+<icon BUILTIN="video"/>
+</node>
 </node>
 </node>
 <node TEXT="2. Homepage&apos;s Examples" FOLDED="true" ID="ID_1215655236" CREATED="1731412707826" MODIFIED="1731679960106" LINK="https://www.manim.community/" VGAP_QUANTITY="3 pt">
-<node TEXT="Example: ContinousMotion" ID="ID_1335818196" CREATED="1731412741643" MODIFIED="1731412765639"/>
-<node TEXT="Example: OpeningManim" ID="ID_573002913" CREATED="1731412741810" MODIFIED="1731412803481"/>
-<node TEXT="Example: SquareToCircle" ID="ID_602626986" CREATED="1731412717491" MODIFIED="1731484061544"/>
-<node TEXT="Example: UnionExample" ID="ID_262791385" CREATED="1731412745498" MODIFIED="1731412824950"/>
-<node TEXT="Example: WarpSquare" ID="ID_1067358148" CREATED="1731412746470" MODIFIED="1731412751328"/>
+<node TEXT="Example: ContinousMotion" FOLDED="true" ID="ID_1335818196" CREATED="1731412741643" MODIFIED="1731412765639">
+<node TEXT="lecture 007" ID="ID_1201398060" CREATED="1732067699619" MODIFIED="1732067707942">
+<icon BUILTIN="video"/>
+</node>
+</node>
+<node TEXT="Example: OpeningManim" FOLDED="true" ID="ID_573002913" CREATED="1731412741810" MODIFIED="1731412803481">
+<node TEXT="lecture 008" ID="ID_541897210" CREATED="1732067711900" MODIFIED="1732067718781">
+<icon BUILTIN="video"/>
+</node>
+</node>
+<node TEXT="Example: SquareToCircle" FOLDED="true" ID="ID_602626986" CREATED="1731412717491" MODIFIED="1731484061544">
+<node TEXT="lecture 009" ID="ID_329648131" CREATED="1732067787353" MODIFIED="1732067794654">
+<icon BUILTIN="video"/>
+</node>
+</node>
+<node TEXT="Example: UnionExample" FOLDED="true" ID="ID_262791385" CREATED="1731412745498" MODIFIED="1731412824950">
+<node TEXT="lecture 010" ID="ID_1966491149" CREATED="1732067797520" MODIFIED="1732067819481">
+<icon BUILTIN="video"/>
+</node>
+</node>
+<node TEXT="Example: WarpSquare" FOLDED="true" ID="ID_1067358148" CREATED="1731412746470" MODIFIED="1731412751328">
+<node TEXT="lecture 011" ID="ID_608383008" CREATED="1732067829551" MODIFIED="1732067838198">
+<icon BUILTIN="video"/>
+</node>
+</node>
 </node>
 <node TEXT="3. Manim&apos;s Output Settings" FOLDED="true" ID="ID_1579266090" CREATED="1731412471779" MODIFIED="1731822433653" LINK="https://docs.manim.community/en/stable/tutorials/output_and_config.html">
-<node TEXT="3.1 Manim Output Folders" ID="ID_1041352639" CREATED="1731413062835" MODIFIED="1731753732031">
+<node TEXT="lecture 012" ID="ID_1604661820" CREATED="1732067869535" MODIFIED="1732067882266">
+<icon BUILTIN="video"/>
+</node>
+<node TEXT="3.1 Manim Output Folders" FOLDED="true" ID="ID_1041352639" CREATED="1731413062835" MODIFIED="1731753732031">
 <node TEXT="command: manim -pql scene.py SquareToCircle" ID="ID_658059997" CREATED="1731753741867" MODIFIED="1731753758262"/>
 <node TEXT="High Res.: manim -pqh scene.py SquareToCircle" ID="ID_1160295509" CREATED="1731819705001" MODIFIED="1731819726075"/>
 </node>
@@ -168,6 +212,9 @@
 <node TEXT="Creating and Displaying mobjects" FOLDED="true" ID="ID_1395858482" CREATED="1731413120243" MODIFIED="1731413148174">
 <node TEXT="Display a mobject: call add() method on the containing Scene" ID="ID_710365637" CREATED="1731834100574" MODIFIED="1731834141063"/>
 <node TEXT="Remove a mobject: call remove() method from the containing Scene" ID="ID_1071018153" CREATED="1731834141405" MODIFIED="1731834162320"/>
+<node TEXT="lecture 013" ID="ID_1825460089" CREATED="1732067910236" MODIFIED="1732067917981">
+<icon BUILTIN="video"/>
+</node>
 </node>
 <node TEXT="Placing mobjects" FOLDED="true" ID="ID_924292030" CREATED="1731413128280" MODIFIED="1731413136715">
 <node TEXT="shift(): shift one unit in the direction from the origin" ID="ID_1426895312" CREATED="1731834193439" MODIFIED="1731834213079"/>
@@ -175,6 +222,9 @@
 <node TEXT="next_to(): uses relative units (measured from the mobject passes as the first argument)" ID="ID_505525908" CREATED="1731834263399" MODIFIED="1731834321472"/>
 <node TEXT="align_to(): use direction not as measuring units but as a way to determine the border to use for alignment" ID="ID_42266646" CREATED="1731834267062" MODIFIED="1731834360120">
 <node TEXT="The coordinates of the borders of a mobject are determined using an imaginary bounding box around it." ID="ID_1983661672" CREATED="1731834478702" MODIFIED="1731834500649" LINK="https://www.keymakr.com/blog/what-are-bounding-boxes/"/>
+</node>
+<node TEXT="lecture 014" ID="ID_328345489" CREATED="1732067928084" MODIFIED="1732067935755">
+<icon BUILTIN="video"/>
 </node>
 </node>
 <node TEXT="Styling mobjects" ID="ID_680763027" CREATED="1731414376583" MODIFIED="1731414380952">
@@ -191,20 +241,83 @@
 <node TEXT="Mobject on-screen order" ID="ID_1449211440" CREATED="1731414386672" MODIFIED="1731414391907">
 <node TEXT="the order of the arguments of add() determines the order that the mobjects are displayed on the screen, with the left-most arguments being put in the back" ID="ID_1225968558" CREATED="1731834887304" MODIFIED="1731834891161"/>
 </node>
+<node TEXT="lecture 015" ID="ID_682447090" CREATED="1732067948493" MODIFIED="1732067969993">
+<icon BUILTIN="video"/>
+<arrowlink DESTINATION="ID_1449211440"/>
+<arrowlink DESTINATION="ID_680763027"/>
 </node>
-<node TEXT="Animations" ID="ID_1621498316" CREATED="1731414396625" MODIFIED="1731414398998">
-<node TEXT="Aminations Basic" ID="ID_775585047" CREATED="1731996092385" MODIFIED="1731996102325"/>
-<node TEXT="Animating methods" ID="ID_1069110668" CREATED="1731414406518" MODIFIED="1731414412844"/>
-<node TEXT="Animating run time" ID="ID_1220379991" CREATED="1731414416920" MODIFIED="1731414421090"/>
-<node TEXT="Creating a custom animation" ID="ID_19909403" CREATED="1731414425287" MODIFIED="1731414431592"/>
-<node TEXT="Using coordinates of a mobject" ID="ID_58778808" CREATED="1731414437927" MODIFIED="1731414446690"/>
-<node TEXT="Transforming mobjects into other mobjects" ID="ID_205777661" CREATED="1731414457033" MODIFIED="1731414474814"/>
+</node>
+<node TEXT="Animations" FOLDED="true" ID="ID_1621498316" CREATED="1731414396625" MODIFIED="1731414398998">
+<node TEXT="Aminations Basic" FOLDED="true" ID="ID_775585047" CREATED="1731996092385" MODIFIED="1731996102325">
+<node TEXT="lecture 016" ID="ID_1951023472" CREATED="1732067978195" MODIFIED="1732067987626">
+<icon BUILTIN="video"/>
+</node>
+<node TEXT="lecture 017" ID="ID_1032235649" CREATED="1732067552586" MODIFIED="1732067561897">
+<icon BUILTIN="video"/>
+</node>
+</node>
+<node TEXT="Animating methods" FOLDED="true" ID="ID_1069110668" CREATED="1731414406518" MODIFIED="1732066605802">
+<arrowlink DESTINATION="ID_937704851"/>
+<node TEXT="lecture:018" ID="ID_1528873503" CREATED="1732066623785" MODIFIED="1732066648676">
+<icon BUILTIN="video"/>
+</node>
+<node ID="ID_1883524955" CREATED="1732068097542" MODIFIED="1732068115543"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Any property of a mobject that can be changed <span style="font-weight: bold;">can be animated</span><span style="font-weight: normal;">.</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="animate() is a property of all mobjects that animates the methods that come afterward" ID="ID_1071608097" CREATED="1732068067816" MODIFIED="1732068090648"/>
+</node>
+<node TEXT="Animating run time" ID="ID_1220379991" CREATED="1731414416920" MODIFIED="1731414421090">
+<node TEXT="lecture 019" ID="ID_1513006677" CREATED="1732067991370" MODIFIED="1732068009563">
+<icon BUILTIN="video"/>
+</node>
+<node ID="ID_1510414735" CREATED="1732068127238" MODIFIED="1732068149031"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      By default, any animation passed to play() lasts for exactly <span style="font-weight: bold;">one second</span><span style="font-weight: normal;">.</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Use run_time argument to control the duration" ID="ID_1567971349" CREATED="1732068150581" MODIFIED="1732068161495"/>
+</node>
+<node TEXT="Creating a custom animation" FOLDED="true" ID="ID_19909403" CREATED="1731414425287" MODIFIED="1731414431592">
+<node TEXT="lecture 020" ID="ID_262895461" CREATED="1732068014712" MODIFIED="1732068022409">
+<icon BUILTIN="video"/>
+</node>
+</node>
+<node TEXT="Using coordinates of a mobject" FOLDED="true" ID="ID_58778808" CREATED="1731414437927" MODIFIED="1731414446690">
+<node TEXT="lecture 021" ID="ID_715906945" CREATED="1732068029072" MODIFIED="1732068035763">
+<icon BUILTIN="video"/>
+</node>
+</node>
+<node TEXT="Transforming mobjects into other mobjects" FOLDED="true" ID="ID_205777661" CREATED="1731414457033" MODIFIED="1731414474814">
+<node TEXT="lecture 022" ID="ID_1507291477" CREATED="1732068041913" MODIFIED="1732068049221">
+<icon BUILTIN="video"/>
+</node>
+</node>
 </node>
 <node TEXT="Scenes" ID="ID_908281644" CREATED="1731414481353" MODIFIED="1731414500296"/>
 </node>
 </node>
-<node TEXT="Thematic Guides" FOLDED="true" ID="ID_1918798362" CREATED="1731414501109" MODIFIED="1731414505354">
-<node TEXT="Configuration" FOLDED="true" ID="ID_515279388" CREATED="1731414505363" MODIFIED="1731414614430">
+<node TEXT="Thematic Guides" ID="ID_1918798362" CREATED="1731414501109" MODIFIED="1731414505354">
+<node TEXT="Configuration" ID="ID_515279388" CREATED="1731414505363" MODIFIED="1731414614430">
 <node TEXT="Command-line arguments" FOLDED="true" ID="ID_612662919" CREATED="1731414659913" MODIFIED="1731823934819" LINK="https://docs.manim.community/en/stable/guides/configuration.html">
 <node TEXT="Advanced examples" ID="ID_1260834701" CREATED="1731416118050" MODIFIED="1731416122678"/>
 <node TEXT="A list of all CLI flags" ID="ID_714064595" CREATED="1731416126767" MODIFIED="1731416131925"/>
@@ -305,11 +418,18 @@
 <node TEXT="SineCurveUnitCircle" ID="ID_262986036" CREATED="1731484405066" MODIFIED="1731484413475"/>
 </node>
 </node>
-<node TEXT="Reference Manual" FOLDED="true" POSITION="bottom_or_right" ID="ID_900317964" CREATED="1731418977575" MODIFIED="1731419054903">
+<node TEXT="Reference Manual" POSITION="bottom_or_right" ID="ID_900317964" CREATED="1731418977575" MODIFIED="1731419054903">
 <node TEXT="Animations" ID="ID_838548366" CREATED="1731419057095" MODIFIED="1731419079701"/>
 <node TEXT="Cameras" ID="ID_39305316" CREATED="1731419079854" MODIFIED="1731419083128"/>
 <node TEXT="Configurations" ID="ID_1605041570" CREATED="1731419083315" MODIFIED="1731419088549"/>
-<node TEXT="Mobjects" ID="ID_208778093" CREATED="1731419088722" MODIFIED="1731419090765"/>
+<node TEXT="Mobjects" ID="ID_208778093" CREATED="1731419088722" MODIFIED="1731419090765">
+<node TEXT="mojbject" ID="ID_739661723" CREATED="1732066552872" MODIFIED="1732066557960">
+<node TEXT="group" ID="ID_229839891" CREATED="1732066562506" MODIFIED="1732066566118"/>
+<node TEXT="Mobject" ID="ID_255755412" CREATED="1732066557971" MODIFIED="1732066561173">
+<node TEXT="animate()" ID="ID_937704851" CREATED="1732066568786" MODIFIED="1732066573686"/>
+</node>
+</node>
+</node>
 <node TEXT="Scenes" ID="ID_1838509499" CREATED="1731419090947" MODIFIED="1731419092631"/>
 <node TEXT="Utilities and other modules" ID="ID_656726846" CREATED="1731419092798" MODIFIED="1731419097544"/>
 </node>
