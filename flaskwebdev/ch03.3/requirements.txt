@@ -162,7 +162,6 @@ pyerfa @ file:///opt/concourse/worker/volumes/live/5caffc18-53e2-4c2a-5220-6f94c
 pyflakes==2.2.0
 Pygments @ file:///tmp/build/80754af9/pygments_1607368905949/work
 pylint @ file:///opt/concourse/worker/volumes/live/ed0164b6-bcc7-4f6b-7dd4-ad89660b5dcb/volume/pylint_1598624018129/work
-pyodbc===4.0.0-unsupported
 pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1606517880428/work
 pyparsing==2.4.7
 pyrsistent @ file:///opt/concourse/worker/volumes/live/ff11f3f0-615b-4508-471d-4d9f19fa6657/volume/pyrsistent_1600141727281/work
