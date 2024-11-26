@@ -1,4 +1,4 @@
-import emoji
+import practices.emoji as emoji
 def text_to_emoji(text):
     return emoji.emojize(text)
 
