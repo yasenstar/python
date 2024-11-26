@@ -1,4 +1,6 @@
 from manim import *
+config.background_color = WHITE
+config["background_color"] = WHITE
 
 class ExampleRotation(Scene):
     def construct(self):
