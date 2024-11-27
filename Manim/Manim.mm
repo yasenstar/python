@@ -269,7 +269,7 @@
 <icon BUILTIN="video"/>
 </node>
 </node>
-<node TEXT="Positioning MobjectS" FOLDED="true" ID="ID_482986914" CREATED="1731412367011" MODIFIED="1731412380230">
+<node TEXT="Positioning MobjectS" ID="ID_482986914" CREATED="1731412367011" MODIFIED="1731412380230">
 <node TEXT="lecture 004" ID="ID_1839559635" CREATED="1732067648166" MODIFIED="1732067655906">
 <icon BUILTIN="video"/>
 </node>
@@ -319,7 +319,7 @@
 </node>
 </node>
 </node>
-<node TEXT="3. Manim&apos;s Output Settings" ID="ID_1579266090" CREATED="1731412471779" MODIFIED="1731822433653" LINK="https://docs.manim.community/en/stable/tutorials/output_and_config.html">
+<node TEXT="3. Manim&apos;s Output Settings" FOLDED="true" ID="ID_1579266090" CREATED="1731412471779" MODIFIED="1731822433653" LINK="https://docs.manim.community/en/stable/tutorials/output_and_config.html">
 <node TEXT="lecture 012" ID="ID_1604661820" CREATED="1732067869535" MODIFIED="1732067882266">
 <icon BUILTIN="video"/>
 </node>
@@ -344,7 +344,7 @@
 <node TEXT="--format gif: output animations in .gif format instead of default .mp4" ID="ID_1170086896" CREATED="1731820234701" MODIFIED="1731823887171"/>
 </node>
 </node>
-<node TEXT="4. Manim&apos;s Buidling Blocks" ID="ID_41258804" CREATED="1731413090500" MODIFIED="1731833896349" LINK="https://docs.manim.community/en/stable/tutorials/building_blocks.html">
+<node TEXT="4. Manim&apos;s Buidling Blocks" FOLDED="true" ID="ID_41258804" CREATED="1731413090500" MODIFIED="1731833896349" LINK="https://docs.manim.community/en/stable/tutorials/building_blocks.html">
 <node TEXT="Mobjects" FOLDED="true" ID="ID_1256892739" CREATED="1731413108956" MODIFIED="1731833888113"><richcontent TYPE="NOTE">
 <html>
   <head>
@@ -397,7 +397,7 @@
 <arrowlink DESTINATION="ID_680763027"/>
 </node>
 </node>
-<node TEXT="Animations" ID="ID_1621498316" CREATED="1731414396625" MODIFIED="1731414398998">
+<node TEXT="Animations" FOLDED="true" ID="ID_1621498316" CREATED="1731414396625" MODIFIED="1731414398998">
 <node TEXT="Aminations Basic" FOLDED="true" ID="ID_775585047" CREATED="1731996092385" MODIFIED="1731996102325">
 <node TEXT="lecture 016" ID="ID_1951023472" CREATED="1732067978195" MODIFIED="1732067987626">
 <icon BUILTIN="video"/>
@@ -469,7 +469,7 @@
 <arrowlink DESTINATION="ID_309090101"/>
 </node>
 </node>
-<node TEXT="Transforming mobjects into other mobjects" FOLDED="true" ID="ID_205777661" CREATED="1731414457033" MODIFIED="1731414474814">
+<node TEXT="Transforming mobjects into other mobjects" ID="ID_205777661" CREATED="1731414457033" MODIFIED="1731414474814">
 <node TEXT="lecture 023" ID="ID_848847159" CREATED="1732100939367" MODIFIED="1732100948790">
 <icon BUILTIN="video"/>
 </node>
@@ -479,13 +479,17 @@
 </node>
 </node>
 <node TEXT="Thematic Guides" ID="ID_1918798362" CREATED="1731414501109" MODIFIED="1731414505354">
-<node TEXT="Configuration" ID="ID_515279388" CREATED="1731414505363" MODIFIED="1731414614430">
-<node TEXT="Command-line arguments" FOLDED="true" ID="ID_612662919" CREATED="1731414659913" MODIFIED="1731823934819" LINK="https://docs.manim.community/en/stable/guides/configuration.html">
+<node TEXT="Configuration" FOLDED="true" ID="ID_515279388" CREATED="1731414505363" MODIFIED="1731414614430">
+<node TEXT="Command-line arguments" ID="ID_612662919" CREATED="1731414659913" MODIFIED="1731823934819" LINK="https://docs.manim.community/en/stable/guides/configuration.html">
 <node TEXT="Advanced examples" ID="ID_1260834701" CREATED="1731416118050" MODIFIED="1731416122678"/>
 <node TEXT="A list of all CLI flags" ID="ID_714064595" CREATED="1731416126767" MODIFIED="1731416131925"/>
 </node>
-<node TEXT="The ManimConfig class" ID="ID_217433903" CREATED="1731414689446" MODIFIED="1731414696652"/>
-<node TEXT="The config files" FOLDED="true" ID="ID_1712805652" CREATED="1731414696819" MODIFIED="1731414700692">
+<node TEXT="The ManimConfig class" ID="ID_217433903" CREATED="1731414689446" MODIFIED="1731414696652">
+<node TEXT="Lecture 024" ID="ID_306269428" CREATED="1732600647079" MODIFIED="1732600670146">
+<icon BUILTIN="video"/>
+</node>
+</node>
+<node TEXT="The config files" ID="ID_1712805652" CREATED="1731414696819" MODIFIED="1731414700692">
 <node TEXT="The user config file" ID="ID_1508570480" CREATED="1731418139124" MODIFIED="1731418143892"/>
 <node TEXT="Cascading config files" ID="ID_1438346715" CREATED="1731418146512" MODIFIED="1731418151602"/>
 </node>
@@ -536,7 +540,7 @@
 <node TEXT="Aligning formulae" ID="ID_305704285" CREATED="1731418776706" MODIFIED="1731418781001"/>
 </node>
 </node>
-<node TEXT="Adding Voiceovers to Videos" FOLDED="true" ID="ID_1035570971" CREATED="1731414629697" MODIFIED="1731414635725">
+<node TEXT="Adding Voiceovers to Videos" ID="ID_1035570971" CREATED="1731414629697" MODIFIED="1731414635725">
 <node TEXT="Basic Usage" ID="ID_755153236" CREATED="1731416095359" MODIFIED="1731416098973"/>
 </node>
 </node>
