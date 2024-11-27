@@ -1,3 +1,4 @@
+# learning machine learning
 from numpy import *
 import numpy as np
 
