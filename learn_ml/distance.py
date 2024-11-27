@@ -1,4 +1,5 @@
 # learning machine learning
+# date: 2024/11/26
 from numpy import *
 import numpy as np
 
