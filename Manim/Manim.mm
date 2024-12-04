@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1731483731299" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#ffffffff" zoom="1.21">
+<hook NAME="MapStyle" background="#ffffffff" zoom="1.1">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -503,8 +503,8 @@
 <icon BUILTIN="video"/>
 </node>
 </node>
-<node TEXT="Overview" ID="ID_1819656604" CREATED="1731416055328" MODIFIED="1731416056745"/>
-<node TEXT="Preliminaries" FOLDED="true" ID="ID_902556039" CREATED="1731416056894" MODIFIED="1731416062265">
+<node TEXT="Overview" ID="ID_1819656604" CREATED="1731416055328" MODIFIED="1731416056745">
+<node TEXT="Preliminaries" POSITION="bottom_or_right" ID="ID_902556039" CREATED="1731416056894" MODIFIED="1731416062265">
 <node TEXT="Importing the library" ID="ID_513852156" CREATED="1731418371922" MODIFIED="1731418377069"/>
 <node TEXT="Scene instantiation and rendering" ID="ID_1602532168" CREATED="1731418380155" MODIFIED="1731418386798">
 <node TEXT="Lecture 026" ID="ID_414684839" CREATED="1733199917750" MODIFIED="1733199930436">
@@ -512,7 +512,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Mobject Initialization" FOLDED="true" ID="ID_896497173" CREATED="1731416062424" MODIFIED="1731416067727">
+<node TEXT="Mobject Initialization" POSITION="bottom_or_right" ID="ID_896497173" CREATED="1731416062424" MODIFIED="1731416067727">
 <node TEXT="What even is a Mobject?" ID="ID_862038292" CREATED="1731418393538" MODIFIED="1731418398813"/>
 <node TEXT="...and what are VMobjects" ID="ID_1903781900" CREATED="1731418402470" MODIFIED="1731418408162">
 <node TEXT="Lecture 027: VMobjectDemo" ID="ID_1724284548" CREATED="1733199943455" MODIFIED="1733199958365">
@@ -526,13 +526,14 @@
 </node>
 </node>
 </node>
-<node TEXT="Animations and the Render Loop" FOLDED="true" ID="ID_59951791" CREATED="1731416067888" MODIFIED="1731416076626">
+<node TEXT="Animations and the Render Loop" POSITION="bottom_or_right" ID="ID_59951791" CREATED="1731416067888" MODIFIED="1731416076626">
 <node TEXT="Initializing animations" ID="ID_1630160512" CREATED="1731418436798" MODIFIED="1731418443856"/>
 <node TEXT="The play call: preparing to enter Mainm&apos;s render loop" ID="ID_440875323" CREATED="1731418446125" MODIFIED="1731418457671"/>
 <node TEXT="The render loop (for real this time)" ID="ID_874357964" CREATED="1731418462437" MODIFIED="1731418468684"/>
 <node TEXT="Completing the render loop" ID="ID_1645699632" CREATED="1731418473790" MODIFIED="1731418478406"/>
 <node TEXT="Lecture 029" ID="ID_871436231" CREATED="1733200006709" MODIFIED="1733200017182">
 <icon BUILTIN="video"/>
+</node>
 </node>
 </node>
 </node>
@@ -643,7 +644,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Example Gallery" POSITION="bottom_or_right" ID="ID_1248577304" CREATED="1731484084849" MODIFIED="1731484088828">
+<node TEXT="Example Gallery" FOLDED="true" POSITION="bottom_or_right" ID="ID_1248577304" CREATED="1731484084849" MODIFIED="1731484088828">
 <node TEXT="Basic Concepts" FOLDED="true" ID="ID_741792800" CREATED="1731484088832" MODIFIED="1731484093843">
 <node TEXT="ManimCELogo" ID="ID_1589409692" CREATED="1731484104248" MODIFIED="1731484109291">
 <node TEXT="Lecture 051: ManimCELogo" ID="ID_172692135" CREATED="1733200579207" MODIFIED="1733200616857">
@@ -790,7 +791,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Reference Manual" POSITION="bottom_or_right" ID="ID_900317964" CREATED="1731418977575" MODIFIED="1731419054903">
+<node TEXT="Reference Manual" FOLDED="true" POSITION="bottom_or_right" ID="ID_900317964" CREATED="1731418977575" MODIFIED="1731419054903">
 <node TEXT="Animations" FOLDED="true" ID="ID_838548366" CREATED="1731419057095" MODIFIED="1731419079701">
 <node TEXT="01 animation" FOLDED="true" ID="ID_1882491247" CREATED="1732071270033" MODIFIED="1732071276614">
 <node TEXT="Lecture 078: OverrideAnimationExample" ID="ID_1792450773" CREATED="1733201407515" MODIFIED="1733201424224">
