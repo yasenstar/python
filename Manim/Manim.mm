@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1731483731299" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#ffffffff" zoom="1.1">
+<hook NAME="MapStyle" background="#ffffffff">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -498,19 +498,20 @@
 <node TEXT="Accessing CLI command options" ID="ID_1232583923" CREATED="1731414709859" MODIFIED="1731414716100"/>
 </node>
 <node TEXT="2.2 A deep dive into Manim&apos;s internals" ID="ID_1696588554" CREATED="1731414614954" MODIFIED="1733143724537">
-<node TEXT="Introduction" ID="ID_1246114774" CREATED="1731416051193" MODIFIED="1731416055163">
+<node TEXT="Introduction" FOLDED="true" ID="ID_1246114774" CREATED="1731416051193" MODIFIED="1731416055163">
 <node TEXT="Lecture 025" ID="ID_1177993437" CREATED="1733199711924" MODIFIED="1733199730852">
 <icon BUILTIN="video"/>
 </node>
 <node TEXT="2024/12/04: Got &quot;OSError: [WinErro -2146959355] Server execution failed&quot; error, raise ticket to project" ID="ID_1306036614" CREATED="1733362373824" MODIFIED="1733362420207" LINK="https://github.com/3b1b/manim/issues/2255"/>
 </node>
 <node TEXT="Overview" ID="ID_1819656604" CREATED="1731416055328" MODIFIED="1731416056745">
-<node TEXT="Preliminaries" POSITION="bottom_or_right" ID="ID_902556039" CREATED="1731416056894" MODIFIED="1731416062265">
+<node TEXT="Preliminaries" FOLDED="true" POSITION="bottom_or_right" ID="ID_902556039" CREATED="1731416056894" MODIFIED="1733366084769" VGAP_QUANTITY="3 pt">
 <node TEXT="Importing the library" ID="ID_513852156" CREATED="1731418371922" MODIFIED="1731418377069">
 <node TEXT="Python Guide 6.4.1 for &quot;from xxx import *&quot;" ID="ID_834415771" CREATED="1733322924808" MODIFIED="1733322947373" LINK="https://docs.python.org/3/tutorial/modules.html#importing-from-a-package"/>
 <node TEXT="__Init__.py in manim" ID="ID_1610783616" CREATED="1733322948439" MODIFIED="1733322968841" LINK="https://github.com/ManimCommunity/manim/blob/main/manim/__init__.py"/>
 </node>
-<node TEXT="Scene instantiation and rendering" ID="ID_1602532168" CREATED="1731418380155" MODIFIED="1731418386798">
+<node TEXT="Scene instantiation and rendering" ID="ID_1602532168" CREATED="1731418380155" MODIFIED="1733366084766">
+<node TEXT="tempconfig() to replace same feature as Manim CLI execution" ID="ID_841884848" CREATED="1733365484568" MODIFIED="1733365508562"/>
 <node TEXT="scene.render()" ID="ID_866605874" CREATED="1733363630992" MODIFIED="1733363635982">
 <node TEXT="Scene.setup()" ID="ID_1091862580" CREATED="1733363635987" MODIFIED="1733363641235"/>
 <node TEXT="Scene.construct()" ID="ID_1422924656" CREATED="1733363641400" MODIFIED="1733363645282"/>
@@ -522,21 +523,54 @@
 <icon BUILTIN="video"/>
 </node>
 </node>
-<node TEXT="Mobject Initialization" FOLDED="true" POSITION="bottom_or_right" ID="ID_896497173" CREATED="1731416062424" MODIFIED="1731416067727">
-<node TEXT="What even is a Mobject?" ID="ID_862038292" CREATED="1731418393538" MODIFIED="1731418398813"/>
-<node TEXT="...and what are VMobjects" ID="ID_1903781900" CREATED="1731418402470" MODIFIED="1731418408162">
+<node TEXT="Mobject Initialization" POSITION="bottom_or_right" ID="ID_896497173" CREATED="1731416062424" MODIFIED="1731416067727">
+<node TEXT="What even is a Mobject?" FOLDED="true" ID="ID_862038292" CREATED="1731418393538" MODIFIED="1731418398813">
+<node ID="ID_298954964" CREATED="1733377795446" MODIFIED="1733377824355"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Mobject stands for <span style="font-style: italic;">mathematical object</span>&#xa0;&#xa0;or <span style="font-style: italic;">Manim object.</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="The Python class &quot;Mobject&quot; is the base class for all objects that should be displayed on screen" ID="ID_460030235" CREATED="1733377829471" MODIFIED="1733377885471" LINK="https://github.com/ManimCommunity/manim/blob/main/manim/mobject/mobject.py">
+<node TEXT="Cairo renderer: Cairo Graphics" ID="ID_1974443232" CREATED="1733378224181" MODIFIED="1733378244954" LINK="https://www.cairographics.org/"/>
+<node TEXT="/renderer/cairo_renderer.py" ID="ID_1937996523" CREATED="1733378426309" MODIFIED="1733378438588" LINK="https://github.com/ManimCommunity/manim/blob/main/manim/renderer/cairo_renderer.py">
+<node TEXT="ImageMObject" ID="ID_1300274781" CREATED="1733378599665" MODIFIED="1733378606044"/>
+<node TEXT="PMobject" ID="ID_725201689" CREATED="1733378606210" MODIFIED="1733378608893"/>
+<node TEXT="VMObject" ID="ID_1568042654" CREATED="1733378609139" MODIFIED="1733378620462">
+<arrowlink DESTINATION="ID_1903781900"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="...and what are VMobjects" FOLDED="true" ID="ID_1903781900" CREATED="1731418402470" MODIFIED="1731418408162">
+<node TEXT="Bezier Curve" ID="ID_1811339571" CREATED="1733378654379" MODIFIED="1733378664225" LINK="https://en.wikipedia.org/wiki/B%C3%A9zier_curve">
+<node TEXT="A Primer on Bezier civers" ID="ID_138011710" CREATED="1733378731160" MODIFIED="1733378857011" LINK="https://github.com/Pomax/BezierInfo-2">
+<icon BUILTIN="idea"/>
+</node>
+</node>
 <node TEXT="Lecture 027: VMobjectDemo" ID="ID_1724284548" CREATED="1733199943455" MODIFIED="1733199958365">
 <icon BUILTIN="video"/>
 </node>
 </node>
-<node TEXT="Squares and Circles: back to our Toy Example" ID="ID_1252174351" CREATED="1731418413512" MODIFIED="1731418421767"/>
+<node TEXT="Squares and Circles: back to our Toy Example" ID="ID_1252174351" CREATED="1731418413512" MODIFIED="1731418421767">
+<node TEXT="polygram.py" ID="ID_1558527359" CREATED="1733398787499" MODIFIED="1733398804613" LINK="https://github.com/ManimCommunity/manim/blob/5d72d9cfa2e3dd21c844b1da807576f5a7194fda/manim/mobject/geometry/polygram.py#L607"/>
+<node TEXT="arc.py" ID="ID_1125220241" CREATED="1733398796869" MODIFIED="1733398816068" LINK="https://github.com/ManimCommunity/manim/blob/5d72d9cfa2e3dd21c844b1da807576f5a7194fda/manim/mobject/geometry/arc.py"/>
+</node>
 <node TEXT="Adding Mobjects to the Scene" ID="ID_152907864" CREATED="1731418425602" MODIFIED="1731418432139">
 <node TEXT="Lecture 028" ID="ID_997807207" CREATED="1733199973580" MODIFIED="1733199986578">
 <icon BUILTIN="video"/>
 </node>
 </node>
 </node>
-<node TEXT="Animations and the Render Loop" FOLDED="true" POSITION="bottom_or_right" ID="ID_59951791" CREATED="1731416067888" MODIFIED="1731416076626">
+<node TEXT="Animations and the Render Loop" POSITION="bottom_or_right" ID="ID_59951791" CREATED="1731416067888" MODIFIED="1731416076626">
 <node TEXT="Initializing animations" ID="ID_1630160512" CREATED="1731418436798" MODIFIED="1731418443856"/>
 <node TEXT="The play call: preparing to enter Mainm&apos;s render loop" ID="ID_440875323" CREATED="1731418446125" MODIFIED="1731418457671"/>
 <node TEXT="The render loop (for real this time)" ID="ID_874357964" CREATED="1731418462437" MODIFIED="1731418468684"/>
