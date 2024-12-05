@@ -502,17 +502,27 @@
 <node TEXT="Lecture 025" ID="ID_1177993437" CREATED="1733199711924" MODIFIED="1733199730852">
 <icon BUILTIN="video"/>
 </node>
+<node TEXT="2024/12/04: Got &quot;OSError: [WinErro -2146959355] Server execution failed&quot; error, raise ticket to project" ID="ID_1306036614" CREATED="1733362373824" MODIFIED="1733362420207" LINK="https://github.com/3b1b/manim/issues/2255"/>
 </node>
 <node TEXT="Overview" ID="ID_1819656604" CREATED="1731416055328" MODIFIED="1731416056745">
 <node TEXT="Preliminaries" POSITION="bottom_or_right" ID="ID_902556039" CREATED="1731416056894" MODIFIED="1731416062265">
-<node TEXT="Importing the library" ID="ID_513852156" CREATED="1731418371922" MODIFIED="1731418377069"/>
+<node TEXT="Importing the library" ID="ID_513852156" CREATED="1731418371922" MODIFIED="1731418377069">
+<node TEXT="Python Guide 6.4.1 for &quot;from xxx import *&quot;" ID="ID_834415771" CREATED="1733322924808" MODIFIED="1733322947373" LINK="https://docs.python.org/3/tutorial/modules.html#importing-from-a-package"/>
+<node TEXT="__Init__.py in manim" ID="ID_1610783616" CREATED="1733322948439" MODIFIED="1733322968841" LINK="https://github.com/ManimCommunity/manim/blob/main/manim/__init__.py"/>
+</node>
 <node TEXT="Scene instantiation and rendering" ID="ID_1602532168" CREATED="1731418380155" MODIFIED="1731418386798">
-<node TEXT="Lecture 026" ID="ID_414684839" CREATED="1733199917750" MODIFIED="1733199930436">
+<node TEXT="scene.render()" ID="ID_866605874" CREATED="1733363630992" MODIFIED="1733363635982">
+<node TEXT="Scene.setup()" ID="ID_1091862580" CREATED="1733363635987" MODIFIED="1733363641235"/>
+<node TEXT="Scene.construct()" ID="ID_1422924656" CREATED="1733363641400" MODIFIED="1733363645282"/>
+<node TEXT="Scene.tear_down()" ID="ID_870677826" CREATED="1733363645470" MODIFIED="1733363651016"/>
+<node TEXT="CairoRenderer.scene_finished()" ID="ID_1793346354" CREATED="1733363681447" MODIFIED="1733363695343"/>
+</node>
+</node>
+<node TEXT="Lecture 026: use tempconfig in file" ID="ID_414684839" CREATED="1733199917750" MODIFIED="1733323093451">
 <icon BUILTIN="video"/>
 </node>
 </node>
-</node>
-<node TEXT="Mobject Initialization" POSITION="bottom_or_right" ID="ID_896497173" CREATED="1731416062424" MODIFIED="1731416067727">
+<node TEXT="Mobject Initialization" FOLDED="true" POSITION="bottom_or_right" ID="ID_896497173" CREATED="1731416062424" MODIFIED="1731416067727">
 <node TEXT="What even is a Mobject?" ID="ID_862038292" CREATED="1731418393538" MODIFIED="1731418398813"/>
 <node TEXT="...and what are VMobjects" ID="ID_1903781900" CREATED="1731418402470" MODIFIED="1731418408162">
 <node TEXT="Lecture 027: VMobjectDemo" ID="ID_1724284548" CREATED="1733199943455" MODIFIED="1733199958365">
@@ -526,7 +536,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Animations and the Render Loop" POSITION="bottom_or_right" ID="ID_59951791" CREATED="1731416067888" MODIFIED="1731416076626">
+<node TEXT="Animations and the Render Loop" FOLDED="true" POSITION="bottom_or_right" ID="ID_59951791" CREATED="1731416067888" MODIFIED="1731416076626">
 <node TEXT="Initializing animations" ID="ID_1630160512" CREATED="1731418436798" MODIFIED="1731418443856"/>
 <node TEXT="The play call: preparing to enter Mainm&apos;s render loop" ID="ID_440875323" CREATED="1731418446125" MODIFIED="1731418457671"/>
 <node TEXT="The render loop (for real this time)" ID="ID_874357964" CREATED="1731418462437" MODIFIED="1731418468684"/>
