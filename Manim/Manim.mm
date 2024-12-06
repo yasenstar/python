@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1731483731299" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#ffffffff">
+<hook NAME="MapStyle" background="#ffffffff" zoom="1.1">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -570,11 +570,26 @@
 </node>
 </node>
 </node>
-<node TEXT="Animations and the Render Loop" POSITION="bottom_or_right" ID="ID_59951791" CREATED="1731416067888" MODIFIED="1731416076626">
-<node TEXT="Initializing animations" ID="ID_1630160512" CREATED="1731418436798" MODIFIED="1731418443856"/>
-<node TEXT="The play call: preparing to enter Mainm&apos;s render loop" ID="ID_440875323" CREATED="1731418446125" MODIFIED="1731418457671"/>
-<node TEXT="The render loop (for real this time)" ID="ID_874357964" CREATED="1731418462437" MODIFIED="1731418468684"/>
-<node TEXT="Completing the render loop" ID="ID_1645699632" CREATED="1731418473790" MODIFIED="1731418478406"/>
+<node TEXT="Animations and the Render Loop" FOLDED="true" POSITION="bottom_or_right" ID="ID_59951791" CREATED="1731416067888" MODIFIED="1731416076626">
+<node TEXT="Initializing animations" ID="ID_1630160512" CREATED="1731418436798" MODIFIED="1733456439322">
+<arrowlink DESTINATION="ID_1882491247"/>
+<node TEXT="Animation.begin()" ID="ID_161093156" CREATED="1733456374487" MODIFIED="1733456379851"/>
+<node TEXT="Animation.finish()" ID="ID_1369459857" CREATED="1733456380012" MODIFIED="1733456985075">
+<arrowlink DESTINATION="ID_982107204"/>
+</node>
+<node TEXT="Animation.interpolate()" ID="ID_34100824" CREATED="1733456384986" MODIFIED="1733456389974"/>
+</node>
+<node TEXT="The play call: preparing to enter Mainm&apos;s render loop" ID="ID_440875323" CREATED="1731418446125" MODIFIED="1731418457671">
+<node TEXT="Scene.play()" ID="ID_1216646349" CREATED="1733456658444" MODIFIED="1733456662213"/>
+</node>
+<node TEXT="The render loop (for real this time)" ID="ID_874357964" CREATED="1731418462437" MODIFIED="1731418468684">
+<node TEXT="CairoRenderer.save_static_frame_data()" ID="ID_467335938" CREATED="1733456915896" MODIFIED="1733456931142"/>
+<node TEXT="Scene.play_internal()" ID="ID_1615967614" CREATED="1733456931350" MODIFIED="1733456939195"/>
+</node>
+<node TEXT="Completing the render loop" ID="ID_1645699632" CREATED="1731418473790" MODIFIED="1731418478406">
+<node TEXT="Animation.finish()" ID="ID_982107204" CREATED="1733456973920" MODIFIED="1733456980319"/>
+<node TEXT="Animation.clean_up_from_scene()" ID="ID_1375108596" CREATED="1733456988024" MODIFIED="1733456997487"/>
+</node>
 <node TEXT="Lecture 029" ID="ID_871436231" CREATED="1733200006709" MODIFIED="1733200017182">
 <icon BUILTIN="video"/>
 </node>
@@ -586,7 +601,7 @@
 <node TEXT="Lecture 030" ID="ID_1384885829" CREATED="1733200041085" MODIFIED="1733200051104">
 <icon BUILTIN="video"/>
 </node>
-<node TEXT="Working with Text" ID="ID_1696881758" CREATED="1731418494258" MODIFIED="1731418503341">
+<node TEXT="Working with Text" FOLDED="true" ID="ID_1696881758" CREATED="1731418494258" MODIFIED="1731418503341">
 <node TEXT="Using Fonts" ID="ID_1966523630" CREATED="1731418503345" MODIFIED="1731418505729">
 <node TEXT="Lecture 031" ID="ID_1193823796" CREATED="1733200063583" MODIFIED="1733200071542">
 <icon BUILTIN="video"/>
@@ -623,13 +638,13 @@
 </node>
 </node>
 </node>
-<node TEXT="Working with MarkupText" ID="ID_229276446" CREATED="1731418688700" MODIFIED="1731418693500">
+<node TEXT="Working with MarkupText" FOLDED="true" ID="ID_229276446" CREATED="1731418688700" MODIFIED="1731418693500">
 <node TEXT="Lecture 038" ID="ID_834820713" CREATED="1733200191829" MODIFIED="1733200200266">
 <icon BUILTIN="video"/>
 </node>
 </node>
 </node>
-<node TEXT="Text With LaTex" ID="ID_1162723049" CREATED="1731416085405" MODIFIED="1731416094108">
+<node TEXT="Text With LaTex" FOLDED="true" ID="ID_1162723049" CREATED="1731416085405" MODIFIED="1731416094108">
 <node TEXT="Lecture 039" ID="ID_588702475" CREATED="1733200218875" MODIFIED="1733200229888">
 <icon BUILTIN="video"/>
 </node>
