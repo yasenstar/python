@@ -274,7 +274,7 @@ Each class that derives from Mobject represents an object that can be displayed 
 ###### lecture 017
 
 ###### FadeIn() and FadeOut()
- (see:05 fading)
+ (see:1.05 fading)
 ##### Animating methods
  (see:animate())
 ###### lecture:018
@@ -413,7 +413,7 @@ Mobject stands formathematical object  orManim object.
 ##### Animations and the Render Loop
 
 ###### Initializing animations
- (see:01 animation)
+ (see:1.01 animation)
 * Animation.begin()
 
 * Animation.finish()
@@ -496,6 +496,8 @@ Mobject stands formathematical object  orManim object.
 
 * t2g for gradients with specific characters
 
+* No gradient effect (strange) when font_size = 70 #4049
+
 ###### Setting Line Spacing
 
 * Lecture 035
@@ -507,6 +509,8 @@ Mobject stands formathematical object  orManim object.
 * Lecture 036
 
 * disable_ligatures to Text
+
+* "disable_ligatures" doesn't have effect in local environment #4050
 
 ###### Iterating
 
@@ -524,6 +528,8 @@ Mobject stands formathematical object  orManim object.
 
 ##### Lecture 039
 
+###### Online LaTex Editor
+
 ##### Working with MathTex
 
 ###### Lecture 040
@@ -536,6 +542,8 @@ Mobject stands formathematical object  orManim object.
 
 ###### Lecture 042
 
+###### usepackage{mathrsfs}
+
 ##### Substrings and parts
 
 ###### Lecture 043: LaTeXSubstrings
@@ -544,10 +552,14 @@ Mobject stands formathematical object  orManim object.
 
 ###### Lecture 045: CorrectLaTeXSubstringColoring
 
+###### TransformMatchingTex
+ (see:1.14.3 TransformMatchingTex)
 ##### Using index_labels to work with complicated strings
-
+ (see:4.10.3.2 MathTex)
 ###### Lecture 046: IndexLabelsMathTex
 
+###### index_labels()
+ (see:function: index_labels())
 ##### LaTeX Maths Fonts - The Template Library
 
 ###### Lecture 047: LaTeXMathFonts
@@ -563,6 +575,8 @@ Mobject stands formathematical object  orManim object.
 #### Basic Usage
 
 ##### Lecture 050
+
+#### Quickstart: voiceover
 
 # Example Gallery
 
@@ -686,9 +700,9 @@ Mobject stands formathematical object  orManim object.
 
 # Reference Manual
 
-## Animations
+## 1. Animations
 
-### 01 animation
+### 1.01 animation
 
 #### Lecture 078: OverrideAnimationExample
 
@@ -712,7 +726,7 @@ Mobject stands formathematical object  orManim object.
 
 #### Wait
 
-### 02 changing
+### 1.02 changing
 
 #### AnamatedBoundary
 
@@ -724,7 +738,7 @@ Mobject stands formathematical object  orManim object.
 
 ##### Lecture 081: DissipatingPathExample
 
-### 03 composition
+### 1.03 composition
 
 #### AnimationGroup
 
@@ -740,7 +754,7 @@ Mobject stands formathematical object  orManim object.
 
 ##### Lecture 084: SuccessionExample
 
-### 04 creation
+### 1.04 creation
 
 #### AddTextLetterByLetter
 
@@ -780,7 +794,7 @@ Mobject stands formathematical object  orManim object.
 
 ##### Lecture 091: ShowWrite & ShowWriteReversed
 
-### 05 fading
+### 1.05 fading
 
 #### Lecture 092: Fading
 
@@ -792,7 +806,7 @@ Mobject stands formathematical object  orManim object.
 
 ##### Lecture 094: FadeOutExample
 
-### 06 growing
+### 1.06 growing
 
 #### Lecture 095: Growing
 
@@ -816,31 +830,49 @@ Mobject stands formathematical object  orManim object.
 
 ##### Lecture 100: SpinInFromNothingExample
 
-### 07 indication
+### 1.07 indication
 
-### 08 movement
+### 1.08 movement
 
-### 09 numbers
+### 1.09 numbers
 
-### 10 rotation
+### 1.10 rotation
 
-### 11 specialized
+### 1.11 specialized
 
-### 12 speedmodifier
+### 1.12 speedmodifier
 
-### 13 transform
+### 1.13 transform
 
-### 14 transform_matching_parts
+### 1.14 transform_matching_parts
 
-### 15 updaters
+#### 1.14.1 TransformMatchingAbstractBase
 
-## Cameras
+#### 1.14.2 TransformMatchingShapes
 
-## Configurations
+#### 1.14.3 TransformMatchingTex
 
-## Mobjects
+### 1.15 updaters
 
-### mojbject
+## 2. Cameras
+
+## 3. Configurations
+
+## 4. Mobjects
+
+### 4.01 frame
+
+### 4.02 geometry
+
+### 4.03 graph
+
+### 4.04 graphing
+
+### 4.05 logo
+
+### 4.06 matrix
+
+### 4.07 mojbject
 
 #### group
 
@@ -848,13 +880,47 @@ Mobject stands formathematical object  orManim object.
 
 ##### animate()
 
-## Scenes
+### 4.08 svg
 
-## Utilities and other modules
+### 4.09 table
 
-### 01 bezier
+### 4.10 text
 
-### 02 color
+#### 4.10.1 code_mobject
+
+#### 4.10.2 numbers
+
+#### 4.10.3 tex_mobject
+
+##### 4.10.3.1 BulletedList
+
+##### 4.10.3.2 MathTex
+
+##### 4.10.3.3 SingleStringMathTex
+
+##### 4.10.3.4 Tex
+
+##### 4.10.3.5 Title
+
+#### 4.10.4 text_mobject
+
+### 4.11 three_d
+
+### 4.12 types
+
+### 4.13 utils
+
+### 4.14 value_tracker
+
+### 4.15 vector_field
+
+## 5. Scenes
+
+## 6. Utilities and other modules
+
+### 6.01 bezier
+
+### 6.02 color
 
 #### core
 
@@ -867,3 +933,15 @@ Mobject stands formathematical object  orManim object.
 #### XKCD
 
 #### X11
+
+### 6.03 commands
+
+### 6.04 config_ops
+
+### 6.05 constants
+
+### 6.06 debug
+
+#### function: index_labels()
+
+#### function: print_family
