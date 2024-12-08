@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1731483731299" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#ffffffff" zoom="1.1">
+<hook NAME="MapStyle" background="#ffffffff">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -87,7 +87,7 @@
 </hook>
 <hook URI="img/Manim-logo.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="Manim Installation" FOLDED="true" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1731483795770">
-<node TEXT="Windows OS" FOLDED="true" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1732073773204" VGAP_QUANTITY="3 pt">
+<node TEXT="Windows OS" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1732073773204" VGAP_QUANTITY="3 pt">
 <node TEXT="Chocolatey" ID="ID_1509641050" CREATED="1731502035707" MODIFIED="1732073773202">
 <node TEXT="choco install manimce" FOLDED="true" ID="ID_784627188" CREATED="1731502092218" MODIFIED="1731502103192">
 <node TEXT="get choco via powershell" ID="ID_1881852512" CREATED="1732004915667" MODIFIED="1732004934262" LINK="https://chocolatey.org/install"/>
@@ -597,8 +597,8 @@
 </node>
 </node>
 <node TEXT="2.3 Rendering Text and Formulas" ID="ID_876839294" CREATED="1731414623288" MODIFIED="1733143730655">
-<node TEXT="Text Without LaTeX" ID="ID_706641445" CREATED="1731416079009" MODIFIED="1731416085225">
-<node TEXT="Lecture 030" FOLDED="true" ID="ID_1384885829" CREATED="1733200041085" MODIFIED="1733200051104">
+<node TEXT="Text Without LaTeX" FOLDED="true" ID="ID_706641445" CREATED="1731416079009" MODIFIED="1733578161265" VGAP_QUANTITY="3 pt">
+<node TEXT="Lecture 030" ID="ID_1384885829" CREATED="1733200041085" MODIFIED="1733200051104">
 <icon BUILTIN="video"/>
 <node TEXT="Text" ID="ID_147843161" CREATED="1733460006045" MODIFIED="1733460008186">
 <node TEXT="Gnome pango library" ID="ID_1594284692" CREATED="1733460049602" MODIFIED="1733460060280" LINK="https://github.com/GNOME/pango"/>
@@ -607,7 +607,7 @@
 <node TEXT="PangoMarkup" ID="ID_1983354727" CREATED="1733460199876" MODIFIED="1733460203703"/>
 </node>
 </node>
-<node TEXT="Working with Text" ID="ID_1696881758" CREATED="1731418494258" MODIFIED="1731418503341">
+<node TEXT="Working with Text" FOLDED="true" ID="ID_1696881758" CREATED="1731418494258" MODIFIED="1733578161264">
 <node TEXT="Using Fonts" ID="ID_1966523630" CREATED="1731418503345" MODIFIED="1731418505729">
 <node TEXT="Lecture 031" ID="ID_1193823796" CREATED="1733200063583" MODIFIED="1733200071542">
 <icon BUILTIN="video"/>
@@ -666,33 +666,33 @@
 <node TEXT="Text objects behave like VGroups" ID="ID_1210769860" CREATED="1733463048741" MODIFIED="1733463062919"/>
 </node>
 </node>
-<node TEXT="Working with MarkupText" FOLDED="true" ID="ID_229276446" CREATED="1731418688700" MODIFIED="1731418693500">
+<node TEXT="Working with MarkupText" ID="ID_229276446" CREATED="1731418688700" MODIFIED="1731418693500">
 <node TEXT="Lecture 038" ID="ID_834820713" CREATED="1733200191829" MODIFIED="1733200200266">
 <icon BUILTIN="video"/>
 </node>
 <node TEXT="MarkupText(&quot;content with markup&quot;, color=, font_size=)" ID="ID_714196320" CREATED="1733463151343" MODIFIED="1733463188096"/>
 </node>
 </node>
-<node TEXT="Text With LaTex" FOLDED="true" ID="ID_1162723049" CREATED="1731416085405" MODIFIED="1731416094108">
+<node TEXT="Text With LaTex" ID="ID_1162723049" CREATED="1731416085405" MODIFIED="1731416094108">
 <node TEXT="Lecture 039" ID="ID_588702475" CREATED="1733200218875" MODIFIED="1733200229888">
 <icon BUILTIN="video"/>
 </node>
-<node TEXT="Working with MathTex" ID="ID_878828731" CREATED="1731418700639" MODIFIED="1731418705209">
+<node TEXT="Working with MathTex" FOLDED="true" ID="ID_878828731" CREATED="1731418700639" MODIFIED="1731418705209">
 <node TEXT="Lecture 040" ID="ID_548684242" CREATED="1733200239280" MODIFIED="1733200248514">
 <icon BUILTIN="video"/>
 </node>
 </node>
-<node TEXT="LaTex commands and keyword arguments" ID="ID_1257844336" CREATED="1731418709044" MODIFIED="1731418716094">
+<node TEXT="LaTex commands and keyword arguments" FOLDED="true" ID="ID_1257844336" CREATED="1731418709044" MODIFIED="1731418716094">
 <node TEXT="Lecture 041" ID="ID_1727026312" CREATED="1733200253143" MODIFIED="1733200263158">
 <icon BUILTIN="video"/>
 </node>
 </node>
-<node TEXT="Extra LaTeX Packages" ID="ID_1131922076" CREATED="1731418720886" MODIFIED="1731418728752">
+<node TEXT="Extra LaTeX Packages" FOLDED="true" ID="ID_1131922076" CREATED="1731418720886" MODIFIED="1731418728752">
 <node TEXT="Lecture 042" ID="ID_793671320" CREATED="1733200272958" MODIFIED="1733200287203">
 <icon BUILTIN="video"/>
 </node>
 </node>
-<node TEXT="Substrings and parts" ID="ID_1770149110" CREATED="1731418734359" MODIFIED="1731418737956">
+<node TEXT="Substrings and parts" FOLDED="true" ID="ID_1770149110" CREATED="1731418734359" MODIFIED="1731418737956">
 <node TEXT="Lecture 043: LaTeXSubstrings" ID="ID_309864100" CREATED="1733200303962" MODIFIED="1733200371038">
 <icon BUILTIN="video"/>
 </node>
@@ -703,12 +703,12 @@
 <icon BUILTIN="video"/>
 </node>
 </node>
-<node TEXT="Using index_labels to work with complicated strings" ID="ID_1029725271" CREATED="1731418747994" MODIFIED="1731418759504">
+<node TEXT="Using index_labels to work with complicated strings" FOLDED="true" ID="ID_1029725271" CREATED="1731418747994" MODIFIED="1731418759504">
 <node TEXT="Lecture 046: IndexLabelsMathTex" ID="ID_833450868" CREATED="1733200396762" MODIFIED="1733200416617">
 <icon BUILTIN="video"/>
 </node>
 </node>
-<node TEXT="LaTeX Maths Fonts - The Template Library" ID="ID_326423918" CREATED="1731418762541" MODIFIED="1731418770998">
+<node TEXT="LaTeX Maths Fonts - The Template Library" FOLDED="true" ID="ID_326423918" CREATED="1731418762541" MODIFIED="1731418770998">
 <node TEXT="Lecture 047: LaTeXMathFonts" ID="ID_1179372886" CREATED="1733200430909" MODIFIED="1733200447825">
 <icon BUILTIN="video"/>
 </node>
@@ -716,7 +716,7 @@
 <icon BUILTIN="video"/>
 </node>
 </node>
-<node TEXT="Aligning formulae" ID="ID_305704285" CREATED="1731418776706" MODIFIED="1731418781001">
+<node TEXT="Aligning formulae" FOLDED="true" ID="ID_305704285" CREATED="1731418776706" MODIFIED="1731418781001">
 <node TEXT="Lecture 049: LaTeXAlignEnvironment" ID="ID_1906498687" CREATED="1733200482510" MODIFIED="1733200495521">
 <icon BUILTIN="video"/>
 </node>
