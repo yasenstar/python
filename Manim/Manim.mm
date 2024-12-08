@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1731483731299" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#ffffffff">
+<hook NAME="MapStyle" background="#ffffffff" zoom="1.3310001">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -596,7 +596,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2.3 Rendering Text and Formulas" ID="ID_876839294" CREATED="1731414623288" MODIFIED="1733143730655">
+<node TEXT="2.3 Rendering Text and Formulas" FOLDED="true" ID="ID_876839294" CREATED="1731414623288" MODIFIED="1733143730655">
 <node TEXT="Text Without LaTeX" FOLDED="true" ID="ID_706641445" CREATED="1731416079009" MODIFIED="1733578161265" VGAP_QUANTITY="3 pt">
 <node TEXT="Lecture 030" ID="ID_1384885829" CREATED="1733200041085" MODIFIED="1733200051104">
 <icon BUILTIN="video"/>
@@ -673,7 +673,7 @@
 <node TEXT="MarkupText(&quot;content with markup&quot;, color=, font_size=)" ID="ID_714196320" CREATED="1733463151343" MODIFIED="1733463188096"/>
 </node>
 </node>
-<node TEXT="Text With LaTex" ID="ID_1162723049" CREATED="1731416085405" MODIFIED="1731416094108">
+<node TEXT="Text With LaTex" FOLDED="true" ID="ID_1162723049" CREATED="1731416085405" MODIFIED="1731416094108">
 <node TEXT="Lecture 039" ID="ID_588702475" CREATED="1733200218875" MODIFIED="1733200229888">
 <icon BUILTIN="video"/>
 </node>
@@ -723,12 +723,13 @@
 </node>
 </node>
 </node>
-<node TEXT="2.4 Adding Voiceovers to Videos" FOLDED="true" ID="ID_1035570971" CREATED="1731414629697" MODIFIED="1733143733532">
-<node TEXT="Basic Usage" ID="ID_755153236" CREATED="1731416095359" MODIFIED="1731416098973">
+<node TEXT="2.4 Adding Voiceovers to Videos" ID="ID_1035570971" CREATED="1731414629697" MODIFIED="1733143733532">
+<node TEXT="Basic Usage" FOLDED="true" ID="ID_755153236" CREATED="1731416095359" MODIFIED="1731416098973">
 <node TEXT="Lecture 050" ID="ID_1303704335" CREATED="1733200513774" MODIFIED="1733200524177">
 <icon BUILTIN="video"/>
 </node>
 </node>
+<node TEXT="Quickstart: voiceover" ID="ID_131160945" CREATED="1733636537387" MODIFIED="1733636546831" LINK="https://voiceover.manim.community/en/latest/quickstart.html"/>
 </node>
 </node>
 </node>
