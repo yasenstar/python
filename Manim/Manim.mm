@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1731483731299" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#ffffffff" zoom="1.3310001">
+<hook NAME="MapStyle" background="#ffffffff">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -86,10 +86,10 @@
 </map_styles>
 </hook>
 <hook URI="img/Manim-logo.png" SIZE="1.0" NAME="ExternalObject"/>
-<node TEXT="Manim Installation" FOLDED="true" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1731483795770">
+<node TEXT="Manim Installation" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1731483795770">
 <node TEXT="Windows OS" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1732073773204" VGAP_QUANTITY="3 pt">
 <node TEXT="Chocolatey" ID="ID_1509641050" CREATED="1731502035707" MODIFIED="1732073773202">
-<node TEXT="choco install manimce" FOLDED="true" ID="ID_784627188" CREATED="1731502092218" MODIFIED="1731502103192">
+<node TEXT="choco install manimce" ID="ID_784627188" CREATED="1731502092218" MODIFIED="1731502103192">
 <node TEXT="get choco via powershell" ID="ID_1881852512" CREATED="1732004915667" MODIFIED="1732004934262" LINK="https://chocolatey.org/install"/>
 </node>
 <node TEXT="choco install manim-latex" FOLDED="true" ID="ID_376459071" CREATED="1731502103541" MODIFIED="1731502111642">
@@ -115,7 +115,7 @@
 </node>
 <node TEXT="https://github.com/rstudio/tinytex-releases/releases/download/v2024.11/TinyTeX-1-v2024.11.zip" ID="ID_1045700163" CREATED="1732073400200" MODIFIED="1732073404543"/>
 </node>
-<node TEXT="Use scoop for installing tinytex" FOLDED="true" POSITION="bottom_or_right" ID="ID_285663471" CREATED="1732079784224" MODIFIED="1732079826801">
+<node TEXT="Use scoop for installing tinytex" POSITION="bottom_or_right" ID="ID_285663471" CREATED="1732079784224" MODIFIED="1732079826801">
 <node TEXT="install scoop: powershell in Windows" ID="ID_1043109206" CREATED="1732079827335" MODIFIED="1732079856531" LINK="https://scoop.sh/">
 <node TEXT="Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser&#xa;Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression" ID="ID_41266388" CREATED="1732079838224" MODIFIED="1732079846164"/>
 </node>
@@ -478,7 +478,7 @@
 <node TEXT="Scenes" ID="ID_908281644" CREATED="1731414481353" MODIFIED="1731414500296"/>
 </node>
 </node>
-<node TEXT="2. Thematic Guides" FOLDED="true" ID="ID_1918798362" CREATED="1731414501109" MODIFIED="1733143715678">
+<node TEXT="2. Thematic Guides" ID="ID_1918798362" CREATED="1731414501109" MODIFIED="1733143715678">
 <node TEXT="2.1 Configuration" FOLDED="true" ID="ID_515279388" CREATED="1731414505363" MODIFIED="1733143720719">
 <node TEXT="Command-line arguments" FOLDED="true" ID="ID_612662919" CREATED="1731414659913" MODIFIED="1731823934819" LINK="https://docs.manim.community/en/stable/guides/configuration.html">
 <node TEXT="Advanced examples" ID="ID_1260834701" CREATED="1731416118050" MODIFIED="1731416122678"/>
@@ -717,12 +717,15 @@
 <arrowlink DESTINATION="ID_36851280"/>
 </node>
 </node>
-<node TEXT="LaTeX Maths Fonts - The Template Library" FOLDED="true" ID="ID_326423918" CREATED="1731418762541" MODIFIED="1731418770998">
+<node TEXT="LaTeX Maths Fonts - The Template Library" ID="ID_326423918" CREATED="1731418762541" MODIFIED="1731418770998">
 <node TEXT="Lecture 047: LaTeXMathFonts" ID="ID_1179372886" CREATED="1733200430909" MODIFIED="1733200447825">
 <icon BUILTIN="video"/>
+<node TEXT="TexFontTemplates" ID="ID_873081988" CREATED="1733759201408" MODIFIED="1733759216541" LINK="https://docs.manim.community/en/stable/reference/manim.utils.tex_templates.TexFontTemplates.html#manim.utils.tex_templates.TexFontTemplates"/>
 </node>
 <node TEXT="Lecture 048: LaTeXTemplateLibrary" ID="ID_1190196474" CREATED="1733200449237" MODIFIED="1733200469099">
 <icon BUILTIN="video"/>
+<node TEXT="error for display Chinese chars: Xelatex error converting to xdv" ID="ID_1252337723" CREATED="1733792159052" MODIFIED="1733792196697" LINK="https://github.com/3b1b/manim/issues/570"/>
+<node TEXT="Unicode decoder error" ID="ID_256744378" CREATED="1733794146443" MODIFIED="1733794154761" LINK="https://github.com/ManimCommunity/manim/issues/3333"/>
 </node>
 </node>
 <node TEXT="Aligning formulae" FOLDED="true" ID="ID_305704285" CREATED="1731418776706" MODIFIED="1731418781001">
@@ -1045,7 +1048,7 @@
 </node>
 <node TEXT="2. Cameras" ID="ID_39305316" CREATED="1731419079854" MODIFIED="1733659774840"/>
 <node TEXT="3. Configurations" ID="ID_1605041570" CREATED="1731419083315" MODIFIED="1733659777590"/>
-<node TEXT="4. Mobjects" ID="ID_208778093" CREATED="1731419088722" MODIFIED="1733659780382">
+<node TEXT="4. Mobjects" FOLDED="true" ID="ID_208778093" CREATED="1731419088722" MODIFIED="1733659780382">
 <node TEXT="4.01 frame" ID="ID_1440546800" CREATED="1733660111521" MODIFIED="1733660124484"/>
 <node TEXT="4.02 geometry" ID="ID_1253698803" CREATED="1733660125329" MODIFIED="1733660128923"/>
 <node TEXT="4.03 graph" ID="ID_274793605" CREATED="1733660129154" MODIFIED="1733660132058"/>
@@ -1079,7 +1082,7 @@
 <node TEXT="4.15 vector_field" ID="ID_1400769856" CREATED="1733660191871" MODIFIED="1733660196298"/>
 </node>
 <node TEXT="5. Scenes" ID="ID_1838509499" CREATED="1731419090947" MODIFIED="1733659783858"/>
-<node TEXT="6. Utilities and other modules" FOLDED="true" ID="ID_656726846" CREATED="1731419092798" MODIFIED="1733659790230">
+<node TEXT="6. Utilities and other modules" ID="ID_656726846" CREATED="1731419092798" MODIFIED="1733659790230">
 <node TEXT="6.01 bezier" ID="ID_1137582455" CREATED="1732101276152" MODIFIED="1733660620254"/>
 <node TEXT="6.02 color" FOLDED="true" ID="ID_1522759625" CREATED="1732101281695" MODIFIED="1733660622974" LINK="https://docs.manim.community/en/stable/reference/manim.utils.color.html">
 <node TEXT="core" ID="ID_1984904663" CREATED="1732101334808" MODIFIED="1732101345844"/>
