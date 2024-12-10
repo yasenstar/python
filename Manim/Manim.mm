@@ -726,6 +726,7 @@
 <icon BUILTIN="video"/>
 <node TEXT="error for display Chinese chars: Xelatex error converting to xdv" ID="ID_1252337723" CREATED="1733792159052" MODIFIED="1733792196697" LINK="https://github.com/3b1b/manim/issues/570"/>
 <node TEXT="Unicode decoder error" ID="ID_256744378" CREATED="1733794146443" MODIFIED="1733794154761" LINK="https://github.com/ManimCommunity/manim/issues/3333"/>
+<node TEXT="Submit issue: #4052" ID="ID_1136058632" CREATED="1733797603700" MODIFIED="1733797612347" LINK="https://github.com/ManimCommunity/manim/issues/4052"/>
 </node>
 </node>
 <node TEXT="Aligning formulae" FOLDED="true" ID="ID_305704285" CREATED="1731418776706" MODIFIED="1731418781001">
