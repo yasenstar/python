@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.12.9)  9 DEC 2024 23:57
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.12.10)  10 DEC 2024 09:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./media/Tex/3df29e68d62c5746.tex
-(media/Tex/3df29e68d62c5746.tex
+**./media/Tex/ae31dd5ec0c7275e.tex
+(media/Tex/ae31dd5ec0c7275e.tex
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
 (C:\Program Files\MiKTeX\tex/latex/standalone\standalone.cls
@@ -474,7 +474,7 @@ l.101   }
           
 Here is how much of TeX's memory you used:
  12931 strings out of 408789
- 281048 string characters out of 5753024
+ 281048 string characters out of 5753023
  735938 words of memory out of 5000000
  35686 multiletter control sequences out of 15000+600000
  575826 words of font info for 52 fonts, out of 8000000 for 9000
