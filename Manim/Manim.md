@@ -564,17 +564,31 @@ Mobject stands formathematical object  orManim object.
 
 ###### Lecture 047: LaTeXMathFonts
 
+* TexFontTemplates
+
 ###### Lecture 048: LaTeXTemplateLibrary
+
+* error for display Chinese chars: Xelatex error converting to xdv
+
+* Unicode decoder error
+
+* Submit issue: #4052
 
 ##### Aligning formulae
 
 ###### Lecture 049: LaTeXAlignEnvironment
 
 ### 2.4 Adding Voiceovers to Videos
-
+ (see:Voiceover)
 #### Basic Usage
 
 ##### Lecture 050
+
+##### pip install "manim-voiceover[azure,gtts]"
+
+##### pip install "manim-voiceover[recorder]"
+
+##### pip install "manim-voiceover[transcribe]"
 
 #### Quickstart: voiceover
 
@@ -945,3 +959,7 @@ Mobject stands formathematical object  orManim object.
 #### function: index_labels()
 
 #### function: print_family
+
+# Add-on
+
+## Voiceover

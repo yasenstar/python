@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1731483731299" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#ffffffff">
+<hook NAME="MapStyle" background="#ffffffff" zoom="1.3310001">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -86,7 +86,7 @@
 </map_styles>
 </hook>
 <hook URI="img/Manim-logo.png" SIZE="1.0" NAME="ExternalObject"/>
-<node TEXT="Manim Installation" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1731483795770">
+<node TEXT="Manim Installation" FOLDED="true" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1731483795770">
 <node TEXT="Windows OS" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1732073773204" VGAP_QUANTITY="3 pt">
 <node TEXT="Chocolatey" ID="ID_1509641050" CREATED="1731502035707" MODIFIED="1732073773202">
 <node TEXT="choco install manimce" ID="ID_784627188" CREATED="1731502092218" MODIFIED="1731502103192">
@@ -115,7 +115,7 @@
 </node>
 <node TEXT="https://github.com/rstudio/tinytex-releases/releases/download/v2024.11/TinyTeX-1-v2024.11.zip" ID="ID_1045700163" CREATED="1732073400200" MODIFIED="1732073404543"/>
 </node>
-<node TEXT="Use scoop for installing tinytex" POSITION="bottom_or_right" ID="ID_285663471" CREATED="1732079784224" MODIFIED="1732079826801">
+<node TEXT="Use scoop for installing tinytex" FOLDED="true" POSITION="bottom_or_right" ID="ID_285663471" CREATED="1732079784224" MODIFIED="1732079826801">
 <node TEXT="install scoop: powershell in Windows" ID="ID_1043109206" CREATED="1732079827335" MODIFIED="1732079856531" LINK="https://scoop.sh/">
 <node TEXT="Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser&#xa;Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression" ID="ID_41266388" CREATED="1732079838224" MODIFIED="1732079846164"/>
 </node>
@@ -252,7 +252,7 @@
 </node>
 </node>
 <node TEXT="Tutorials &amp; Guides" POSITION="bottom_or_right" ID="ID_1759134914" CREATED="1731412235228" MODIFIED="1731412247186">
-<node TEXT="1. Tutorials" FOLDED="true" ID="ID_938155600" CREATED="1731412247192" MODIFIED="1733143710662">
+<node TEXT="1. Tutorials" ID="ID_938155600" CREATED="1731412247192" MODIFIED="1733143710662">
 <node TEXT="1. Quickstart" FOLDED="true" ID="ID_1252296146" CREATED="1731412253581" MODIFIED="1731677181142">
 <node TEXT="New Project, Animating a Circle" ID="ID_658640489" CREATED="1731412279490" MODIFIED="1731412292284">
 <node TEXT="lecture 002" ID="ID_314717080" CREATED="1732067609511" MODIFIED="1732067620878">
@@ -596,7 +596,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2.3 Rendering Text and Formulas" ID="ID_876839294" CREATED="1731414623288" MODIFIED="1733143730655">
+<node TEXT="2.3 Rendering Text and Formulas" FOLDED="true" ID="ID_876839294" CREATED="1731414623288" MODIFIED="1733143730655">
 <node TEXT="Text Without LaTeX" FOLDED="true" ID="ID_706641445" CREATED="1731416079009" MODIFIED="1733578161265" VGAP_QUANTITY="3 pt">
 <node TEXT="Lecture 030" ID="ID_1384885829" CREATED="1733200041085" MODIFIED="1733200051104">
 <icon BUILTIN="video"/>
@@ -718,36 +718,40 @@
 </node>
 </node>
 <node TEXT="LaTeX Maths Fonts - The Template Library" ID="ID_326423918" CREATED="1731418762541" MODIFIED="1731418770998">
-<node TEXT="Lecture 047: LaTeXMathFonts" ID="ID_1179372886" CREATED="1733200430909" MODIFIED="1733200447825">
+<node TEXT="Lecture 047: LaTeXMathFonts" FOLDED="true" ID="ID_1179372886" CREATED="1733200430909" MODIFIED="1733200447825">
 <icon BUILTIN="video"/>
 <node TEXT="TexFontTemplates" ID="ID_873081988" CREATED="1733759201408" MODIFIED="1733759216541" LINK="https://docs.manim.community/en/stable/reference/manim.utils.tex_templates.TexFontTemplates.html#manim.utils.tex_templates.TexFontTemplates"/>
 </node>
-<node TEXT="Lecture 048: LaTeXTemplateLibrary" ID="ID_1190196474" CREATED="1733200449237" MODIFIED="1733200469099">
+<node TEXT="Lecture 048: LaTeXTemplateLibrary" FOLDED="true" ID="ID_1190196474" CREATED="1733200449237" MODIFIED="1733200469099">
 <icon BUILTIN="video"/>
 <node TEXT="error for display Chinese chars: Xelatex error converting to xdv" ID="ID_1252337723" CREATED="1733792159052" MODIFIED="1733792196697" LINK="https://github.com/3b1b/manim/issues/570"/>
 <node TEXT="Unicode decoder error" ID="ID_256744378" CREATED="1733794146443" MODIFIED="1733794154761" LINK="https://github.com/ManimCommunity/manim/issues/3333"/>
 <node TEXT="Submit issue: #4052" ID="ID_1136058632" CREATED="1733797603700" MODIFIED="1733797612347" LINK="https://github.com/ManimCommunity/manim/issues/4052"/>
 </node>
 </node>
-<node TEXT="Aligning formulae" FOLDED="true" ID="ID_305704285" CREATED="1731418776706" MODIFIED="1731418781001">
+<node TEXT="Aligning formulae" ID="ID_305704285" CREATED="1731418776706" MODIFIED="1731418781001">
 <node TEXT="Lecture 049: LaTeXAlignEnvironment" ID="ID_1906498687" CREATED="1733200482510" MODIFIED="1733200495521">
 <icon BUILTIN="video"/>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="2.4 Adding Voiceovers to Videos" ID="ID_1035570971" CREATED="1731414629697" MODIFIED="1733143733532">
-<node TEXT="Basic Usage" FOLDED="true" ID="ID_755153236" CREATED="1731416095359" MODIFIED="1731416098973">
+<node TEXT="2.4 Adding Voiceovers to Videos" FOLDED="true" ID="ID_1035570971" CREATED="1731414629697" MODIFIED="1733801635330">
+<arrowlink DESTINATION="ID_706051721"/>
+<node TEXT="Basic Usage" ID="ID_755153236" CREATED="1731416095359" MODIFIED="1731416098973">
 <node TEXT="Lecture 050" ID="ID_1303704335" CREATED="1733200513774" MODIFIED="1733200524177">
 <icon BUILTIN="video"/>
 </node>
+<node TEXT="pip install &quot;manim-voiceover[azure,gtts]&quot;" ID="ID_1032996856" CREATED="1733799026973" MODIFIED="1733799044767"/>
+<node TEXT="pip install &quot;manim-voiceover[recorder]&quot;" ID="ID_1747677344" CREATED="1733799044962" MODIFIED="1733799099662"/>
+<node TEXT="pip install &quot;manim-voiceover[transcribe]&quot;" ID="ID_1529043705" CREATED="1733799048676" MODIFIED="1733799104735"/>
 </node>
 <node TEXT="Quickstart: voiceover" ID="ID_131160945" CREATED="1733636537387" MODIFIED="1733636546831" LINK="https://voiceover.manim.community/en/latest/quickstart.html"/>
 </node>
 </node>
 </node>
-<node TEXT="Example Gallery" FOLDED="true" POSITION="bottom_or_right" ID="ID_1248577304" CREATED="1731484084849" MODIFIED="1731484088828">
-<node TEXT="Basic Concepts" FOLDED="true" ID="ID_741792800" CREATED="1731484088832" MODIFIED="1731484093843">
+<node TEXT="Example Gallery" POSITION="bottom_or_right" ID="ID_1248577304" CREATED="1731484084849" MODIFIED="1731484088828">
+<node TEXT="Basic Concepts" ID="ID_741792800" CREATED="1731484088832" MODIFIED="1731484093843">
 <node TEXT="ManimCELogo" ID="ID_1589409692" CREATED="1731484104248" MODIFIED="1731484109291">
 <node TEXT="Lecture 051: ManimCELogo" ID="ID_172692135" CREATED="1733200579207" MODIFIED="1733200616857">
 <icon BUILTIN="video"/>
@@ -894,7 +898,7 @@
 </node>
 </node>
 <node TEXT="Reference Manual" POSITION="bottom_or_right" ID="ID_900317964" CREATED="1731418977575" MODIFIED="1731419054903">
-<node TEXT="1. Animations" FOLDED="true" ID="ID_838548366" CREATED="1731419057095" MODIFIED="1733659771282">
+<node TEXT="1. Animations" ID="ID_838548366" CREATED="1731419057095" MODIFIED="1733659771282">
 <node TEXT="1.01 animation" FOLDED="true" ID="ID_1882491247" CREATED="1732071270033" MODIFIED="1733659863441">
 <node TEXT="Lecture 078: OverrideAnimationExample" ID="ID_1792450773" CREATED="1733201407515" MODIFIED="1733201424224">
 <icon BUILTIN="video"/>
@@ -1083,7 +1087,7 @@
 <node TEXT="4.15 vector_field" ID="ID_1400769856" CREATED="1733660191871" MODIFIED="1733660196298"/>
 </node>
 <node TEXT="5. Scenes" ID="ID_1838509499" CREATED="1731419090947" MODIFIED="1733659783858"/>
-<node TEXT="6. Utilities and other modules" ID="ID_656726846" CREATED="1731419092798" MODIFIED="1733659790230">
+<node TEXT="6. Utilities and other modules" FOLDED="true" ID="ID_656726846" CREATED="1731419092798" MODIFIED="1733659790230">
 <node TEXT="6.01 bezier" ID="ID_1137582455" CREATED="1732101276152" MODIFIED="1733660620254"/>
 <node TEXT="6.02 color" FOLDED="true" ID="ID_1522759625" CREATED="1732101281695" MODIFIED="1733660622974" LINK="https://docs.manim.community/en/stable/reference/manim.utils.color.html">
 <node TEXT="core" ID="ID_1984904663" CREATED="1732101334808" MODIFIED="1732101345844"/>
@@ -1101,6 +1105,9 @@
 <node TEXT="function: print_family" ID="ID_276703838" CREATED="1733660697991" MODIFIED="1733660702275"/>
 </node>
 </node>
+</node>
+<node TEXT="Add-on" POSITION="bottom_or_right" ID="ID_918140739" CREATED="1733801611429" MODIFIED="1733801614372">
+<node TEXT="Voiceover" ID="ID_706051721" CREATED="1733801614375" MODIFIED="1733801617925"/>
 </node>
 </node>
 </map>
