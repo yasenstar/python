@@ -751,7 +751,7 @@
 </node>
 </node>
 <node TEXT="3. Example Gallery" POSITION="bottom_or_right" ID="ID_1248577304" CREATED="1731484084849" MODIFIED="1734098282384">
-<node TEXT="3.1 Basic Concepts" FOLDED="true" ID="ID_741792800" CREATED="1731484088832" MODIFIED="1734098296742">
+<node TEXT="3.1 Basic Concepts" ID="ID_741792800" CREATED="1731484088832" MODIFIED="1734098296742">
 <node TEXT="3.1.1 ManimCELogo" FOLDED="true" ID="ID_1589409692" CREATED="1731484104248" MODIFIED="1734098313440">
 <node TEXT="Lecture 051: ManimCELogo" ID="ID_172692135" CREATED="1733200579207" MODIFIED="1734098850747">
 <icon BUILTIN="video"/>
@@ -762,10 +762,40 @@
 <arrowlink DESTINATION="ID_1793366394"/>
 </node>
 </node>
-<node TEXT="3.1.2 BraceAnnotation" FOLDED="true" ID="ID_1133496300" CREATED="1731484109849" MODIFIED="1734098319079">
+<node TEXT="3.1.2 BraceAnnotation" ID="ID_1133496300" CREATED="1731484109849" MODIFIED="1734098319079">
 <node TEXT="Lecture 052: BraceAnnotation" POSITION="bottom_or_right" ID="ID_1933794198" CREATED="1733200605951" MODIFIED="1734099318355">
 <icon BUILTIN="video"/>
 <arrowlink DESTINATION="ID_1836800268"/>
+</node>
+<node TEXT="Brace Annotation in LaTeX" POSITION="bottom_or_right" ID="ID_1775126508" CREATED="1734140343411" MODIFIED="1734140375464" LINK="https://tex.stackexchange.com/questions/79365/how-can-i-draw-annotated-braces-over-and-under-math-expressions"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      \documentclass{article}
+    </p>
+    <p>
+      \usepackage{amsmath}
+    </p>
+    <p>
+      \begin{document}
+    </p>
+    <p>
+      &#xa0;&#xa0;\[
+    </p>
+    <p>
+      &#xa0;&#xa0;\overset{\text{foo}}{\overbrace{a\rightarrow \underset{\text{bar}}{\underbrace{(b \rightarrow c)}}}}
+    </p>
+    <p>
+      &#xa0;&#xa0;\]
+    </p>
+    <p>
+      \end{document}
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="3.1.3 VectorArrow" FOLDED="true" ID="ID_1909962841" CREATED="1731484129625" MODIFIED="1734098322544">
