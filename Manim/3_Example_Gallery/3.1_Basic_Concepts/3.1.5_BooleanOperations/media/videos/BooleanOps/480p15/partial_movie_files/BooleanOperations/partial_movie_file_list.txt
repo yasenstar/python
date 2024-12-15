@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.1_Basic_Concepts/3.1.5_BooleanOperations/media/videos/BooleanOps/480p15/partial_movie_files/BooleanOperations/1185818338_1626164644_223132457.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.1_Basic_Concepts/3.1.5_BooleanOperations/media/videos/BooleanOps/480p15/partial_movie_files/BooleanOperations/624642324_338097655_3058612546.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.1_Basic_Concepts/3.1.5_BooleanOperations/media/videos/BooleanOps/480p15/partial_movie_files/BooleanOperations/624642324_2519801306_1144714600.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.1_Basic_Concepts/3.1.5_BooleanOperations/media/videos/BooleanOps/480p15/partial_movie_files/BooleanOperations/624642324_1692589430_368275714.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.1_Basic_Concepts/3.1.5_BooleanOperations/media/videos/BooleanOps/480p15/partial_movie_files/BooleanOperations/624642324_1217420611_322046479.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.1_Basic_Concepts/3.1.5_BooleanOperations/media/videos/BooleanOps/480p15/partial_movie_files/BooleanOperations/624642324_753060901_2230086905.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.1_Basic_Concepts/3.1.5_BooleanOperations/media/videos/BooleanOps/480p15/partial_movie_files/BooleanOperations/624642324_1722374851_1932059105.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.1_Basic_Concepts/3.1.5_BooleanOperations/media/videos/BooleanOps/480p15/partial_movie_files/BooleanOperations/624642324_609641140_1677902661.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.1_Basic_Concepts/3.1.5_BooleanOperations/media/videos/BooleanOps/480p15/partial_movie_files/BooleanOperations/624642324_3492951124_1752523081.mp4'
