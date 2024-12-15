@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.1_PointMovingOnShapes/media/videos/PointMove/480p15/partial_movie_files/PointMovingOnShapes/1185818338_22980905_223132457.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.1_PointMovingOnShapes/media/videos/PointMove/480p15/partial_movie_files/PointMovingOnShapes/624642324_3199290941_1169580880.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.1_PointMovingOnShapes/media/videos/PointMove/480p15/partial_movie_files/PointMovingOnShapes/624642324_2327431431_1389170161.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.1_PointMovingOnShapes/media/videos/PointMove/480p15/partial_movie_files/PointMovingOnShapes/624642324_1372193889_605167101.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.1_PointMovingOnShapes/media/videos/PointMove/480p15/partial_movie_files/PointMovingOnShapes/624642324_2128951088_605167101.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.1_PointMovingOnShapes/media/videos/PointMove/480p15/partial_movie_files/PointMovingOnShapes/624642324_1704852926_2932354874.mp4'
