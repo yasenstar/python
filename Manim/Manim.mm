@@ -806,17 +806,17 @@
 <arrowlink DESTINATION="ID_425577096"/>
 </node>
 </node>
-<node TEXT="3.1.4 GradientImageFromArray" ID="ID_752406148" CREATED="1731484135834" MODIFIED="1734098325795">
+<node TEXT="3.1.4 GradientImageFromArray" FOLDED="true" ID="ID_752406148" CREATED="1731484135834" MODIFIED="1734098325795">
 <node TEXT="Lecture 054: GradientImageFromArray" POSITION="bottom_or_right" ID="ID_114417782" CREATED="1733200658635" MODIFIED="1734104850167">
 <icon BUILTIN="video"/>
 <arrowlink DESTINATION="ID_1294162567"/>
 </node>
-<node TEXT="About np.unit8" POSITION="bottom_or_right" ID="ID_762296907" CREATED="1734160218229" MODIFIED="1734160230103" LINK="https://stackoverflow.com/questions/68387192/what-is-np-uint8">
+<node TEXT="About np.uint8" POSITION="bottom_or_right" ID="ID_762296907" CREATED="1734160218229" MODIFIED="1734160630126" LINK="https://stackoverflow.com/questions/68387192/what-is-np-uint8">
 <node TEXT="NumPy&apos;s Built-in scalar types: Unsigned integer types" ID="ID_473896296" CREATED="1734160244260" MODIFIED="1734160325341" LINK="https://numpy.org/doc/stable/reference/arrays.scalars.html#unsigned-integer-types"/>
 </node>
 <node TEXT="For loop with underscore(_)" POSITION="bottom_or_right" ID="ID_1062111586" CREATED="1734160038102" MODIFIED="1734160046894" LINK="https://discuss.python.org/t/for-loop-with-undersore/40538/3"/>
 </node>
-<node TEXT="3.1.5 BooleanOperations" FOLDED="true" ID="ID_547208210" CREATED="1731484147987" MODIFIED="1734098332176">
+<node TEXT="3.1.5 BooleanOperations" ID="ID_547208210" CREATED="1731484147987" MODIFIED="1734098332176">
 <node TEXT="Lecture 055: BooleanOperations" POSITION="bottom_or_right" ID="ID_1849841372" CREATED="1733200676471" MODIFIED="1734105047258">
 <icon BUILTIN="video"/>
 <arrowlink DESTINATION="ID_1666948817"/>
@@ -824,6 +824,7 @@
 <arrowlink DESTINATION="ID_532257370"/>
 <arrowlink DESTINATION="ID_996996230"/>
 </node>
+<node TEXT="Ref: Boolean Operations in wikipedia" POSITION="bottom_or_right" ID="ID_1760334584" CREATED="1734229508513" MODIFIED="1734229522606" LINK="https://en.wikipedia.org/wiki/Boolean_algebra#Boolean_operations"/>
 </node>
 </node>
 <node TEXT="3.2 Animations" FOLDED="true" ID="ID_215328151" CREATED="1731484156306" MODIFIED="1734098299889">
