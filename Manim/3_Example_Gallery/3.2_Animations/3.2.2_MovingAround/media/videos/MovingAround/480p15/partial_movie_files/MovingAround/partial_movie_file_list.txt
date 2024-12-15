@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.2_MovingAround/media/videos/MovingAround/480p15/partial_movie_files/MovingAround/1185818338_3402769421_1600157425.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.2_MovingAround/media/videos/MovingAround/480p15/partial_movie_files/MovingAround/624642324_3147159104_1600157425.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.2_MovingAround/media/videos/MovingAround/480p15/partial_movie_files/MovingAround/624642324_267225180_1600157425.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.2_MovingAround/media/videos/MovingAround/480p15/partial_movie_files/MovingAround/624642324_465952815_1600157425.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.2_MovingAround/media/videos/MovingAround/480p15/partial_movie_files/MovingAround/624642324_4191334643_1600157425.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.2_MovingAround/media/videos/MovingAround/480p15/partial_movie_files/MovingAround/624642324_3856391777_1600157425.mp4'
