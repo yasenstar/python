@@ -1,6 +1,6 @@
  Manim
 
-# Manim Installation
+# 1. Manim Installation
 
 ## Windows OS
 
@@ -110,7 +110,7 @@ Chocolatey installed 1/1 packages.
 
 ## lecture 001
 
-# Tutorials & Guides
+# 2. Tutorials & Guides
 
 ## 1. Tutorials
 
@@ -306,7 +306,7 @@ By default, any animation passed to play() lasts for exactlyone second.
 ###### lecture 022
 
 ###### The color name used bases manim_colors
- (see:manim_colors)
+ (see:6.02.02 manim_colors)
 ##### Transforming mobjects into other mobjects
 
 ###### lecture 023
@@ -555,7 +555,7 @@ Mobject stands formathematical object  orManim object.
 ###### TransformMatchingTex
  (see:1.14.3 TransformMatchingTex)
 ##### Using index_labels to work with complicated strings
- (see:4.10.3.2 MathTex)
+ (see:4.10.03.02 MathTex)
 ###### Lecture 046: IndexLabelsMathTex
 
 ###### index_labels()
@@ -592,70 +592,95 @@ Mobject stands formathematical object  orManim object.
 
 #### Quickstart: voiceover
 
-# Example Gallery
+# 3. Example Gallery
 
-## Basic Concepts
+## 3.1 Basic Concepts
 
-### ManimCELogo
+### 3.1.1 ManimCELogo
 
 #### Lecture 051: ManimCELogo
-
-### BraceAnnotation
+ (see:4.02.01.08 Circle4.02.05.08 Square4.02.05.10 Triangle4.10.03.02 MathTex)
+### 3.1.2 BraceAnnotation
 
 #### Lecture 052: BraceAnnotation
+ (see:4.08.01.02 Brace)
+#### Brace Annotation in LaTeX
 
-### VectorArrow
+\documentclass{article}
+
+\usepackage{amsmath}
+
+\begin{document}
+
+  \[
+
+  \overset{\text{foo}}{\overbrace{a\rightarrow \underset{\text{bar}}{\underbrace{(b \rightarrow c)}}}}
+
+  \]
+
+\end{document}
+
+
+### 3.1.3 VectorArrow
 
 #### Lecture 053: VectorArrow
-
-### GradientImageFromArray
+ (see:4.02.01.12 Dot4.04.01.04 NumberPlane4.10.04.03 Text)
+### 3.1.4 GradientImageFromArray
 
 #### Lecture 054: GradientImageFromArray
+ (see:4.12.01.02 ImageMobject)
+#### About np.uint8
 
-### BooleanOperations
+##### NumPy's Built-in scalar types: Unsigned integer types
+
+#### For loop with underscore(_)
+
+### 3.1.5 BooleanOperations
 
 #### Lecture 055: BooleanOperations
+ (see:4.02.02.01 Difference4.02.02.02 Exclusion4.02.02.03 Intersection4.02.03.04 Union)
+#### Ref: Boolean Operations in wikipedia
 
-## Animations
+## 3.2 Animations
 
-### PointMovingOnShapes
+### 3.2.1 PointMovingOnShapes
 
 #### Lecture 056: PointMovingOnShapes
-
-### MovingAround
+ (see:1.06.02 GrowFromCenter1.08.03 MoveAlongPath1.10.02 Rotating1.13.19 Transform4.02.01.08 Circle4.02.01.12 Dot4.02.04.06 Line)
+### 3.2.2 MovingAround
 
 #### Lecture 057: MovingAround
-
-### MovingAngle
+ (see:4.07.02 Mobject4.12.03.05 VMobject)
+### 3.2.3 MovingAngle
 
 #### Lecture 058: MovingAngle
-
-### MovingDots
+ (see:4.02.04.01 Angle4.07.02 Mobject)
+### 3.2.4 MovingDots
 
 #### Lecture 059: MovingDots
 
-### MovingGroupToDestination
+### 3.2.5 MovingGroupToDestination
 
 #### Lecture 060: MovingGroupToDestination
 
-### MovingFrameBox
+### 3.2.6 MovingFrameBox
 
 #### Lecture 061: MovingFrameBox
-
-### RotationUpdater
+ (see:4.02.06.03 SurrandingRectangle4.10.03.02 MathTex)
+### 3.2.7 RotationUpdater
 
 #### Lecture 062: RotationUpdater
-
-### PointWithTrace
+ (see:4.07.02 Mobject)
+### 3.2.8 PointWithTrace
 
 #### Lecture 063: PointWithTrace
-
-## Plotting with Manim
+ (see:1.10.02 Rotating4.12.03.05 VMobject)
+## 3.3 Plotting with Manim
 
 ### SinAndCosFunctionPlot
 
 #### Lecture 064: SinAndCosFunctionPlot
-
+ (see:4.04.01.01 Axes4.10.03.02 MathTex)
 ### ArgMinExample
 
 #### Lecture 065: ArgMinExample
@@ -672,7 +697,7 @@ Mobject stands formathematical object  orManim object.
 
 #### Lecture 068: HeatDiagramPlot
 
-## Special Camera Settings
+## 3.4 Special Camera Settings
 
 ### FollowingGraphCamera
 
@@ -702,7 +727,7 @@ Mobject stands formathematical object  orManim object.
 
 #### Lecture 075: ThreeDSurfacePlot
 
-## Advanced Projects
+## 3.5 Advanced Projects
 
 ### OpeningManim
 
@@ -712,7 +737,7 @@ Mobject stands formathematical object  orManim object.
 
 #### Lecture 077: SinCurveUnitCircle
 
-# Reference Manual
+# 4. Reference Manual
 
 ## 1. Animations
 
@@ -720,7 +745,7 @@ Mobject stands formathematical object  orManim object.
 
 #### Lecture 078: OverrideAnimationExample
 
-#### Animation
+#### 1.01.01 Animation
 
 ##### Parameters
 
@@ -738,7 +763,7 @@ Mobject stands formathematical object  orManim object.
 
 ##### Lecture 079: LagRatios
 
-#### Wait
+#### 1.01.02 Wait
 
 ### 1.02 changing
 
@@ -824,23 +849,23 @@ Mobject stands formathematical object  orManim object.
 
 #### Lecture 095: Growing
 
-#### GrowArrow
+#### 1.06.01 GrowArrow
 
 ##### Lecture 096: GrowArrowExample
 
-#### GrowFromCenter
+#### 1.06.02 GrowFromCenter
 
 ##### Lecture 097: GrowFromCenterExample
 
-#### GrowFromEdge
+#### 1.06.03 GrowFromEdge
 
 ##### Lecture 098: GrowFromEdgeExample
 
-#### GrowFromPoint
+#### 1.06.04 GrowFromPoint
 
 ##### Lexture 099: GrowFromPointExample
 
-#### SpinInFromNothing
+#### 1.06.05 SpinInFromNothing
 
 ##### Lecture 100: SpinInFromNothingExample
 
@@ -848,15 +873,75 @@ Mobject stands formathematical object  orManim object.
 
 ### 1.08 movement
 
+#### 1.08.01 ComplexHomotopy
+
+#### 1.08.02 Homotopy
+
+#### 1.08.03 MoveAlongPath
+
+#### 1.08.04 PhaseFlow
+
+#### 1.08.05 SmoothedVectorizedHomotopy
+
 ### 1.09 numbers
 
+#### 1.09.01 ChangeDecimalToValue
+
+#### 1.09.02 ChangingDecimal
+
 ### 1.10 rotation
+
+#### 1.10.01 Rotate
+
+#### 1.10.02 Rotating
 
 ### 1.11 specialized
 
 ### 1.12 speedmodifier
 
 ### 1.13 transform
+
+#### 1.13.01 ApplyCompleFunction
+
+#### 1.13.02 ApplyFunction
+
+#### 1.13.03 ApplyMatrix
+
+#### 1.13.04 ApplyMethod
+
+#### 1.13.05 ApplyPointwiseFunction
+
+#### 1.13.06 ApplyPointwiseFunctionToCenter
+
+#### 1.13.07 ClockwiseTransform
+
+#### 1.13.08 CounterclockwiseTransform
+
+#### 1.13.09 CyclicReplace
+
+#### 1.13.10 FadeToColor
+
+#### 1.13.11 FadeTransform
+
+#### 1.13.12 FadeTransformPieces
+
+#### 1.13.13 MoveToTarget
+
+#### 1.13.14 ReplacementTransform
+
+#### 1.13.15 Restore
+
+#### 1.13.16 ScaleInPlace
+
+#### 1.13.17 ShrinkToCenter
+
+#### 1.13.18 Swap
+
+#### 1.13.19 Transform
+
+#### 1.13.20 TransformAnimations
+
+#### 1.13.21 TransformFromCopy
 
 ### 1.14 transform_matching_parts
 
@@ -876,59 +961,401 @@ Mobject stands formathematical object  orManim object.
 
 ### 4.01 frame
 
+#### 4.01.01 FullScreenRectangle
+
+#### 4.01.02 ScreenRectangle
+
 ### 4.02 geometry
+
+#### 4.02.01 arc
+
+##### 4.02.01.01 AnnotationDot
+
+##### 4.02.01.02 AnnularSector
+
+##### 4.02.01.03 Annulus
+
+##### 4.02.01.04 Arc
+
+##### 4.02.01.05 ArcBetweenPoints
+
+##### 4.02.01.06 ArcPolygon
+
+##### 4.02.01.07 ArcPolygonFromArcs
+
+##### 4.02.01.08 Circle
+
+##### 4.02.01.09 CubicBezier
+
+##### 4.02.01.10 CurveArrow
+
+##### 4.02.01.11 CurvedDoubleArrow
+
+##### 4.02.01.12 Dot
+
+##### 4.02.01.13 Ellipse
+
+##### 4.02.01.14 LabeledDot
+
+##### 4.02.01.15 Sector
+
+##### 4.02.01.16 TipableVMobject
+
+#### 4.02.02 boolean_ops
+
+##### 4.02.02.01 Difference
+
+##### 4.02.02.02 Exclusion
+
+##### 4.02.02.03 Intersection
+
+##### 4.02.03.04 Union
+
+#### 4.02.03 labeled
+
+##### 4.02.03.01 LabeledArrow
+
+##### 4.02.03.02 LabeledLine
+
+#### 4.02.04 line
+
+##### 4.02.04.01 Angle
+
+##### 4.02.04.02 Arrow
+
+##### 4.02.04.03 DashedLine
+
+##### 4.02.04.04 DoubleArrow
+
+##### 4.02.04.05 Elbow
+
+##### 4.02.04.06 Line
+
+##### 4.02.04.07 RightAngle
+
+##### 4.02.04.08 TangentLine
+
+##### 4.02.04.09 Vector
+
+#### 4.02.05 polygram
+
+##### 4.02.05.01 Cutout
+
+##### 4.02.05.02 Polygon
+
+##### 4.02.05.03 Polygram
+
+##### 4.02.05.04 Rectangle
+
+##### 4.02.05.05 RegularPolygon
+
+##### 4.02.05.06 RegularPolygram
+
+##### 4.02.05.07 RoundedRectangle
+
+##### 4.02.05.08 Square
+
+##### 4.02.05.09 Star
+
+##### 4.02.05.10 Triangle
+
+#### 4.02.06 shape_matchers
+
+##### 4.02.06.01 BackgroundRectangle
+
+##### 4.02.06.02 Cross
+
+##### 4.02.06.03 SurrandingRectangle
+
+##### 4.02.06.04 Underline
+
+#### 4.02.07 tips
+
+##### 4.02.07.01 ArrowCircleFilledTip
+
+##### 4.02.07.02 ArrowCircleTip
+
+##### 4.02.07.03 ArrowSquareFilledTip
+
+##### 4.02.07.04 ArrowSquareTip
+
+##### 4.02.07.05 ArrowTip
+
+##### 4.02.07.06 ArrowTriangleFilledTip
+
+##### 4.02.07.07 StealthTip
 
 ### 4.03 graph
 
+#### 4.03.01 DiGraph
+
+#### 4.03.02 GenericGraph
+
+#### 4.03.03 Graph
+
+#### 4.03.04 LayoutFunction
+
 ### 4.04 graphing
+
+#### 4.04.01 coordinate_systems
+
+##### 4.04.01.01 Axes
+
+##### 4.04.01.02 ComplexPlane
+
+##### 4.04.01.03 CoordinateSystem
+
+##### 4.04.01.04 NumberPlane
+
+##### 4.04.01.05 PolarPlane
+
+##### 4.04.01.06 ThreeDAxes
+
+#### 4.04.02 functions
+
+##### 4.04.02.01 FunctionGraph
+
+##### 4.04.02.02 ImplicitFunction
+
+##### 4.04.02.03 ParametricFunction
+
+#### 4.04.03 number_line
+
+##### 4.04.03.01 NumberLine
+
+##### 4.04.03.02 UnitInterval
+
+#### 4.04.04 probability
+
+##### 4.04.04.01 BarChart
+
+##### 4.04.04.02 SampleSpace
+
+#### 4.04.05 scale
+
+##### 4.04.05.01 LinearBase
+
+##### 4.04.05.02 LogBase
 
 ### 4.05 logo
 
+#### 4.05.01 ManimBanner
+
 ### 4.06 matrix
+
+#### 4.06.01 DecimalMatrix
+
+#### 4.06.02 IntegerMatrix
+
+#### 4.06.03 Matrix
+
+#### 4.06.04 MobjectMatrix
 
 ### 4.07 mojbject
 
-#### group
+#### 4.07.01 group
 
-#### Mobject
+#### 4.07.02 Mobject
 
 ##### animate()
 
 ### 4.08 svg
 
+#### 4.08.01 brace
+
+##### 4.08.01.01 ArcBrace
+
+##### 4.08.01.02 Brace
+
+##### 4.08.01.03 BraceBetweenPoints
+
+##### 4.08.01.04 BraceLabel
+
+##### 4.08.01.05 BraceText
+
+#### 4.08.02 svg_mobject
+
+##### 4.08.02.01 SVGMobject
+
+##### 4.08.02.02 VMobjectFromSVGPath
+
 ### 4.09 table
+
+#### 4.09.01 DecimalTable
+
+#### 4.09.02 IntegerTable
+
+#### 4.09.03 MathTable
+
+#### 4.09.04 MobjectTable
+
+#### 4.09.05 Table
 
 ### 4.10 text
 
-#### 4.10.1 code_mobject
+#### 4.10.01 code_mobject
 
-#### 4.10.2 numbers
+##### 4.10.01.01 Code
 
-#### 4.10.3 tex_mobject
+#### 4.10.02 numbers
 
-##### 4.10.3.1 BulletedList
+##### 4.10.02.01 DecimalNumber
 
-##### 4.10.3.2 MathTex
+##### 4.10.02.02 Integer
 
-##### 4.10.3.3 SingleStringMathTex
+##### 4.10.02.03 Variable
 
-##### 4.10.3.4 Tex
+#### 4.10.03 tex_mobject
 
-##### 4.10.3.5 Title
+##### 4.10.03.01 BulletedList
 
-#### 4.10.4 text_mobject
+##### 4.10.03.02 MathTex
+
+##### 4.10.03.03 SingleStringMathTex
+
+##### 4.10.03.04 Tex
+
+##### 4.10.03.05 Title
+
+#### 4.10.04 text_mobject
+
+##### 4.10.04.01 MarkupText
+
+##### 4.10.04.02 Paragraph
+
+##### 4.10.04.03 Text
 
 ### 4.11 three_d
 
+#### 4.11.01 polyhedra
+
+##### 4.11.01.01 Dodecahedron
+
+##### 4.11.01.02 Icosahedron
+
+##### 4.11.01.03 Octahedron
+
+##### 4.11.01.04 Polyhedron
+
+##### 4.11.01.05 Tetrahedron
+
+#### 4.11.02 three_d_utils
+
+#### 4.11.03 three_dimensions
+
+##### 4.11.03.01 Arrow3D
+
+##### 4.11.03.02 Cone
+
+##### 4.11.03.03 Cube
+
+##### 4.11.03.04 Cylinder
+
+##### 4.11.03.05 Dot3D
+
+##### 4.11.03.06 Line3D
+
+##### 4.11.03.07 Prism
+
+##### 4.11.03.08 Sphere
+
+##### 4.11.03.09 Surface
+
+##### 4.11.03.10 ThreeDVMobject
+
+##### 4.11.03.11 Torus
+
 ### 4.12 types
+
+#### 4.12.01 image_mobject
+
+##### 4.12.01.01 AbstractImageMobject
+
+##### 4.12.01.02 ImageMobject
+
+##### 4.12.01.03 ImageMobjectFromCamera
+
+#### 4.12.02 point_cloud_mobject
+
+##### 4.12.02.01 Mobject1D
+
+##### 4.12.02.02 Mobject2D
+
+##### 4.12.02.03 PGroup
+
+##### 4.12.02.04 PMobject
+
+##### 4.12.02.05 Point
+
+##### 4.12.02.06 PointCloudDot
+
+#### 4.12.03 vectorized_mobject
+
+##### 4.12.03.01 CurvesAsSubmobjects
+
+##### 4.12.03.02 DashedVMobject
+
+##### 4.12.03.03 VDict
+
+##### 4.12.03.04 VGroup
+
+##### 4.12.03.05 VMobject
+
+##### 4.12.03.06 VectorizedPoint
 
 ### 4.13 utils
 
 ### 4.14 value_tracker
 
+#### 4.14.01 ComplexValueTracker
+
+#### 4.14.02 ValueTracker
+
 ### 4.15 vector_field
 
+#### 4.15.01 ArrowVectorField
+
+#### 4.15.02 StreamLines
+
+#### 4.15.03 VectorField
+
 ## 5. Scenes
+
+### 5.01 moving_camera_scene
+
+#### 5.01.01 MovingCameraScene
+
+### 5.02 section
+
+#### 5.02.01 DefaultSectionType
+
+#### 5.02.02 Section
+
+### 5.03 scene
+
+#### 5.03.01 RerunSceneHandler
+
+#### 5.03.02 Scene
+
+### 5.04 scene_file_writer
+
+#### 5.04.01 SceneFileWriter
+
+### 5.05 three_d_scene
+
+#### 5.05.01 SpecialThreeDScene
+
+#### 5.05.02 ThreeDScene
+
+### 5.06 vector_space_scene
+
+#### 5.05.01 LinearTransformationScene
+
+#### 5.05.02 VectorScene
+
+### 5.07 zoomed_scene
+
+#### 5.07.01 ZoomedScene
 
 ## 6. Utilities and other modules
 
@@ -936,23 +1363,33 @@ Mobject stands formathematical object  orManim object.
 
 ### 6.02 color
 
-#### core
+#### 6.02.01 core
 
-#### manim_colors
+##### 6.02.01.01 ManimColor
 
-#### AS2700
+#### 6.02.02 manim_colors
 
-#### BS381
+#### 6.02.03 AS2700
 
-#### XKCD
+#### 6.02.04 BS381
 
-#### X11
+#### 6.02.05 XKCD
+
+#### 6.02.06 X11
 
 ### 6.03 commands
 
 ### 6.04 config_ops
 
+#### 6.04.01 DictAsObject
+
 ### 6.05 constants
+
+#### 6.05.01 CapStyleType
+
+#### 6.05.02 LineJointType
+
+#### 6.05.03 RendererType
 
 ### 6.06 debug
 
@@ -960,6 +1397,62 @@ Mobject stands formathematical object  orManim object.
 
 #### function: print_family
 
-# Add-on
+### 6.07 deprecation
+
+### 6.08 docbuild
+
+#### 6.08.01 autoaliasattr_directive
+
+#### 6.08.02 autocolor_directive
+
+#### 6.08.03 manim_directive
+
+#### 6.08.04 module_parsing
+
+### 6.09 hasing
+
+### 6.10 images
+
+### 6.11 ipython_magic
+
+#### 6.11.01 ManimMagic
+
+### 6.12 iterables
+
+### 6.13 paths
+
+### 6.14 rate_functions
+
+### 6.15 simple_functions
+
+### 6.16 sounds
+
+### 6.17 space_ops
+
+### 6.18 testing
+
+#### 6.18.01 _frames_testers
+
+#### 6.18.02 _show_diff
+
+#### 6.18.03 _test_class_makers
+
+##### 6.18.03.01 DummySceneFileWriter
+
+### 6.19 tex
+
+#### 6.19.01 TexTemplate
+
+### 6.20 tex_file_writing
+
+### 6.21 tex_templates
+
+#### 6.21.01 TexFontTemplates
+
+#### 6.21.02 TexTemplateLibrary
+
+### 6.22 typing
+
+# 5. Add-on
 
 ## Voiceover
