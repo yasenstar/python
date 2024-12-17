@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.3_MovingAngle/media/videos/MovingAngle/480p15/partial_movie_files/MovingAngle/1185818338_123554531_2851061629.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.3_MovingAngle/media/videos/MovingAngle/480p15/partial_movie_files/MovingAngle/624642324_1844281646_3901027828.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.3_MovingAngle/media/videos/MovingAngle/480p15/partial_movie_files/MovingAngle/624642324_1244164664_3445795669.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.3_MovingAngle/media/videos/MovingAngle/480p15/partial_movie_files/MovingAngle/624642324_2249341409_1320066058.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.3_MovingAngle/media/videos/MovingAngle/480p15/partial_movie_files/MovingAngle/624642324_3059392984_1656730032.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.3_MovingAngle/media/videos/MovingAngle/480p15/partial_movie_files/MovingAngle/624642324_2562542360_2909640668.mp4'
