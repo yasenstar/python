@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.4_MovingDots/media/videos/MovingDots/480p15/partial_movie_files/MovingDots/1185818338_123554531_3900699095.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.4_MovingDots/media/videos/MovingDots/480p15/partial_movie_files/MovingDots/624642324_221473842_2074110609.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.4_MovingDots/media/videos/MovingDots/480p15/partial_movie_files/MovingDots/624642324_1704852926_3739055457.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.4_MovingDots/media/videos/MovingDots/480p15/partial_movie_files/MovingDots/624642324_3809833426_2556239789.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.4_MovingDots/media/videos/MovingDots/480p15/partial_movie_files/MovingDots/624642324_1704852926_3876468287.mp4'
