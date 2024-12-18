@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.6_MovingFrameBox/media/videos/MovingFrameBox/480p15/partial_movie_files/MovingFrameBox/1185818338_3517110144_223132457.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.6_MovingFrameBox/media/videos/MovingFrameBox/480p15/partial_movie_files/MovingFrameBox/624642324_1881234390_476787455.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.6_MovingFrameBox/media/videos/MovingFrameBox/480p15/partial_movie_files/MovingFrameBox/624642324_1704852926_294195632.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.6_MovingFrameBox/media/videos/MovingFrameBox/480p15/partial_movie_files/MovingFrameBox/624642324_249658518_3479823682.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.6_MovingFrameBox/media/videos/MovingFrameBox/480p15/partial_movie_files/MovingFrameBox/624642324_1704852926_2993814941.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.6_MovingFrameBox/media/videos/MovingFrameBox/480p15/partial_movie_files/MovingFrameBox/624642324_178263283_2550588391.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.6_MovingFrameBox/media/videos/MovingFrameBox/480p15/partial_movie_files/MovingFrameBox/624642324_1704852926_3592700798.mp4'
