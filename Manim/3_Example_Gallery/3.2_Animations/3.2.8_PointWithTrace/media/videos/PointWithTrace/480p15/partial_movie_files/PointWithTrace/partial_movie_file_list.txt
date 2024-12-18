@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.8_PointWithTrace/media/videos/PointWithTrace/480p15/partial_movie_files/PointWithTrace/1185818338_368319200_2869406106.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.8_PointWithTrace/media/videos/PointWithTrace/480p15/partial_movie_files/PointWithTrace/624642324_3715520414_1737165094.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.8_PointWithTrace/media/videos/PointWithTrace/480p15/partial_movie_files/PointWithTrace/624642324_3830559194_2535244253.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.2_Animations/3.2.8_PointWithTrace/media/videos/PointWithTrace/480p15/partial_movie_files/PointWithTrace/624642324_1704852926_1560276626.mp4'
