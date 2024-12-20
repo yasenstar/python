@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.3_Plotting/3.3.2_ArgMin/media/videos/ArgMin/480p15/partial_movie_files/ArgMinExample/1185818338_4288077002_84368644.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.3_Plotting/3.3.2_ArgMin/media/videos/ArgMin/480p15/partial_movie_files/ArgMinExample/624642324_1704852926_3059349451.mp4'
