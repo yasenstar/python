@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.3_Plotting/3.3.4_PolygonOnAxes/media/videos/PolygonOnAxes/480p15/partial_movie_files/PolygonOnAxes/1185818338_1590570684_1100682557.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.3_Plotting/3.3.4_PolygonOnAxes/media/videos/PolygonOnAxes/480p15/partial_movie_files/PolygonOnAxes/624642324_2615300367_870182267.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.3_Plotting/3.3.4_PolygonOnAxes/media/videos/PolygonOnAxes/480p15/partial_movie_files/PolygonOnAxes/624642324_1262632519_2073538817.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.3_Plotting/3.3.4_PolygonOnAxes/media/videos/PolygonOnAxes/480p15/partial_movie_files/PolygonOnAxes/624642324_472101433_2514242145.mp4'
