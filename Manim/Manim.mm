@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1731483731299" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#ffffffff" zoom="1.3310001">
+<hook NAME="MapStyle" background="#ffffffff">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -298,12 +298,12 @@
 <icon BUILTIN="video"/>
 </node>
 </node>
-<node TEXT="Example: OpeningManim" FOLDED="true" ID="ID_573002913" CREATED="1731412741810" MODIFIED="1731412803481">
+<node TEXT="Example: OpeningManim" ID="ID_573002913" CREATED="1731412741810" MODIFIED="1731412803481">
 <node TEXT="lecture 008" ID="ID_541897210" CREATED="1732067711900" MODIFIED="1732067718781">
 <icon BUILTIN="video"/>
 </node>
 </node>
-<node TEXT="Example: SquareToCircle" FOLDED="true" ID="ID_602626986" CREATED="1731412717491" MODIFIED="1731484061544">
+<node TEXT="Example: SquareToCircle" ID="ID_602626986" CREATED="1731412717491" MODIFIED="1731484061544">
 <node TEXT="lecture 009" ID="ID_329648131" CREATED="1732067787353" MODIFIED="1732067794654">
 <icon BUILTIN="video"/>
 </node>
