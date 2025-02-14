@@ -3,7 +3,7 @@
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1731483731299" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <hook NAME="MapStyle" background="#ffffffff">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" showTagCategories="false"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" showTagCategories="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -92,7 +92,7 @@
 <node TEXT="choco install manimce" ID="ID_784627188" CREATED="1731502092218" MODIFIED="1731502103192">
 <node TEXT="get choco via powershell" ID="ID_1881852512" CREATED="1732004915667" MODIFIED="1732004934262" LINK="https://chocolatey.org/install"/>
 </node>
-<node TEXT="choco install manim-latex" FOLDED="true" ID="ID_376459071" CREATED="1731502103541" MODIFIED="1731502111642">
+<node TEXT="choco install manim-latex" ID="ID_376459071" CREATED="1731502103541" MODIFIED="1731502111642">
 <node TEXT="Error Message" ID="ID_1606275912" CREATED="1731502111645" MODIFIED="1732088235488">
 <icon BUILTIN="button_cancel"/>
 <richcontent TYPE="NOTE">
@@ -115,7 +115,7 @@
 </node>
 <node TEXT="https://github.com/rstudio/tinytex-releases/releases/download/v2024.11/TinyTeX-1-v2024.11.zip" ID="ID_1045700163" CREATED="1732073400200" MODIFIED="1732073404543"/>
 </node>
-<node TEXT="Use scoop for installing tinytex" FOLDED="true" POSITION="bottom_or_right" ID="ID_285663471" CREATED="1732079784224" MODIFIED="1732079826801">
+<node TEXT="Use scoop for installing tinytex" POSITION="bottom_or_right" ID="ID_285663471" CREATED="1732079784224" MODIFIED="1732079826801">
 <node TEXT="install scoop: powershell in Windows" ID="ID_1043109206" CREATED="1732079827335" MODIFIED="1732079856531" LINK="https://scoop.sh/">
 <node TEXT="Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser&#xa;Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression" ID="ID_41266388" CREATED="1732079838224" MODIFIED="1732079846164"/>
 </node>
