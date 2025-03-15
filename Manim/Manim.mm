@@ -87,7 +87,7 @@
 </hook>
 <hook URI="img/Manim-logo.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="1. Manim Installation" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1734098275829">
-<node TEXT="Windows OS" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1732073773204" VGAP_QUANTITY="3 pt">
+<node TEXT="Windows OS" FOLDED="true" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1732073773204" VGAP_QUANTITY="3 pt">
 <node TEXT="Install Manim: pip3 install manim" ID="ID_1555137147" CREATED="1742000655000" MODIFIED="1742000669838">
 <node TEXT="Run Program: manim -pql file.py ClassName" POSITION="bottom_or_right" ID="ID_1535801798" CREATED="1742000461234" MODIFIED="1742000477118">
 <node TEXT="Sample Error:&#xa;Fatal error in launcher: Unable to create process using &apos;&quot;C:\Python312\python.exe&quot;  &quot;C:\tools\Manim\Scripts\manim.exe&quot; -pql .\HeatDiagram.py HeatDiagramPlot&apos;: The system cannot find the file specified." ID="ID_459160822" CREATED="1742003809857" MODIFIED="1742003821630"/>
