@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.4_Special_Camera_Settings/3.4.1_FollowingGraphCamera/media/videos/FollowingGraphCamera/1080p60/partial_movie_files/FollowingGraphCamera/3359453957_465934566_3420585686.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.4_Special_Camera_Settings/3.4.1_FollowingGraphCamera/media/videos/FollowingGraphCamera/1080p60/partial_movie_files/FollowingGraphCamera/1402063871_411991596_3375079755.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.4_Special_Camera_Settings/3.4.1_FollowingGraphCamera/media/videos/FollowingGraphCamera/1080p60/partial_movie_files/FollowingGraphCamera/34176529_2566152641_2987076611.mp4'
