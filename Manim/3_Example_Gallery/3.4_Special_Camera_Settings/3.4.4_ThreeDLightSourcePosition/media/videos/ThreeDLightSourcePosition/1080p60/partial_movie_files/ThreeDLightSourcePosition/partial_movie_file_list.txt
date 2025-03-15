@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.4_Special_Camera_Settings/3.4.4_ThreeDLightSourcePosition/media/videos/ThreeDLightSourcePosition/1080p60/partial_movie_files/ThreeDLightSourcePosition/2077766435_2968904986_2781344491.mp4'
