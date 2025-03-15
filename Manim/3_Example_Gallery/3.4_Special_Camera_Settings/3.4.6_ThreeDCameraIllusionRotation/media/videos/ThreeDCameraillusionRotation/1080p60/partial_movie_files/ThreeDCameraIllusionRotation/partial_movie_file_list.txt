@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.4_Special_Camera_Settings/3.4.6_ThreeDCameraIllusionRotation/media/videos/ThreeDCameraillusionRotation/1080p60/partial_movie_files/ThreeDCameraIllusionRotation/429385397_4175726407_3357528605.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.4_Special_Camera_Settings/3.4.6_ThreeDCameraIllusionRotation/media/videos/ThreeDCameraillusionRotation/1080p60/partial_movie_files/ThreeDCameraIllusionRotation/3153148153_2428965581_200395437.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.4_Special_Camera_Settings/3.4.6_ThreeDCameraIllusionRotation/media/videos/ThreeDCameraillusionRotation/1080p60/partial_movie_files/ThreeDCameraIllusionRotation/1085420477_2968904986_2024878249.mp4'
