@@ -87,7 +87,7 @@
 </hook>
 <hook URI="img/Manim-logo.png" SIZE="1.0" NAME="ExternalObject"/>
 <font SIZE="24" BOLD="true"/>
-<node TEXT="1. Manim Installation" FOLDED="true" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1734098275829">
+<node TEXT="1. Manim Installation" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1734098275829">
 <node TEXT="Windows OS" FOLDED="true" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1732073773204" VGAP_QUANTITY="3 pt">
 <node TEXT="Install Manim: pip3 install manim" ID="ID_1555137147" CREATED="1742000655000" MODIFIED="1742000669838">
 <node TEXT="Run Program: manim -pql file.py ClassName" POSITION="bottom_or_right" ID="ID_1535801798" CREATED="1742000461234" MODIFIED="1742000477118">
@@ -95,7 +95,7 @@
 </node>
 <node TEXT="If Python Path is not able to be found, using below:&#xa;&gt; python -m manim -pql file.py ClassName" POSITION="bottom_or_right" ID="ID_1864798664" CREATED="1742003680921" MODIFIED="1742003736637"/>
 </node>
-<node TEXT="Chocolatey" ID="ID_1509641050" CREATED="1731502035707" MODIFIED="1732073773202">
+<node TEXT="Chocolatey" FOLDED="true" ID="ID_1509641050" CREATED="1731502035707" MODIFIED="1732073773202">
 <node TEXT="choco install manimce" ID="ID_784627188" CREATED="1731502092218" MODIFIED="1731502103192">
 <node TEXT="get choco via powershell" ID="ID_1881852512" CREATED="1732004915667" MODIFIED="1732004934262" LINK="https://chocolatey.org/install"/>
 </node>
@@ -253,6 +253,10 @@
 </node>
 </node>
 </node>
+</node>
+<node TEXT="VS Code Extension" FOLDED="true" ID="ID_1728142706" CREATED="1742028183444" MODIFIED="1742028194656">
+<node TEXT="Manim Viewer: Live preview for manim scenes" ID="ID_1377302327" CREATED="1742028194671" MODIFIED="1742028211135"/>
+<node TEXT="Manim Sideview: View/Image live previews and code snippers for manim" ID="ID_829581960" CREATED="1742028211305" MODIFIED="1742028228188"/>
 </node>
 <node TEXT="lecture 001" ID="ID_481944545" CREATED="1732067585609" MODIFIED="1732067596198">
 <icon BUILTIN="video"/>
@@ -755,7 +759,7 @@
 </node>
 </node>
 </node>
-<node TEXT="3. Example Gallery" FOLDED="true" POSITION="bottom_or_right" ID="ID_1248577304" CREATED="1731484084849" MODIFIED="1734098282384">
+<node TEXT="3. Example Gallery" POSITION="bottom_or_right" ID="ID_1248577304" CREATED="1731484084849" MODIFIED="1734098282384">
 <node TEXT="Lecture 051: Openging of Part 2" ID="ID_714173065" CREATED="1734413441766" MODIFIED="1734413471636">
 <icon BUILTIN="video"/>
 </node>
@@ -930,7 +934,7 @@
 </node>
 </node>
 </node>
-<node TEXT="3.4 Special Camera Settings" FOLDED="true" ID="ID_16511168" CREATED="1731484280057" MODIFIED="1734098305936">
+<node TEXT="3.4 Special Camera Settings" ID="ID_16511168" CREATED="1731484280057" MODIFIED="1734098305936">
 <node TEXT="3.4.1 FollowingGraphCamera" FOLDED="true" ID="ID_870699796" CREATED="1731484290502" MODIFIED="1734703909477">
 <node TEXT="Lecture 070: FollowingGraphCamera" ID="ID_540539962" CREATED="1733201001929" MODIFIED="1734704206222">
 <icon BUILTIN="video"/>
@@ -948,7 +952,7 @@
 <arrowlink DESTINATION="ID_1238064506"/>
 </node>
 </node>
-<node TEXT="3.4.3 FixedInFrameMObjectTest" FOLDED="true" ID="ID_1677827856" CREATED="1731484330386" MODIFIED="1734703917365">
+<node TEXT="3.4.3 FixedInFrameMObjectTest" ID="ID_1677827856" CREATED="1731484330386" MODIFIED="1734703917365">
 <node TEXT="Lecture 072: FixedInFrameMObjectTest" ID="ID_819950295" CREATED="1733201040991" MODIFIED="1734413588614">
 <icon BUILTIN="video"/>
 </node>
@@ -968,7 +972,7 @@
 <icon BUILTIN="video"/>
 </node>
 </node>
-<node TEXT="3.4.7 ThreeDSurfacePlot" ID="ID_994421744" CREATED="1731484376642" MODIFIED="1734703941193">
+<node TEXT="3.4.7 ThreeDSurfacePlot" FOLDED="true" ID="ID_994421744" CREATED="1731484376642" MODIFIED="1734703941193">
 <node TEXT="Lecture 076: ThreeDSurfacePlot" ID="ID_1156055775" CREATED="1733201128232" MODIFIED="1734413601748">
 <icon BUILTIN="video"/>
 </node>
@@ -987,11 +991,11 @@
 </node>
 </node>
 </node>
-<node TEXT="4. Reference Manual" POSITION="bottom_or_right" ID="ID_900317964" CREATED="1731418977575" MODIFIED="1734098285487">
+<node TEXT="4. Reference Manual" FOLDED="true" POSITION="bottom_or_right" ID="ID_900317964" CREATED="1731418977575" MODIFIED="1734098285487">
 <node TEXT="Lecture 079: Opening" POSITION="bottom_or_right" ID="ID_1734418319" CREATED="1733201449926" MODIFIED="1742016348070">
 <icon BUILTIN="video"/>
 </node>
-<node TEXT="1. Animations" ID="ID_838548366" CREATED="1731419057095" MODIFIED="1733659771282">
+<node TEXT="1. Animations" FOLDED="true" ID="ID_838548366" CREATED="1731419057095" MODIFIED="1733659771282">
 <node TEXT="1.01 animation" FOLDED="true" ID="ID_1882491247" CREATED="1732071270033" MODIFIED="1733659863441">
 <node TEXT="Lecture 080: OverrideAnimationExample" ID="ID_1792450773" CREATED="1733201407515" MODIFIED="1742016306431">
 <icon BUILTIN="video"/>
@@ -1540,7 +1544,7 @@
 <node TEXT="6.22 typing" ID="ID_1056451210" CREATED="1734352620447" MODIFIED="1734352623239"/>
 </node>
 </node>
-<node TEXT="5. Add-on" POSITION="bottom_or_right" ID="ID_918140739" CREATED="1733801611429" MODIFIED="1734098288318">
+<node TEXT="5. Add-on" FOLDED="true" POSITION="bottom_or_right" ID="ID_918140739" CREATED="1733801611429" MODIFIED="1734098288318">
 <node TEXT="Voiceover" ID="ID_706051721" CREATED="1733801614375" MODIFIED="1733801617925"/>
 <node TEXT="3b1b.github.io/manim/getting_started" ID="ID_1334336134" CREATED="1742017344336" MODIFIED="1742017388303" LINK="https://3b1b.github.io/manim/getting_started/"/>
 </node>
