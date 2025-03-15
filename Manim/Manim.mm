@@ -3,7 +3,7 @@
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1731483731299" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <hook NAME="MapStyle" background="#ffffffff">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" showTagCategories="false" show_icons="BESIDE_NODES"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -88,6 +88,7 @@
 <hook URI="img/Manim-logo.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="1. Manim Installation" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1734098275829">
 <node TEXT="Windows OS" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1732073773204" VGAP_QUANTITY="3 pt">
+<node TEXT="Install Manim: pip3 install manim" ID="ID_1555137147" CREATED="1742000655000" MODIFIED="1742000669838"/>
 <node TEXT="Chocolatey" ID="ID_1509641050" CREATED="1731502035707" MODIFIED="1732073773202">
 <node TEXT="choco install manimce" ID="ID_784627188" CREATED="1731502092218" MODIFIED="1731502103192">
 <node TEXT="get choco via powershell" ID="ID_1881852512" CREATED="1732004915667" MODIFIED="1732004934262" LINK="https://chocolatey.org/install"/>
@@ -249,6 +250,7 @@
 </node>
 <node TEXT="lecture 001" ID="ID_481944545" CREATED="1732067585609" MODIFIED="1732067596198">
 <icon BUILTIN="video"/>
+<node TEXT="Run Program: manim -pql file.py ClassName" ID="ID_1535801798" CREATED="1742000461234" MODIFIED="1742000477118"/>
 </node>
 </node>
 <node TEXT="2. Tutorials &amp; Guides" POSITION="bottom_or_right" ID="ID_1759134914" CREATED="1731412235228" MODIFIED="1734098279359">
@@ -888,7 +890,7 @@
 </node>
 </node>
 </node>
-<node TEXT="3.3 Plotting with Manim" FOLDED="true" ID="ID_1644065347" CREATED="1731484230425" MODIFIED="1734098303134">
+<node TEXT="3.3 Plotting with Manim" ID="ID_1644065347" CREATED="1731484230425" MODIFIED="1734098303134">
 <node TEXT="3.3.1 SinAndCosFunctionPlot" FOLDED="true" ID="ID_1930926306" CREATED="1731484236943" MODIFIED="1734513279410">
 <node TEXT="Lecture 065: SinAndCosFunctionPlot" ID="ID_339186019" CREATED="1733200890338" MODIFIED="1734413547014">
 <icon BUILTIN="video"/>
