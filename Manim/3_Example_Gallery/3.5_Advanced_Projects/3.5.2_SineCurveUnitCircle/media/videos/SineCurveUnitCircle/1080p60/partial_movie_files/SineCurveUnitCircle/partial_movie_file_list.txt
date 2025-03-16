@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.5_Advanced_Projects/3.5.2_SineCurveUnitCircle/media/videos/SineCurveUnitCircle/1080p60/partial_movie_files/SineCurveUnitCircle/3977891868_2019477438_3171862742.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.5_Advanced_Projects/3.5.2_SineCurveUnitCircle/media/videos/SineCurveUnitCircle/1080p60/partial_movie_files/SineCurveUnitCircle/2852726489_1754310298_2556119013.mp4'

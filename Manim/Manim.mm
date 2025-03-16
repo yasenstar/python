@@ -88,14 +88,14 @@
 <hook URI="img/Manim-logo.png" SIZE="1.0" NAME="ExternalObject"/>
 <font SIZE="24" BOLD="true"/>
 <node TEXT="1. Manim Installation" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1734098275829">
-<node TEXT="Windows OS" FOLDED="true" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1732073773204" VGAP_QUANTITY="3 pt">
+<node TEXT="Windows OS" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1732073773204" VGAP_QUANTITY="3 pt">
 <node TEXT="Install Manim: pip3 install manim" ID="ID_1555137147" CREATED="1742000655000" MODIFIED="1742000669838">
 <node TEXT="Run Program: manim -pql file.py ClassName" POSITION="bottom_or_right" ID="ID_1535801798" CREATED="1742000461234" MODIFIED="1742000477118">
 <node TEXT="Sample Error:&#xa;Fatal error in launcher: Unable to create process using &apos;&quot;C:\Python312\python.exe&quot;  &quot;C:\tools\Manim\Scripts\manim.exe&quot; -pql .\HeatDiagram.py HeatDiagramPlot&apos;: The system cannot find the file specified." ID="ID_459160822" CREATED="1742003809857" MODIFIED="1742003821630"/>
 </node>
 <node TEXT="If Python Path is not able to be found, using below:&#xa;&gt; python -m manim -pql file.py ClassName" POSITION="bottom_or_right" ID="ID_1864798664" CREATED="1742003680921" MODIFIED="1742003736637"/>
 </node>
-<node TEXT="Chocolatey" FOLDED="true" ID="ID_1509641050" CREATED="1731502035707" MODIFIED="1732073773202">
+<node TEXT="Chocolatey" ID="ID_1509641050" CREATED="1731502035707" MODIFIED="1732073773202">
 <node TEXT="choco install manimce" ID="ID_784627188" CREATED="1731502092218" MODIFIED="1731502103192">
 <node TEXT="get choco via powershell" ID="ID_1881852512" CREATED="1732004915667" MODIFIED="1732004934262" LINK="https://chocolatey.org/install"/>
 </node>
@@ -934,7 +934,7 @@
 </node>
 </node>
 </node>
-<node TEXT="3.4 Special Camera Settings" ID="ID_16511168" CREATED="1731484280057" MODIFIED="1734098305936">
+<node TEXT="3.4 Special Camera Settings" FOLDED="true" ID="ID_16511168" CREATED="1731484280057" MODIFIED="1734098305936">
 <node TEXT="3.4.1 FollowingGraphCamera" FOLDED="true" ID="ID_870699796" CREATED="1731484290502" MODIFIED="1734703909477">
 <node TEXT="Lecture 070: FollowingGraphCamera" ID="ID_540539962" CREATED="1733201001929" MODIFIED="1734704206222">
 <icon BUILTIN="video"/>
@@ -995,8 +995,8 @@
 <node TEXT="Lecture 079: Opening" POSITION="bottom_or_right" ID="ID_1734418319" CREATED="1733201449926" MODIFIED="1742016348070">
 <icon BUILTIN="video"/>
 </node>
-<node TEXT="1. Animations" ID="ID_838548366" CREATED="1731419057095" MODIFIED="1733659771282">
-<node TEXT="1.01 animation" ID="ID_1882491247" CREATED="1732071270033" MODIFIED="1733659863441">
+<node TEXT="1. Animations" FOLDED="true" ID="ID_838548366" CREATED="1731419057095" MODIFIED="1733659771282">
+<node TEXT="1.01 animation" FOLDED="true" ID="ID_1882491247" CREATED="1732071270033" MODIFIED="1733659863441">
 <node TEXT="Lecture 080: OverrideAnimationExample" ID="ID_1792450773" CREATED="1733201407515" MODIFIED="1742016306431">
 <icon BUILTIN="video"/>
 </node>
@@ -1116,7 +1116,7 @@
 </node>
 </node>
 </node>
-<node TEXT="1.06 growing" ID="ID_874930654" CREATED="1732072005435" MODIFIED="1733659877212">
+<node TEXT="1.06 growing" FOLDED="true" ID="ID_874930654" CREATED="1732072005435" MODIFIED="1733659877212">
 <node TEXT="Lecture 103: Growing" ID="ID_793986368" CREATED="1733202277756" MODIFIED="1742024257932">
 <icon BUILTIN="video"/>
 </node>
