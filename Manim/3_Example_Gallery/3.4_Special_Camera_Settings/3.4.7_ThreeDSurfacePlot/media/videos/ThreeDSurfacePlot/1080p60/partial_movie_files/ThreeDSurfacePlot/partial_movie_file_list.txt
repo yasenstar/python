@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.4_Special_Camera_Settings/3.4.7_ThreeDSurfacePlot/media/videos/ThreeDSurfacePlot/1080p60/partial_movie_files/ThreeDSurfacePlot/1249882417_2968904986_1594054532.mp4'
