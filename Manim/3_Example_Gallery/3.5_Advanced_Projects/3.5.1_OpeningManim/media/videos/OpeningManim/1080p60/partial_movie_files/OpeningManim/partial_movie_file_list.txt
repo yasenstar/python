@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.5_Advanced_Projects/3.5.1_OpeningManim/media/videos/OpeningManim/1080p60/partial_movie_files/OpeningManim/3977891868_2507113241_223132457.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.5_Advanced_Projects/3.5.1_OpeningManim/media/videos/OpeningManim/1080p60/partial_movie_files/OpeningManim/2852726489_1754310298_2050707343.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.5_Advanced_Projects/3.5.1_OpeningManim/media/videos/OpeningManim/1080p60/partial_movie_files/OpeningManim/2852726489_380360592_786513808.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.5_Advanced_Projects/3.5.1_OpeningManim/media/videos/OpeningManim/1080p60/partial_movie_files/OpeningManim/2852726489_1754310298_1883255618.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.5_Advanced_Projects/3.5.1_OpeningManim/media/videos/OpeningManim/1080p60/partial_movie_files/OpeningManim/2852726489_2511179907_3099330992.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.5_Advanced_Projects/3.5.1_OpeningManim/media/videos/OpeningManim/1080p60/partial_movie_files/OpeningManim/2852726489_1754310298_941793530.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.5_Advanced_Projects/3.5.1_OpeningManim/media/videos/OpeningManim/1080p60/partial_movie_files/OpeningManim/2852726489_944969772_2719245852.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.5_Advanced_Projects/3.5.1_OpeningManim/media/videos/OpeningManim/1080p60/partial_movie_files/OpeningManim/2852726489_1754310298_608258702.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.5_Advanced_Projects/3.5.1_OpeningManim/media/videos/OpeningManim/1080p60/partial_movie_files/OpeningManim/2852726489_2607921378_3766131001.mp4'
+file 'file:D:/GitHub/python/Manim/3_Example_Gallery/3.5_Advanced_Projects/3.5.1_OpeningManim/media/videos/OpeningManim/1080p60/partial_movie_files/OpeningManim/2852726489_1754310298_3630355444.mp4'
