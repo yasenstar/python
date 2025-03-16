@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/1_Tutorial/2_Homepage_Sample/008/media/videos/OpeningManim/1080p60/partial_movie_files/OpenManim/3977891868_2783676785_223132457.mp4'
+file 'file:D:/GitHub/python/Manim/1_Tutorial/2_Homepage_Sample/008/media/videos/OpeningManim/1080p60/partial_movie_files/OpenManim/2852726489_1754310298_277447732.mp4'
+file 'file:D:/GitHub/python/Manim/1_Tutorial/2_Homepage_Sample/008/media/videos/OpeningManim/1080p60/partial_movie_files/OpenManim/2852726489_1858682546_1776548480.mp4'
+file 'file:D:/GitHub/python/Manim/1_Tutorial/2_Homepage_Sample/008/media/videos/OpeningManim/1080p60/partial_movie_files/OpenManim/2852726489_1754310298_3975445102.mp4'
+file 'file:D:/GitHub/python/Manim/1_Tutorial/2_Homepage_Sample/008/media/videos/OpeningManim/1080p60/partial_movie_files/OpenManim/2852726489_209913919_3811286160.mp4'
+file 'file:D:/GitHub/python/Manim/1_Tutorial/2_Homepage_Sample/008/media/videos/OpeningManim/1080p60/partial_movie_files/OpenManim/2852726489_1754310298_1970625904.mp4'
+file 'file:D:/GitHub/python/Manim/1_Tutorial/2_Homepage_Sample/008/media/videos/OpeningManim/1080p60/partial_movie_files/OpenManim/2852726489_1254335940_4177068808.mp4'
+file 'file:D:/GitHub/python/Manim/1_Tutorial/2_Homepage_Sample/008/media/videos/OpeningManim/1080p60/partial_movie_files/OpenManim/2852726489_1754310298_2247488080.mp4'
+file 'file:D:/GitHub/python/Manim/1_Tutorial/2_Homepage_Sample/008/media/videos/OpeningManim/1080p60/partial_movie_files/OpenManim/2852726489_763573189_1469747199.mp4'
+file 'file:D:/GitHub/python/Manim/1_Tutorial/2_Homepage_Sample/008/media/videos/OpeningManim/1080p60/partial_movie_files/OpenManim/2852726489_1754310298_2892019008.mp4'
