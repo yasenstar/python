@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Scientific Programming&#xa;with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1743167852458">
+<node TEXT="Scientific Programming&#xa;with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1743214829743">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#fdf6e3ff" zoom="0.826">
@@ -87,6 +87,7 @@
 </stylenode>
 </map_styles>
 </hook>
+<hook URI="img/book_cover.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="0. Opening and Preface" POSITION="bottom_or_right" ID="ID_1293353710" CREATED="1743168665305" MODIFIED="1743168671787"/>
 <node TEXT="1. Getting Started with Python" POSITION="bottom_or_right" ID="ID_143010520" CREATED="1743168594147" MODIFIED="1743168601866">
 <node TEXT="1.1 The First Example: Hello, World!" ID="ID_1661772416" CREATED="1743168679431" MODIFIED="1743168691067"/>
@@ -94,7 +95,11 @@
 </node>
 <node TEXT="2. Computing with Formulas" POSITION="bottom_or_right" ID="ID_564065981" CREATED="1743168602129" MODIFIED="1743168610783">
 <node TEXT="2.1 Programming Simple Mathematics" ID="ID_773349951" CREATED="1743168741090" MODIFIED="1743168748965"/>
-<node TEXT="2.2 Variables and Variable Types" ID="ID_690791292" CREATED="1743168749471" MODIFIED="1743168756689"/>
+<node TEXT="2.2 Variables and Variable Types" ID="ID_690791292" CREATED="1743168749471" MODIFIED="1743168756689">
+<node TEXT="Variables" ID="ID_55469476" CREATED="1743213579277" MODIFIED="1743213585622"/>
+<node TEXT="Comments" ID="ID_1490486421" CREATED="1743213607101" MODIFIED="1743213623334"/>
+<node TEXT="Variable Types" ID="ID_107165129" CREATED="1743213586166" MODIFIED="1743213605243"/>
+</node>
 <node TEXT="2.3 Formatting Text Output" ID="ID_93569459" CREATED="1743168756857" MODIFIED="1743168763010"/>
 <node TEXT="2.4 Importing Modules" ID="ID_730556564" CREATED="1743168763167" MODIFIED="1743168770057"/>
 <node TEXT="2.5 Pitfalls When Programming Mathematics" ID="ID_1404843300" CREATED="1743168770222" MODIFIED="1743168781213"/>
