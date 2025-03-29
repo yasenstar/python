@@ -12,7 +12,7 @@ this is my self learning and practices on Python
 
 ## Scientific Programming with Python
 
-[Sci-Prog](sci_prog/README.md)
+[Sci-Prog](Sci_Prog/README.md)
 
 ---
 
