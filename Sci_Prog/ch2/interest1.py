@@ -4,3 +4,11 @@ n = 7
 amount = primary * (1 + r / 100)**n
 print(amount)
 print("amount")
+
+"""
+This is 
+multiple
+line
+comment
+print("test")
+"""
