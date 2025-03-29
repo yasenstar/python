@@ -10,6 +10,10 @@ this is my self learning and practices on Python
 
 [GUI_Python Readme](GUI_Python/README.md)
 
+## Scientific Programming with Python
+
+[Sci-Prog](sci_prog/README.md)
+
 ---
 
 Welcome to add your comments in [Discussion Board](https://github.com/yasenstar/python/discussions), enjoy.
