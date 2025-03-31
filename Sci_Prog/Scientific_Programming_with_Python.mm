@@ -89,13 +89,13 @@
 </hook>
 <hook URI="img/book_cover.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="0. Opening and Preface" POSITION="bottom_or_right" ID="ID_1293353710" CREATED="1743168665305" MODIFIED="1743168671787"/>
-<node TEXT="1. Getting Started with Python" POSITION="bottom_or_right" ID="ID_143010520" CREATED="1743168594147" MODIFIED="1743168601866">
+<node TEXT="1. Getting Started with Python" FOLDED="true" POSITION="bottom_or_right" ID="ID_143010520" CREATED="1743168594147" MODIFIED="1743168601866">
 <node TEXT="1.1 The First Example: Hello, World!" ID="ID_1661772416" CREATED="1743168679431" MODIFIED="1743168691067"/>
 <node TEXT="1.2 Different Ways to Use Python" ID="ID_1727367702" CREATED="1743168691216" MODIFIED="1743168702365"/>
 </node>
 <node TEXT="2. Computing with Formulas" FOLDED="true" POSITION="bottom_or_right" ID="ID_564065981" CREATED="1743168602129" MODIFIED="1743168610783">
 <node TEXT="2.1 Programming Simple Mathematics" ID="ID_773349951" CREATED="1743168741090" MODIFIED="1743168748965"/>
-<node TEXT="2.2 Variables and Variable Types" ID="ID_690791292" CREATED="1743168749471" MODIFIED="1743168756689">
+<node TEXT="2.2 Variables and Variable Types" FOLDED="true" ID="ID_690791292" CREATED="1743168749471" MODIFIED="1743168756689">
 <node TEXT="Variables" ID="ID_55469476" CREATED="1743213579277" MODIFIED="1743213585622"/>
 <node TEXT="Comments" ID="ID_1490486421" CREATED="1743213607101" MODIFIED="1743213623334"/>
 <node TEXT="Variable Types" ID="ID_107165129" CREATED="1743213586166" MODIFIED="1743213605243"/>
@@ -108,14 +108,83 @@
 <node TEXT="3.1 Loops for Automating Repetitive Tasks" ID="ID_1233321647" CREATED="1743168785687" MODIFIED="1743168800763"/>
 <node TEXT="3.2 Boolean Expressions" ID="ID_27666289" CREATED="1743168800937" MODIFIED="1743168807305"/>
 <node TEXT="3.3 Using Lists to Store Sequences of Data" ID="ID_824240828" CREATED="1743168807478" MODIFIED="1743168817484"/>
-<node TEXT="3.4 Iterating Over a List with a FOR Loop" ID="ID_1864018603" CREATED="1743168817639" MODIFIED="1743168831610"/>
+<node TEXT="3.4 Iterating Over a List with a FOR Loop" FOLDED="true" ID="ID_1864018603" CREATED="1743168817639" MODIFIED="1743168831610">
+<node POSITION="bottom_or_right" ID="ID_273340083" CREATED="1743168610977" MODIFIED="1743260522367"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3.4.1 Overview of <span style="font-weight: bold; text-decoration: underline;">for</span>&#xa0;&#xa0;loop
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1172858464" CREATED="1743168785687" MODIFIED="1743260544146"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3.4.2 A <span style="font-weight: bold; text-decoration: underline;">for</span>&#xa0;loop can always be translated to a <span style="font-weight: bold; text-decoration: underline;">while</span>&#xa0;&#xa0;loop
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1208011345" CREATED="1743168800937" MODIFIED="1743260517865"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3.4.3 Using the function <span style="font-weight: bold; text-decoration: underline;">range</span>&#xa0;&#xa0;to loop over indices
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="3.4.4 Filling a list with values using a for loop" ID="ID_1591718150" CREATED="1743168807478" MODIFIED="1743260938429"/>
+<node TEXT="3.4.5 Mathematical sums are implemented as for loops" ID="ID_1448636372" CREATED="1743168817639" MODIFIED="1743260632295"/>
+<node TEXT="3.4.6 How can we change the element in a list?" ID="ID_212389957" CREATED="1743168831759" MODIFIED="1743260655815"/>
+<node TEXT="3.4.7 List comprehensions for compact creation of lists" ID="ID_943892384" CREATED="1743168843633" MODIFIED="1743260696417"/>
+<node ID="ID_1829627409" CREATED="1743260706743" MODIFIED="1743305340174"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3.4.8 Traversing multiple lists simultaneously with <span style="font-weight: bold; text-decoration: underline;">zip</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node TEXT="3.5 Nested Lists and List Slicing" ID="ID_1769912890" CREATED="1743168831759" MODIFIED="1743168843474"/>
 <node TEXT="3.6 Tuples" ID="ID_1091646665" CREATED="1743168843633" MODIFIED="1743168846423"/>
 </node>
-<node TEXT="4. Functions and Branching" FOLDED="true" POSITION="bottom_or_right" ID="ID_72079046" CREATED="1743168623989" MODIFIED="1743168630271">
+<node TEXT="4. Functions and Branching" POSITION="bottom_or_right" ID="ID_72079046" CREATED="1743168623989" MODIFIED="1743168630271">
 <node TEXT="4.1 Programming with Functions" ID="ID_483775829" CREATED="1743168847665" MODIFIED="1743168856363"/>
-<node TEXT="4.2 Function Arguments and Local Variables" ID="ID_101900104" CREATED="1743168856531" MODIFIED="1743168865899"/>
-<node TEXT="4.3 Default Arguments and Doc Strings" ID="ID_1161032010" CREATED="1743168866048" MODIFIED="1743168874018"/>
+<node TEXT="4.2 Function Arguments and Local Variables" FOLDED="true" ID="ID_101900104" CREATED="1743168856531" MODIFIED="1743168865899">
+<node TEXT="4.2.1 Positional Arguments vs. Keyword Arguments" ID="ID_840611138" CREATED="1743336366292" MODIFIED="1743336384074"/>
+<node TEXT="4.2.2 Local Variables vs. Global Variables" ID="ID_730852415" CREATED="1743336384240" MODIFIED="1743336397723"/>
+<node TEXT="4.2.3 Multiple Return Values as Tuple" ID="ID_1007203033" CREATED="1743336809603" MODIFIED="1743336824611"/>
+<node TEXT="4.2.4 Example: Sum Computing Function" ID="ID_443201235" CREATED="1743336939400" MODIFIED="1743336955429"/>
+</node>
+<node TEXT="4.3 Default Arguments and Doc Strings" ID="ID_1161032010" CREATED="1743168866048" MODIFIED="1743168874018">
+<node TEXT="4.3.1 Default Arguments" ID="ID_1288039786" CREATED="1743340608549" MODIFIED="1743340618444"/>
+<node TEXT="4.3.2 Documentation of Functions" ID="ID_764235745" CREATED="1743340618605" MODIFIED="1743340630078"/>
+</node>
 <node TEXT="4.4 If-Tests for Branching the Program Flow" ID="ID_1399969090" CREATED="1743168874176" MODIFIED="1743168893617"/>
 <node TEXT="4.5 Functions as Arguments to Functions" ID="ID_92521020" CREATED="1743168893781" MODIFIED="1743168907569"/>
 <node TEXT="4.6 Solving Equations with Python Functions" ID="ID_827211987" CREATED="1743168907739" MODIFIED="1743168920793"/>
