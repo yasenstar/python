@@ -20,6 +20,7 @@ This is my self learning and practices on Python
 
 - [Real Python Tutorial](https://realpython.com/)
 - http://docs.python.org/py3k/ has documentation and tutorials for the Python 3 programming language.
+- [PYnative](https://pynative.com/): Learn Python with Tutorials, Exercises, and Quizzes
 - Tkinter can be used to build graphical programs
     - [Tkinter reference](http://www.pythonware.com/library/an-introduction-to-tkinter.htm) by Fred Lundh
     - [Tkinter documentation](http://infohost.nmt.edu/tcc/help/pubs/tkinter/) from the New Mexico Tech Computer Center
