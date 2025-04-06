@@ -1,6 +1,4 @@
-# python learning
-
-this is my self learning and practices on Python
+This is my self learning and practices on Python
 
 ## Manim - Python library for technology animation
 
