@@ -4,7 +4,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#fdf6e3ff" zoom="0.826">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" associatedTemplateLocation="template:/light_solarized_template.mm" show_tags="UNDER_NODES"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -173,13 +173,14 @@
 <node TEXT="3.5 Nested Lists and List Slicing" ID="ID_1769912890" CREATED="1743168831759" MODIFIED="1743168843474"/>
 <node TEXT="3.6 Tuples" ID="ID_1091646665" CREATED="1743168843633" MODIFIED="1743168846423"/>
 </node>
-<node TEXT="4. Functions and Branching" POSITION="bottom_or_right" ID="ID_72079046" CREATED="1743168623989" MODIFIED="1743168630271">
+<node TEXT="4. Functions and Branching" FOLDED="true" POSITION="bottom_or_right" ID="ID_72079046" CREATED="1743168623989" MODIFIED="1743168630271">
 <node TEXT="4.1 Programming with Functions" ID="ID_483775829" CREATED="1743168847665" MODIFIED="1743168856363"/>
 <node TEXT="4.2 Function Arguments and Local Variables" FOLDED="true" ID="ID_101900104" CREATED="1743168856531" MODIFIED="1743168865899">
 <node TEXT="4.2.1 Positional Arguments vs. Keyword Arguments" ID="ID_840611138" CREATED="1743336366292" MODIFIED="1743336384074"/>
 <node TEXT="4.2.2 Local Variables vs. Global Variables" ID="ID_730852415" CREATED="1743336384240" MODIFIED="1743336397723"/>
 <node TEXT="4.2.3 Multiple Return Values as Tuple" ID="ID_1007203033" CREATED="1743336809603" MODIFIED="1743336824611"/>
 <node TEXT="4.2.4 Example: Sum Computing Function" ID="ID_443201235" CREATED="1743336939400" MODIFIED="1743336955429"/>
+<node TEXT="4.2.5 A function does not need a return statement" ID="ID_1014036464" CREATED="1743684249900" MODIFIED="1743684267580"/>
 </node>
 <node TEXT="4.3 Default Arguments and Doc Strings" FOLDED="true" ID="ID_1161032010" CREATED="1743168866048" MODIFIED="1743168874018">
 <node TEXT="4.3.1 Default Arguments" ID="ID_1288039786" CREATED="1743340608549" MODIFIED="1743340618444"/>
@@ -187,14 +188,20 @@
 </node>
 <node TEXT="4.4 If-Tests for Branching the Program Flow" ID="ID_1399969090" CREATED="1743168874176" MODIFIED="1743168893617"/>
 <node TEXT="4.5 Functions as Arguments to Functions" ID="ID_92521020" CREATED="1743168893781" MODIFIED="1743168907569"/>
-<node TEXT="4.6 Solving Equations with Python Functions" ID="ID_827211987" CREATED="1743168907739" MODIFIED="1743168920793">
+<node TEXT="4.6 Solving Equations with Python Functions" FOLDED="true" ID="ID_827211987" CREATED="1743168907739" MODIFIED="1743168920793">
 <node TEXT="4.6.1 Bisection Method" ID="ID_1447009239" CREATED="1743342026302" MODIFIED="1743342032538"/>
-<node TEXT="4.6.2 Newton&apos;s Method" ID="ID_1134734709" CREATED="1743342033078" MODIFIED="1743342042179"/>
+<node TEXT="4.6.2 Newton&apos;s Method" ID="ID_1134734709" CREATED="1743342033078" MODIFIED="1743770987334" LINK="https://en.wikipedia.org/wiki/Newton%27s_method"/>
 </node>
-<node TEXT="4.7 Writing Test Functions to Verify our Programs" ID="ID_246114758" CREATED="1743168920959" MODIFIED="1743168935724"/>
+<node TEXT="4.7 Writing Test Functions to Verify our Programs" FOLDED="true" ID="ID_246114758" CREATED="1743168920959" MODIFIED="1743168935724">
+<node TEXT="4.7.1 Basic Test Function" ID="ID_1001070418" CREATED="1743770915512" MODIFIED="1743770921740"/>
+<node TEXT="4.7.2 A function with Multiple Tests" ID="ID_1287299784" CREATED="1743770921904" MODIFIED="1743770943480"/>
 </node>
-<node TEXT="5. User Input and Error Handling" FOLDED="true" POSITION="bottom_or_right" ID="ID_230809007" CREATED="1743168630459" MODIFIED="1743168636941">
-<node TEXT="5.1 Reading User Input Data" ID="ID_421945873" CREATED="1743168946815" MODIFIED="1743168956044"/>
+</node>
+<node TEXT="5. User Input and Error Handling" POSITION="bottom_or_right" ID="ID_230809007" CREATED="1743168630459" MODIFIED="1743168636941">
+<node TEXT="5.1 Reading User Input Data" ID="ID_421945873" CREATED="1743168946815" MODIFIED="1743168956044">
+<node TEXT="5.1.1 Obtaining input from questions and answers" ID="ID_859615294" CREATED="1743910570453" MODIFIED="1743910626911"/>
+<node TEXT="5.1.2 Command line arguments are words written after the program name" ID="ID_589169175" CREATED="1743910627545" MODIFIED="1743910750430"/>
+</node>
 <node ID="ID_475463209" CREATED="1743168956192" MODIFIED="1743168972927"><richcontent TYPE="NODE">
 
 <html>
@@ -208,10 +215,15 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="5.2.1 eval" ID="ID_1143982875" CREATED="1743916639787" MODIFIED="1743916644118"/>
+<node TEXT="5.2.2 exec" ID="ID_1503048888" CREATED="1743916644299" MODIFIED="1743916648049"/>
 </node>
 <node TEXT="5.3 Reading Data from Files" ID="ID_170133253" CREATED="1743168974552" MODIFIED="1743168982940"/>
 <node TEXT="5.4 Writing Data to Files" ID="ID_1593505266" CREATED="1743168983135" MODIFIED="1743168991105"/>
-<node TEXT="5.5 Handling Errors in Programs" ID="ID_443893628" CREATED="1743168991254" MODIFIED="1743169057790"/>
+<node TEXT="5.5 Handling Errors in Programs" FOLDED="true" ID="ID_443893628" CREATED="1743168991254" MODIFIED="1743169057790">
+<node TEXT="5.5.1 Standard Python Exceptions" ID="ID_346795744" CREATED="1743917922408" MODIFIED="1743917933891"/>
+<node TEXT="5.5.2 Program Self Exceptions" ID="ID_1481172964" CREATED="1743917934081" MODIFIED="1743917957139"/>
+</node>
 <node TEXT="5.6 Making Modules" ID="ID_505472990" CREATED="1743169057945" MODIFIED="1743169062042"/>
 </node>
 <node TEXT="6. Arrays and Plotting" FOLDED="true" POSITION="bottom_or_right" ID="ID_1852317364" CREATED="1743168637097" MODIFIED="1743168641908">
