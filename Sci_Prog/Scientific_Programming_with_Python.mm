@@ -3,7 +3,7 @@
 <node TEXT="Scientific Programming&#xa;with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1743214829743">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3ff" zoom="0.826">
+<hook NAME="MapStyle" background="#fdf6e3ff" zoom="1.1">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -197,12 +197,12 @@
 <node TEXT="4.7.2 A function with Multiple Tests" ID="ID_1287299784" CREATED="1743770921904" MODIFIED="1743770943480"/>
 </node>
 </node>
-<node TEXT="5. User Input and Error Handling" POSITION="bottom_or_right" ID="ID_230809007" CREATED="1743168630459" MODIFIED="1743168636941">
-<node TEXT="5.1 Reading User Input Data" ID="ID_421945873" CREATED="1743168946815" MODIFIED="1743168956044">
+<node TEXT="5. User Input and Error Handling" FOLDED="true" POSITION="bottom_or_right" ID="ID_230809007" CREATED="1743168630459" MODIFIED="1743168636941">
+<node TEXT="5.1 Reading User Input Data" FOLDED="true" ID="ID_421945873" CREATED="1743168946815" MODIFIED="1743168956044">
 <node TEXT="5.1.1 Obtaining input from questions and answers" ID="ID_859615294" CREATED="1743910570453" MODIFIED="1743910626911"/>
 <node TEXT="5.1.2 Command line arguments are words written after the program name" ID="ID_589169175" CREATED="1743910627545" MODIFIED="1743910750430"/>
 </node>
-<node ID="ID_475463209" CREATED="1743168956192" MODIFIED="1743168972927"><richcontent TYPE="NODE">
+<node FOLDED="true" ID="ID_475463209" CREATED="1743168956192" MODIFIED="1743168972927"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -220,13 +220,13 @@
 </node>
 <node TEXT="5.3 Reading Data from Files" ID="ID_170133253" CREATED="1743168974552" MODIFIED="1743168982940"/>
 <node TEXT="5.4 Writing Data to Files" ID="ID_1593505266" CREATED="1743168983135" MODIFIED="1743168991105"/>
-<node TEXT="5.5 Handling Errors in Programs" FOLDED="true" ID="ID_443893628" CREATED="1743168991254" MODIFIED="1743169057790">
+<node TEXT="5.5 Handling Errors in Programs" ID="ID_443893628" CREATED="1743168991254" MODIFIED="1743169057790">
 <node TEXT="5.5.1 Standard Python Exceptions" ID="ID_346795744" CREATED="1743917922408" MODIFIED="1743917933891"/>
 <node TEXT="5.5.2 Program Self Exceptions" ID="ID_1481172964" CREATED="1743917934081" MODIFIED="1743917957139"/>
 </node>
 <node TEXT="5.6 Making Modules" ID="ID_505472990" CREATED="1743169057945" MODIFIED="1743169062042"/>
 </node>
-<node TEXT="6. Arrays and Plotting" FOLDED="true" POSITION="bottom_or_right" ID="ID_1852317364" CREATED="1743168637097" MODIFIED="1743168641908">
+<node TEXT="6. Arrays and Plotting" POSITION="bottom_or_right" ID="ID_1852317364" CREATED="1743168637097" MODIFIED="1743168641908">
 <node TEXT="6.1 NumPy and Array Computing" ID="ID_941164891" CREATED="1743169063998" MODIFIED="1743169078558"/>
 <node TEXT="6.2 Plotting Curves with Matplotlib" ID="ID_1696490335" CREATED="1743169074558" MODIFIED="1743169087287"/>
 <node TEXT="6.3 Plotting Discontinuous and Piecewise-Defined Functions" ID="ID_1039709397" CREATED="1743169087427" MODIFIED="1743169101726"/>
