@@ -3,7 +3,7 @@
 <node TEXT="Scientific Programming&#xa;with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1743214829743">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3ff" zoom="1.1">
+<hook NAME="MapStyle" background="#fdf6e3ff">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -226,15 +226,25 @@
 </node>
 <node TEXT="5.6 Making Modules" ID="ID_505472990" CREATED="1743169057945" MODIFIED="1743169062042"/>
 </node>
-<node TEXT="6. Arrays and Plotting" POSITION="bottom_or_right" ID="ID_1852317364" CREATED="1743168637097" MODIFIED="1743168641908">
-<node TEXT="6.1 NumPy and Array Computing" ID="ID_941164891" CREATED="1743169063998" MODIFIED="1743169078558"/>
+<node TEXT="6. Arrays and Plotting" FOLDED="true" POSITION="bottom_or_right" ID="ID_1852317364" CREATED="1743168637097" MODIFIED="1743168641908">
+<node TEXT="6.1 NumPy and Array Computing" FOLDED="true" ID="ID_941164891" CREATED="1743169063998" MODIFIED="1743169078558">
+<node TEXT="6.1.1 Arrays are generalizations of vectors" ID="ID_1653644334" CREATED="1744439086418" MODIFIED="1744439104131"/>
+<node TEXT="6.1.2 Storing (x,y) points on a curve in lists and arrays" ID="ID_476814503" CREATED="1744439110529" MODIFIED="1744439124095"/>
+</node>
 <node TEXT="6.2 Plotting Curves with Matplotlib" ID="ID_1696490335" CREATED="1743169074558" MODIFIED="1743169087287"/>
 <node TEXT="6.3 Plotting Discontinuous and Piecewise-Defined Functions" ID="ID_1039709397" CREATED="1743169087427" MODIFIED="1743169101726"/>
-<node TEXT="6.4 Making a Movie of a Plot" ID="ID_1830996185" CREATED="1743169101882" MODIFIED="1743169110309"/>
+<node TEXT="6.4 Making a Movie of a Plot" FOLDED="true" ID="ID_1830996185" CREATED="1743169101882" MODIFIED="1743169110309">
+<node TEXT="6.4.1 Running the movie live as the plots are created" ID="ID_1192091424" CREATED="1744439978460" MODIFIED="1744439991472"/>
+<node TEXT="6.4.2 Saving image files for later processing" ID="ID_1848536859" CREATED="1744439991909" MODIFIED="1744440007778"/>
+<node TEXT="6.4.3 Using built-in Matplotlib tools" ID="ID_375050080" CREATED="1744440008724" MODIFIED="1744440020480"/>
+</node>
 <node TEXT="6.5 More Useful Array Operations" ID="ID_1172455462" CREATED="1743169110467" MODIFIED="1743169121070"/>
 </node>
-<node TEXT="7. Dictionaries and Strings" FOLDED="true" POSITION="bottom_or_right" ID="ID_1885413781" CREATED="1743168645248" MODIFIED="1743168651237">
-<node TEXT="7.1 Dictionaries" ID="ID_1782932541" CREATED="1743169123811" MODIFIED="1743169128878"/>
+<node TEXT="7. Dictionaries and Strings" POSITION="bottom_or_right" ID="ID_1885413781" CREATED="1743168645248" MODIFIED="1743168651237">
+<node TEXT="7.1 Dictionaries" ID="ID_1782932541" CREATED="1743169123811" MODIFIED="1743169128878">
+<node TEXT="7.1.1 Dictionaries Basis" ID="ID_879695309" CREATED="1744440953088" MODIFIED="1744440961075"/>
+<node TEXT="7.1.2 Dictionaries and Lists share similarities" ID="ID_49097076" CREATED="1744440961554" MODIFIED="1744440979501"/>
+</node>
 <node TEXT="7.2 Example: A Dictionary for Polynomials" ID="ID_708546893" CREATED="1743169129051" MODIFIED="1743169140966"/>
 <node TEXT="7.3 Example: Reading File Data to a Dictionary" ID="ID_1604687300" CREATED="1743169141131" MODIFIED="1743169151801"/>
 <node TEXT="7.4 String Manipulation" ID="ID_42947235" CREATED="1743169151956" MODIFIED="1743169156774"/>
