@@ -3,7 +3,7 @@
 <node TEXT="Scientific Programming&#xa;with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1743214829743">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3ff" zoom="3.1384292">
+<hook NAME="MapStyle" background="#fdf6e3ff" zoom="2.8531175">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -238,10 +238,14 @@
 <node TEXT="6.3 Plotting Discontinuous and Piecewise-Defined Functions" FOLDED="true" ID="ID_1039709397" CREATED="1743169087427" MODIFIED="1743169101726">
 <node TEXT="Piecewise Function" ID="ID_440115811" CREATED="1744507016693" MODIFIED="1744507029711" LINK="https://en.wikipedia.org/wiki/Piecewise_function"/>
 </node>
-<node TEXT="6.4 Making a Movie of a Plot" ID="ID_1830996185" CREATED="1743169101882" MODIFIED="1743169110309">
+<node TEXT="6.4 Making a Movie of a Plot" FOLDED="true" ID="ID_1830996185" CREATED="1743169101882" MODIFIED="1743169110309">
 <node TEXT="6.4.1 Running the movie live as the plots are created" ID="ID_1192091424" CREATED="1744439978460" MODIFIED="1744439991472"/>
-<node TEXT="6.4.2 Saving image files for later processing" ID="ID_1848536859" CREATED="1744439991909" MODIFIED="1744440007778">
+<node TEXT="6.4.2 Saving image files for later processing" FOLDED="true" ID="ID_1848536859" CREATED="1744439991909" MODIFIED="1744440007778">
 <node TEXT="ImageMagick" ID="ID_1380855988" CREATED="1744544656695" MODIFIED="1744544665346" LINK="https://imagemagick.org/script/download.php"/>
+<node TEXT="ffmpeg" ID="ID_659639464" CREATED="1744544682624" MODIFIED="1744544728241" LINK="https://ffmpeg.org/download.html">
+<node TEXT="ffmpeg -r 1 -s 1080x1620 -i tmp_%04d.png -crf 25 output.mp4" ID="ID_333565857" CREATED="1744546741904" MODIFIED="1744547274521"/>
+</node>
+<node TEXT="avconv" ID="ID_1525131476" CREATED="1744544686527" MODIFIED="1744544699514" LINK="https://sourceforge.net/projects/avconv/"/>
 </node>
 <node TEXT="6.4.3 Using built-in Matplotlib tools" ID="ID_375050080" CREATED="1744440008724" MODIFIED="1744440020480"/>
 </node>
