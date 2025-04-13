@@ -10,7 +10,7 @@ This is my self learning and practices on Python
 
 [Manim Learning Mindmap](manim/Manim.md)
 
-## Learn Python GUI
+## Learn Python GUI (guizero)
 
 [GUI_Python Readme](GUI_Python/README.md)
 
