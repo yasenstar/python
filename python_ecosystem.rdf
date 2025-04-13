@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32/"
+     xml:base="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#API -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#API">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#framework"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Bottle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Bottle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Real-Time"/>
+        <rdfs:comment>Single-file framework</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#CherryPy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#CherryPy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#WebFramework"/>
+        <rdfs:comment>Simple web framework</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Django -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Django">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#FullStack"/>
+        <rdfs:comment>Full-stack framework</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#FastAPI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#FastAPI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#API"/>
+        <rdfs:comment>Modern API Framework</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Flask -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Flask">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#FullStack"/>
+        <rdfs:comment>Lightweight framework</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#FullStack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#FullStack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#framework"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#GUI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#GUI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#library"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Manim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Manim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Scientific"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.manim.community/</rdfs:comment>
+        <rdfs:comment>A community maintained Python library for creating mathematical animations.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Matplotlib -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Matplotlib">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Scientific"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://matplotlib.org/</rdfs:comment>
+        <rdfs:comment>Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#NumPy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#NumPy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Scientific"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://numpy.org/</rdfs:comment>
+        <rdfs:comment>The fundamental package for scientific computing with Python</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Publishing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Publishing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#library"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#PyLaTeX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#PyLaTeX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Publishing"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://jeltef.github.io/PyLaTeX/current/index.html</rdfs:comment>
+        <rdfs:comment>PyLaTeX is a Python library for creating and compiling LaTeX files. The goal of this library is to be an easy, but extensible interface between Python and LaTeX.
+
+PyLaTeX has two quite different usages: generating full pdfs and generating LaTeX snippets. Generating full pdfs is mostly useful when all the text that pdf should contain is generated by python, for instance exporting the data from a database. Snippets are useful when some text still needs to be written by hand, but some stuff can be automatically generated, for instance writing a report with a couple of matplotlib plots.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Pyramid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Pyramid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#WebFramework"/>
+        <rdfs:comment>Flexible web framework</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Real-Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Real-Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#framework"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#SciPy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#SciPy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Scientific"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://scipy.org/</rdfs:comment>
+        <rdfs:comment>Fundamental algorithms for scientific computing in Python</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Scientific -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Scientific">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#library"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Tornado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Tornado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#Real-Time"/>
+        <rdfs:comment>Real-time capabilities</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#TurboGears -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#TurboGears">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#WebFramework"/>
+        <rdfs:comment>Quick web apps</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#WebFramework -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#WebFramework">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#framework"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#framework -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#framework"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#guizero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#guizero">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#GUI"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://lawsie.github.io/guizero</rdfs:comment>
+        <rdfs:comment>guizero is a Python 3 library for creating simple GUIs.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#library -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#library"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#web2py -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#web2py">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/3/untitled-ontology-32#WebFramework"/>
+        <rdfs:comment>Web application framework</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

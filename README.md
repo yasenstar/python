@@ -1,5 +1,9 @@
 This is my self learning and practices on Python
 
+# Python Eco-System (updated from my knowledge)
+
+![python_ecosystem](img/python_ecosystem.png)
+
 # Packaged Learning and Courses
 
 ## Manim - Python library for technology animation
