@@ -3,7 +3,7 @@
 <node TEXT="Scientific Programming&#xa;with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1743214829743">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3ff" zoom="2.8531175">
+<hook NAME="MapStyle" background="#fdf6e3ff" zoom="2.1435893">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -251,16 +251,20 @@
 </node>
 <node TEXT="6.5 More Useful Array Operations" ID="ID_1172455462" CREATED="1743169110467" MODIFIED="1743169121070"/>
 </node>
-<node TEXT="7. Dictionaries and Strings" POSITION="bottom_or_right" ID="ID_1885413781" CREATED="1743168645248" MODIFIED="1743168651237">
+<node TEXT="7. Dictionaries and Strings" FOLDED="true" POSITION="bottom_or_right" ID="ID_1885413781" CREATED="1743168645248" MODIFIED="1743168651237">
 <node TEXT="7.1 Dictionaries" ID="ID_1782932541" CREATED="1743169123811" MODIFIED="1743169128878">
 <node TEXT="7.1.1 Dictionaries Basis" ID="ID_879695309" CREATED="1744440953088" MODIFIED="1744440961075"/>
 <node TEXT="7.1.2 Dictionaries and Lists share similarities" ID="ID_49097076" CREATED="1744440961554" MODIFIED="1744440979501"/>
 </node>
 <node TEXT="7.2 Example: A Dictionary for Polynomials" ID="ID_708546893" CREATED="1743169129051" MODIFIED="1743169140966"/>
 <node TEXT="7.3 Example: Reading File Data to a Dictionary" ID="ID_1604687300" CREATED="1743169141131" MODIFIED="1743169151801"/>
-<node TEXT="7.4 String Manipulation" ID="ID_42947235" CREATED="1743169151956" MODIFIED="1743169156774"/>
+<node TEXT="7.4 String Manipulation" ID="ID_42947235" CREATED="1743169151956" MODIFIED="1743169156774">
+<node TEXT="7.4.1 String slicing, find and replace" ID="ID_1948025040" CREATED="1744633739709" MODIFIED="1744633776115"/>
+<node TEXT="7.4.2 Spitting and joining strings; Immutable Objects" ID="ID_1661871829" CREATED="1744633776261" MODIFIED="1744633871228"/>
+<node TEXT="7.4.3 Other string methods" ID="ID_148042487" CREATED="1744633830370" MODIFIED="1744633885876"/>
 </node>
-<node TEXT="8. Classes" FOLDED="true" POSITION="bottom_or_right" ID="ID_1934824475" CREATED="1743168651416" MODIFIED="1743168654611">
+</node>
+<node TEXT="8. Classes" POSITION="bottom_or_right" ID="ID_1934824475" CREATED="1743168651416" MODIFIED="1743168654611">
 <node TEXT="8.1 Basics of Classes" ID="ID_723547382" CREATED="1743169158074" MODIFIED="1743169166367"/>
 <node TEXT="8.2 Protected Class Attributes" ID="ID_452197333" CREATED="1743169166522" MODIFIED="1743169174341"/>
 <node TEXT="8.3 Special Methods" ID="ID_550322351" CREATED="1743169174498" MODIFIED="1743169178186"/>
