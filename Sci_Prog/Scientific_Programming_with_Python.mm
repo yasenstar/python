@@ -3,8 +3,8 @@
 <node TEXT="Scientific Programming&#xa;with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1743214829743">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3ff" zoom="2.1435893">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
+<hook NAME="MapStyle" background="#fdf6e3ff">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -218,9 +218,11 @@
 <node TEXT="5.2.1 eval" ID="ID_1143982875" CREATED="1743916639787" MODIFIED="1743916644118"/>
 <node TEXT="5.2.2 exec" ID="ID_1503048888" CREATED="1743916644299" MODIFIED="1743916648049"/>
 </node>
-<node TEXT="5.3 Reading Data from Files" ID="ID_170133253" CREATED="1743168974552" MODIFIED="1743168982940"/>
+<node TEXT="5.3 Reading Data from Files" ID="ID_170133253" CREATED="1743168974552" MODIFIED="1745061054851">
+<arrowlink DESTINATION="ID_1604687300"/>
+</node>
 <node TEXT="5.4 Writing Data to Files" ID="ID_1593505266" CREATED="1743168983135" MODIFIED="1743168991105"/>
-<node TEXT="5.5 Handling Errors in Programs" ID="ID_443893628" CREATED="1743168991254" MODIFIED="1743169057790">
+<node TEXT="5.5 Handling Errors in Programs" FOLDED="true" ID="ID_443893628" CREATED="1743168991254" MODIFIED="1743169057790">
 <node TEXT="5.5.1 Standard Python Exceptions" ID="ID_346795744" CREATED="1743917922408" MODIFIED="1743917933891"/>
 <node TEXT="5.5.2 Program Self Exceptions" ID="ID_1481172964" CREATED="1743917934081" MODIFIED="1743917957139"/>
 </node>
@@ -267,12 +269,18 @@
 <node TEXT="8. Classes" POSITION="bottom_or_right" ID="ID_1934824475" CREATED="1743168651416" MODIFIED="1743168654611">
 <node TEXT="8.1 Basics of Classes" ID="ID_723547382" CREATED="1743169158074" MODIFIED="1743169166367"/>
 <node TEXT="8.2 Protected Class Attributes" ID="ID_452197333" CREATED="1743169166522" MODIFIED="1743169174341"/>
-<node TEXT="8.3 Special Methods" ID="ID_550322351" CREATED="1743169174498" MODIFIED="1743169178186"/>
+<node TEXT="8.3 Special Methods" FOLDED="true" ID="ID_550322351" CREATED="1743169174498" MODIFIED="1743169178186">
+<node TEXT="Special Method for Calling" ID="ID_600827302" CREATED="1745110171010" MODIFIED="1745110180190"/>
+<node TEXT="Special Method for Printing" ID="ID_913213879" CREATED="1745110180334" MODIFIED="1745110189633"/>
+<node TEXT="Special Methods for Mathematical Operations" ID="ID_492464062" CREATED="1745110224759" MODIFIED="1745110233744"/>
+<node TEXT="The __repr__ special method" ID="ID_861451440" CREATED="1745110257956" MODIFIED="1745110265896"/>
+<node TEXT="Get contents information of a Class" ID="ID_348073408" CREATED="1745110350853" MODIFIED="1745110364134"/>
+</node>
 <node TEXT="8.4 Example: Automatic Differentiation of Functions" ID="ID_1005465663" CREATED="1743169178346" MODIFIED="1743169191567"/>
 <node TEXT="8.5 Test Functions for Classes" ID="ID_1463108285" CREATED="1743169191722" MODIFIED="1743169197256"/>
 <node TEXT="8.6 Example: A Polynomial Class" ID="ID_1588536663" CREATED="1743169197666" MODIFIED="1743169204654"/>
 </node>
-<node TEXT="9. Object-Oriented Porgramming" FOLDED="true" POSITION="bottom_or_right" ID="ID_1092068585" CREATED="1743168654777" MODIFIED="1743168663142">
+<node TEXT="9. Object-Oriented Programming" FOLDED="true" POSITION="bottom_or_right" ID="ID_1092068585" CREATED="1743168654777" MODIFIED="1745111354774">
 <node TEXT="9.1 Class Hierarchies and Inheritance" ID="ID_1252167424" CREATED="1743169207649" MODIFIED="1743169218064"/>
 <node TEXT="9.2 Example: Classes for Numerical Differentiation" ID="ID_1364377189" CREATED="1743169218211" MODIFIED="1743169230278"/>
 <node TEXT="9.3 Example: Classes for Numerical Integration" ID="ID_613514223" CREATED="1743169230426" MODIFIED="1743169241167"/>
