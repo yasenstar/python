@@ -3,7 +3,7 @@
 <node TEXT="Scientific Programming&#xa;with Python" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1743214829743">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#fdf6e3ff">
+<hook NAME="MapStyle" background="#fdf6e3ff" zoom="2.357948">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_solarized_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -173,7 +173,7 @@
 <node TEXT="3.5 Nested Lists and List Slicing" ID="ID_1769912890" CREATED="1743168831759" MODIFIED="1743168843474"/>
 <node TEXT="3.6 Tuples" ID="ID_1091646665" CREATED="1743168843633" MODIFIED="1743168846423"/>
 </node>
-<node TEXT="4. Functions and Branching" FOLDED="true" POSITION="bottom_or_right" ID="ID_72079046" CREATED="1743168623989" MODIFIED="1743168630271">
+<node TEXT="4. Functions and Branching" FOLDED="true" POSITION="bottom_or_right" ID="ID_72079046" CREATED="1743168623989" MODIFIED="1745213613471">
 <node TEXT="4.1 Programming with Functions" ID="ID_483775829" CREATED="1743168847665" MODIFIED="1743168856363"/>
 <node TEXT="4.2 Function Arguments and Local Variables" FOLDED="true" ID="ID_101900104" CREATED="1743168856531" MODIFIED="1743168865899">
 <node TEXT="4.2.1 Positional Arguments vs. Keyword Arguments" ID="ID_840611138" CREATED="1743336366292" MODIFIED="1743336384074"/>
@@ -190,9 +190,12 @@
 <node TEXT="4.5 Functions as Arguments to Functions" ID="ID_92521020" CREATED="1743168893781" MODIFIED="1743168907569"/>
 <node TEXT="4.6 Solving Equations with Python Functions" FOLDED="true" ID="ID_827211987" CREATED="1743168907739" MODIFIED="1743168920793">
 <node TEXT="4.6.1 Bisection Method" ID="ID_1447009239" CREATED="1743342026302" MODIFIED="1743342032538"/>
-<node TEXT="4.6.2 Newton&apos;s Method" ID="ID_1134734709" CREATED="1743342033078" MODIFIED="1743770987334" LINK="https://en.wikipedia.org/wiki/Newton%27s_method"/>
+<node TEXT="4.6.2 Newton&apos;s Method" ID="ID_1134734709" CREATED="1743342033078" MODIFIED="1745213620786" LINK="https://en.wikipedia.org/wiki/Newton%27s_method">
+<arrowlink DESTINATION="ID_1005465663"/>
 </node>
-<node TEXT="4.7 Writing Test Functions to Verify our Programs" FOLDED="true" ID="ID_246114758" CREATED="1743168920959" MODIFIED="1743168935724">
+</node>
+<node TEXT="4.7 Writing Test Functions to Verify our Programs" FOLDED="true" ID="ID_246114758" CREATED="1743168920959" MODIFIED="1745216673334">
+<arrowlink DESTINATION="ID_1463108285"/>
 <node TEXT="4.7.1 Basic Test Function" ID="ID_1001070418" CREATED="1743770915512" MODIFIED="1743770921740"/>
 <node TEXT="4.7.2 A function with Multiple Tests" ID="ID_1287299784" CREATED="1743770921904" MODIFIED="1743770943480"/>
 </node>
@@ -258,7 +261,9 @@
 <node TEXT="7.1.1 Dictionaries Basis" ID="ID_879695309" CREATED="1744440953088" MODIFIED="1744440961075"/>
 <node TEXT="7.1.2 Dictionaries and Lists share similarities" ID="ID_49097076" CREATED="1744440961554" MODIFIED="1744440979501"/>
 </node>
-<node TEXT="7.2 Example: A Dictionary for Polynomials" ID="ID_708546893" CREATED="1743169129051" MODIFIED="1743169140966"/>
+<node TEXT="7.2 Example: A Dictionary for Polynomials" ID="ID_708546893" CREATED="1743169129051" MODIFIED="1745218124916">
+<arrowlink DESTINATION="ID_1588536663"/>
+</node>
 <node TEXT="7.3 Example: Reading File Data to a Dictionary" ID="ID_1604687300" CREATED="1743169141131" MODIFIED="1743169151801"/>
 <node TEXT="7.4 String Manipulation" ID="ID_42947235" CREATED="1743169151956" MODIFIED="1743169156774">
 <node TEXT="7.4.1 String slicing, find and replace" ID="ID_1948025040" CREATED="1744633739709" MODIFIED="1744633776115"/>
@@ -266,13 +271,13 @@
 <node TEXT="7.4.3 Other string methods" ID="ID_148042487" CREATED="1744633830370" MODIFIED="1744633885876"/>
 </node>
 </node>
-<node TEXT="8. Classes" POSITION="bottom_or_right" ID="ID_1934824475" CREATED="1743168651416" MODIFIED="1743168654611">
+<node TEXT="8. Classes" FOLDED="true" POSITION="bottom_or_right" ID="ID_1934824475" CREATED="1743168651416" MODIFIED="1743168654611">
 <node TEXT="8.1 Basics of Classes" ID="ID_723547382" CREATED="1743169158074" MODIFIED="1743169166367"/>
 <node TEXT="8.2 Protected Class Attributes" ID="ID_452197333" CREATED="1743169166522" MODIFIED="1743169174341"/>
 <node TEXT="8.3 Special Methods" FOLDED="true" ID="ID_550322351" CREATED="1743169174498" MODIFIED="1743169178186">
 <node TEXT="Special Method for Calling" ID="ID_600827302" CREATED="1745110171010" MODIFIED="1745110180190"/>
 <node TEXT="Special Method for Printing" ID="ID_913213879" CREATED="1745110180334" MODIFIED="1745110189633"/>
-<node TEXT="Special Methods for Mathematical Operations" ID="ID_492464062" CREATED="1745110224759" MODIFIED="1745110233744"/>
+<node TEXT="Special Methods for Mathematical Operations" ID="ID_492464062" CREATED="1745110224759" MODIFIED="1745204177420" LINK="https://www.codearmo.com/python-tutorial/object-orientated-programming-arithmetic-methods"/>
 <node TEXT="The __repr__ special method" ID="ID_861451440" CREATED="1745110257956" MODIFIED="1745110265896"/>
 <node TEXT="Get contents information of a Class" ID="ID_348073408" CREATED="1745110350853" MODIFIED="1745110364134"/>
 </node>
@@ -281,7 +286,10 @@
 <node TEXT="8.6 Example: A Polynomial Class" ID="ID_1588536663" CREATED="1743169197666" MODIFIED="1743169204654"/>
 </node>
 <node TEXT="9. Object-Oriented Programming" FOLDED="true" POSITION="bottom_or_right" ID="ID_1092068585" CREATED="1743168654777" MODIFIED="1745111354774">
-<node TEXT="9.1 Class Hierarchies and Inheritance" ID="ID_1252167424" CREATED="1743169207649" MODIFIED="1743169218064"/>
+<node TEXT="9.1 Class Hierarchies and Inheritance" FOLDED="true" ID="ID_1252167424" CREATED="1743169207649" MODIFIED="1743169218064">
+<node TEXT="9.1.1 Example: Classes for Lines and Parabolas" ID="ID_1150652437" CREATED="1745111844509" MODIFIED="1745111862519"/>
+<node TEXT="9.1.2 The Real Meaning of Inheritance" ID="ID_1626782356" CREATED="1745111862669" MODIFIED="1745111873717"/>
+</node>
 <node TEXT="9.2 Example: Classes for Numerical Differentiation" ID="ID_1364377189" CREATED="1743169218211" MODIFIED="1743169230278"/>
 <node TEXT="9.3 Example: Classes for Numerical Integration" ID="ID_613514223" CREATED="1743169230426" MODIFIED="1743169241167"/>
 </node>
