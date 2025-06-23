@@ -55,3 +55,4 @@ You can omit the zero after the decimal point when writing a floating-point numb
 
 ### Integer Division, Modulo, and Exponentiation
 
+If we want only the integer part of a division result, e.g. to 
