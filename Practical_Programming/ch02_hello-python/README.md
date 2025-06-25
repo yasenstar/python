@@ -55,4 +55,76 @@ You can omit the zero after the decimal point when writing a floating-point numb
 
 ### Integer Division, Modulo, and Exponentiation
 
-If we want only the integer part of a division result, e.g. to 
+If we want only the integer part of a division result, e.g. to know how many 24-hour days there are in 53 hours, use _integer division_: (note: Python doesn't round the result of integer division, instead, it takes the _floor_ of the result which means it's the round down)
+
+```python
+>>> 53 // 24
+2
+>>> 17 // 10
+1
+>>> -17 // 10
+-2
+>>> 17 // -10
+-2
+```
+
+To find out how many hours are left over using the _modulo_ operator:
+
+```python
+>>> 53 % 24
+5
+>>> 17 % 10
+7
+>>> -17 % 10
+3
+>>> 17 % -10
+-3
+```
+
+Floating-point numbers can be operands for `//` and `%` as well:
+
+```python
+>>> 3.3 // 1
+3.0
+>>> 3 // 1.0
+3.0
+>>> 3 // 1.1
+2.0
+>>> 3.5 // 1.1
+3.0
+>>> 3.5 // 1.3
+2.0
+
+>>> 3.3 % 1
+0.2999999999999998
+>>> 3 % 1.0
+0.0
+>>> 3 % 1.1
+0.7999999999999998
+>>> 3.5 % 1.1
+0.19999999999999973
+>>> 3.5 % 1.3
+0.8999999999999999
+```
+
+`Power` operand:
+
+```python
+>>> 3 ** 6
+729
+>>> 4 ** 0.5
+2.0
+```
+
+## 2.3 What _is_ a Type?
+
+In computing, a Type consists of two things:
+
+- a set of values, and
+- a set of operations that can be applied to those values
+
+## 2.4 Variables and Computer Memore: Remembering Values
+
+A name that refers to a value is called a _variable_.
+
+Variables are called _variables_ because their values can vary as the program executes.
