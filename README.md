@@ -1,5 +1,13 @@
 This is my self learning and practices on Python
 
+- [Python Eco-System (updated from my knowledge)](#python-eco-system-updated-from-my-knowledge)
+- [Packaged Learning and Courses](#packaged-learning-and-courses)
+  - [Manim - Python library for technology animation](#manim---python-library-for-technology-animation)
+  - [Learn Python GUI (guizero)](#learn-python-gui-guizero)
+  - [Scientific Programming with Python](#scientific-programming-with-python)
+- [Python Programming Tools](#python-programming-tools)
+
+
 # Python Eco-System (updated from my knowledge)
 
 ![python_ecosystem](img/python_ecosystem.png)
