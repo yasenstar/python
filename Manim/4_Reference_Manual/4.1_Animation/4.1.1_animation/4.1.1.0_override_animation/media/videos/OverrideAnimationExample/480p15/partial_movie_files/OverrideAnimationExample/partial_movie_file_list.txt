@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/GitHub/python/Manim/4_Reference_Manual/4.1_Animation/4.1.1_animation/4.1.1.0_override_animation/media/videos/OverrideAnimationExample/480p15/partial_movie_files/OverrideAnimationExample/1185818338_2896109728_223132457.mp4'

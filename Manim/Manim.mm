@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1742020665529" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#ffffffff" zoom="1.6105102">
+<hook NAME="MapStyle" background="#ffffffff" zoom="1.1">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -860,7 +860,7 @@
 </node>
 </node>
 <node TEXT="3.2.3 MovingAngle" ID="ID_1497471606" CREATED="1731484181258" MODIFIED="1734146077227">
-<node TEXT="Lecture 059: MovingAngle" ID="ID_1800668275" CREATED="1733200764428" MODIFIED="1734413512937">
+<node TEXT="Lecture 059: MovingAngle" ID="ID_1800668275" CREATED="1733200764428" MODIFIED="1756621612984">
 <icon BUILTIN="video"/>
 <arrowlink DESTINATION="ID_539026325"/>
 <arrowlink DESTINATION="ID_255755412"/>
@@ -995,10 +995,11 @@
 <node TEXT="Lecture 079: Opening" POSITION="bottom_or_right" ID="ID_1734418319" CREATED="1733201449926" MODIFIED="1742016348070">
 <icon BUILTIN="video"/>
 </node>
-<node TEXT="1. Animations" FOLDED="true" ID="ID_838548366" CREATED="1731419057095" MODIFIED="1733659771282">
-<node TEXT="1.01 animation" FOLDED="true" ID="ID_1882491247" CREATED="1732071270033" MODIFIED="1733659863441">
-<node TEXT="Lecture 080: OverrideAnimationExample" ID="ID_1792450773" CREATED="1733201407515" MODIFIED="1742016306431">
+<node TEXT="1. Animations" ID="ID_838548366" CREATED="1731419057095" MODIFIED="1733659771282">
+<node TEXT="1.01 animation" ID="ID_1882491247" CREATED="1732071270033" MODIFIED="1733659863441">
+<node TEXT="Lecture 080: OverrideAnimationExample" ID="ID_1792450773" CREATED="1733201407515" MODIFIED="1756621628870">
 <icon BUILTIN="video"/>
+<arrowlink DESTINATION="ID_255755412"/>
 </node>
 <node TEXT="1.01.01 Add" ID="ID_312369594" CREATED="1742016425291" MODIFIED="1742016433974">
 <node TEXT="Lecture 081: DefaultAddScene" ID="ID_393875270" CREATED="1742016576074" MODIFIED="1742016837493">
@@ -1225,7 +1226,7 @@
 </node>
 <node TEXT="2. Cameras" ID="ID_39305316" CREATED="1731419079854" MODIFIED="1733659774840"/>
 <node TEXT="3. Configurations" ID="ID_1605041570" CREATED="1731419083315" MODIFIED="1733659777590"/>
-<node TEXT="4. Mobjects" FOLDED="true" ID="ID_208778093" CREATED="1731419088722" MODIFIED="1733659780382">
+<node TEXT="4. Mobjects" ID="ID_208778093" CREATED="1731419088722" MODIFIED="1733659780382">
 <node TEXT="4.01 frame" FOLDED="true" ID="ID_1440546800" CREATED="1733660111521" MODIFIED="1733660124484">
 <node TEXT="4.01.01 FullScreenRectangle" ID="ID_1932339432" CREATED="1734266663298" MODIFIED="1734266672739"/>
 <node TEXT="4.01.02 ScreenRectangle" ID="ID_25189440" CREATED="1734266673178" MODIFIED="1734266680116"/>
