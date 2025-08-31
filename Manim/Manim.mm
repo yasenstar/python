@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1742020665529" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#ffffffff" zoom="1.1">
+<hook NAME="MapStyle" background="#ffffffff" zoom="1.9487174">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -997,11 +997,11 @@
 </node>
 <node TEXT="1. Animations" ID="ID_838548366" CREATED="1731419057095" MODIFIED="1733659771282">
 <node TEXT="1.01 animation" ID="ID_1882491247" CREATED="1732071270033" MODIFIED="1733659863441">
-<node TEXT="Lecture 080: OverrideAnimationExample" ID="ID_1792450773" CREATED="1733201407515" MODIFIED="1756621628870">
+<node TEXT="Lecture 080: OverrideAnimationExample" ID="ID_1792450773" CREATED="1733201407515" MODIFIED="1756621968948">
 <icon BUILTIN="video"/>
 <arrowlink DESTINATION="ID_255755412"/>
 </node>
-<node TEXT="1.01.01 Add" ID="ID_312369594" CREATED="1742016425291" MODIFIED="1742016433974">
+<node TEXT="1.01.01 Add" FOLDED="true" ID="ID_312369594" CREATED="1742016425291" MODIFIED="1742016433974">
 <node TEXT="Lecture 081: DefaultAddScene" ID="ID_393875270" CREATED="1742016576074" MODIFIED="1742016837493">
 <icon BUILTIN="video"/>
 </node>
@@ -1009,7 +1009,7 @@
 <icon BUILTIN="video"/>
 </node>
 </node>
-<node TEXT="1.01.02 Animation" FOLDED="true" ID="ID_1164229823" CREATED="1732071896622" MODIFIED="1742016420722">
+<node TEXT="1.01.02 Animation" ID="ID_1164229823" CREATED="1732071896622" MODIFIED="1742016420722">
 <node TEXT="Lecture 083: LagRatios" ID="ID_846292898" CREATED="1742016806184" MODIFIED="1742016850540">
 <icon BUILTIN="video"/>
 </node>
@@ -1351,7 +1351,7 @@
 <node TEXT="4.06.03 Matrix" ID="ID_995919825" CREATED="1734268488434" MODIFIED="1734268492605"/>
 <node TEXT="4.06.04 MobjectMatrix" ID="ID_423213267" CREATED="1734268492754" MODIFIED="1734268499132"/>
 </node>
-<node TEXT="4.07 mojbject" ID="ID_739661723" CREATED="1732066552872" MODIFIED="1733660150795">
+<node TEXT="4.07 mobject" ID="ID_739661723" CREATED="1732066552872" MODIFIED="1756622005553">
 <node TEXT="4.07.01 group" ID="ID_229839891" CREATED="1732066562506" MODIFIED="1734147799723"/>
 <node TEXT="4.07.02 Mobject" ID="ID_255755412" CREATED="1732066557971" MODIFIED="1734147803659">
 <node TEXT="animate()" ID="ID_937704851" CREATED="1732066568786" MODIFIED="1732066573686"/>
