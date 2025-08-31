@@ -1,7 +1,8 @@
 from manim import Square, FadeIn
+from manim.animation.animation import prepare_animation
 s = Square()
 print(s)
-prepare_animation(FadeIn(s))
+print(prepare_animation(FadeIn(s)))
 
 # Error Message:
 # Traceback (most recent call last):
