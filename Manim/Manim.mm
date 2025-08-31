@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Manim" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="Freemind_Link_1513112588" CREATED="1153430895318" MODIFIED="1742020665529" LINK="https://www.manim.community/">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<hook NAME="MapStyle" background="#ffffffff">
+<hook NAME="MapStyle" background="#ffffffff" zoom="1.6105102">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_super_hero_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -87,7 +87,7 @@
 </hook>
 <hook URI="img/Manim-logo.png" SIZE="1.0" NAME="ExternalObject"/>
 <font SIZE="24" BOLD="true"/>
-<node TEXT="1. Manim Installation" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1734098275829">
+<node TEXT="1. Manim Installation" FOLDED="true" POSITION="bottom_or_right" ID="ID_358303331" CREATED="1731412195668" MODIFIED="1734098275829">
 <node TEXT="Windows OS" ID="ID_554992987" CREATED="1731412231383" MODIFIED="1732073773204" VGAP_QUANTITY="3 pt">
 <node TEXT="Install Manim: pip3 install manim" ID="ID_1555137147" CREATED="1742000655000" MODIFIED="1742000669838">
 <node TEXT="Run Program: manim -pql file.py ClassName" POSITION="bottom_or_right" ID="ID_1535801798" CREATED="1742000461234" MODIFIED="1742000477118">
@@ -745,7 +745,7 @@
 </node>
 </node>
 </node>
-<node TEXT="2.4 Adding Voiceovers to Videos" FOLDED="true" ID="ID_1035570971" CREATED="1731414629697" MODIFIED="1733801635330">
+<node TEXT="2.4 Adding Voiceovers to Videos" ID="ID_1035570971" CREATED="1731414629697" MODIFIED="1733801635330">
 <arrowlink DESTINATION="ID_706051721"/>
 <node TEXT="Basic Usage" ID="ID_755153236" CREATED="1731416095359" MODIFIED="1731416098973">
 <node TEXT="Lecture 050" ID="ID_1303704335" CREATED="1733200513774" MODIFIED="1733200524177">
@@ -759,7 +759,7 @@
 </node>
 </node>
 </node>
-<node TEXT="3. Example Gallery" POSITION="bottom_or_right" ID="ID_1248577304" CREATED="1731484084849" MODIFIED="1734098282384">
+<node TEXT="3. Example Gallery" FOLDED="true" POSITION="bottom_or_right" ID="ID_1248577304" CREATED="1731484084849" MODIFIED="1734098282384">
 <node TEXT="Lecture 051: Openging of Part 2" ID="ID_714173065" CREATED="1734413441766" MODIFIED="1734413471636">
 <icon BUILTIN="video"/>
 </node>
@@ -1000,7 +1000,7 @@
 <node TEXT="Lecture 080: OverrideAnimationExample" ID="ID_1792450773" CREATED="1733201407515" MODIFIED="1742016306431">
 <icon BUILTIN="video"/>
 </node>
-<node TEXT="1.01.01 Add" FOLDED="true" ID="ID_312369594" CREATED="1742016425291" MODIFIED="1742016433974">
+<node TEXT="1.01.01 Add" ID="ID_312369594" CREATED="1742016425291" MODIFIED="1742016433974">
 <node TEXT="Lecture 081: DefaultAddScene" ID="ID_393875270" CREATED="1742016576074" MODIFIED="1742016837493">
 <icon BUILTIN="video"/>
 </node>
@@ -1019,7 +1019,7 @@
 <node TEXT="1.01.03 Wait" ID="ID_548331049" CREATED="1732071902029" MODIFIED="1742016423916"/>
 </node>
 <node TEXT="1.02 changing" FOLDED="true" ID="ID_1388610685" CREATED="1732071276770" MODIFIED="1733659865956">
-<node TEXT="1.02.01 AnamatedBoundary" FOLDED="true" ID="ID_1258298627" CREATED="1733201489426" MODIFIED="1742017481038">
+<node TEXT="1.02.01 AnamatedBoundary" ID="ID_1258298627" CREATED="1733201489426" MODIFIED="1742017481038">
 <node TEXT="Lecture 085: AnimatedboundaryExample" ID="ID_731853322" CREATED="1733201533165" MODIFIED="1742017433755">
 <icon BUILTIN="video"/>
 </node>
