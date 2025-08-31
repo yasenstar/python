@@ -9,3 +9,5 @@ prepare_animation(FadeIn(s))
 #     prepare_animation(FadeIn(s))
 #     ^^^^^^^^^^^^^^^^^
 # NameError: name 'prepare_animation' is not defined
+
+# Raise bug ticket: https://github.com/ManimCommunity/manim/issues/4413
