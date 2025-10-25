@@ -1,0 +1,5 @@
+GivenName = input("Please enter the given name of the student:")
+Surname = input("Please enter the surname of the student:")
+FieldOfStudy = input("Please enter the field of study of the student:")
+StudentInfo = (GivenName, Surname, FieldOfStudy)
+print(StudentInfo)
