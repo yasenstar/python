@@ -8,11 +8,11 @@ voices = engine.getProperty('voices')   #getting details of current voice
 engine.setProperty('voice', voices[1].id)   #changing index, changes voices. 0 for male, 1 for female
 
 engine.say(
-    "Happy New Year 2025! "
+    "Happy New Year 2026! "
     "Wishing you a fantastic year ahead! "
 )
 
-print("Happy New Year 2025! \
+print("Happy New Year 2026! \
 Wishing you a fantastic year ahead!")
 
 engine.runAndWait()
