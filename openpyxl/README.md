@@ -14,6 +14,10 @@ This course is mainly based on the "Technical Manual" published at https://manua
 
 ![level1-structure](img/openpyxl_level1.png)
 
+You may open the [mindmap file](./Mastering_openpyxl.mm) within the open source tool - FreePlane.
+
+Read the detail structure from the [exported markdown format](./Mastering_openpyxl.md)
+
 ## Contents
 
 1. [Introduction](./1_introduction/)
