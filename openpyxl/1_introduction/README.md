@@ -4,6 +4,7 @@
   - [What is `openpyxl`?](#what-is-openpyxl)
   - [Installation and Setup](#installation-and-setup)
   - [Basic Concepts and Terminology](#basic-concepts-and-terminology)
+  - [Fist Example: Reading \& Writing a Simple Spreadsheet](#fist-example-reading--writing-a-simple-spreadsheet)
 
 ## What is `openpyxl`?
 
@@ -44,6 +45,11 @@ Here are the key terminologies:
 | Column | A vertical sequence of cells. |
 | Cell Value | The content of a cell (string, number, formula, etc.) |
 | Cell Style | Formatting applied to a cell (font, alignment, number format, etc.) |
+
+## Fist Example: Reading & Writing a Simple Spreadsheet
+
+```python
+```
 
 ---
 
