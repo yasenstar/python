@@ -49,6 +49,7 @@ Here are the key terminologies:
 ## Fist Example: Reading & Writing a Simple Spreadsheet
 
 ```python
+
 ```
 
 ---
