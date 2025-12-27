@@ -30,6 +30,16 @@ import openpyxl
 
 If no errors occurs, `openpyxl` is correctly installed.
 
+If your installation is not successfully, you may see following error for further troubleshooting:
+
+```python
+>>> import openpyxl
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    import platform
+ModuleNotFoundError: No module named 'openpyxl'
+```
+
 ## Basic Concepts and Terminology
 
 `openpyxl` represents an Excel file as a `workbook`, which contains one or more `worksheets`. A `worksheet` is a grid of `cells` organized into `rows` and `columns`. Each `cell` can contain different data types: numbers, text, formulas, dates, booleans, etc.
