@@ -28,6 +28,7 @@ This course is mainly based on the "Technical Manual" published at https://manua
 
 ## Resources about `openpyxl`
 
+- [openpyxl 3.1.3 documentation](https://openpyxl.readthedocs.io/en/stable/)
 - [Technical Manuals about openpyxl](https://manuals.muthu.co/posts/python-modules/openpyxl.html)
 - [A Guide on openpyxl, by Pedro Pregueiro](https://realpython.com/openpyxl-excel-spreadsheets-python/)
 
