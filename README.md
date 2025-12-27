@@ -1,5 +1,15 @@
 This is my self learning and practices on Python
 
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/XiaoqiZhao)](https://x.com/XiaoqiZhao)
+[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg)](https://www.youtube.com/@yasenzhao)
+[![Static Badge](https://img.shields.io/badge/My_LinkedIn--XiaoqiZhao-blue)](https://www.linkedin.com/in/xiaoqi-zhao)
+
+![GitHub Repo stars](https://img.shields.io/github/stars/yasenstar/python)
+![GitHub forks](https://img.shields.io/github/forks/yasenstar/python)
+[![license](https://img.shields.io/pypi/l/spyder.svg)](./LICENSE.txt)
+![GitHub language count](https://img.shields.io/github/languages/count/yasenstar/python)
+[![pages-build-deployment](https://github.com/yasenstar/python/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/yasenstar/python/actions/workflows/pages/pages-build-deployment)
+
 - [Python Eco-System (updated from my knowledge)](#python-eco-system-updated-from-my-knowledge)
 - [Packaged Learning and Courses](#packaged-learning-and-courses)
   - [Manim - Python library for technology animation](#manim---python-library-for-technology-animation)
