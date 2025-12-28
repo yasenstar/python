@@ -12,9 +12,6 @@ This is my self learning and practices on Python
 
 - [Python Eco-System (updated from my knowledge)](#python-eco-system-updated-from-my-knowledge)
 - [Packaged Learning and Courses](#packaged-learning-and-courses)
-  - [Manim - Python library for technology animation](#manim---python-library-for-technology-animation)
-  - [Learn Python GUI (guizero)](#learn-python-gui-guizero)
-  - [Scientific Programming with Python](#scientific-programming-with-python)
 - [Python Programming Tools](#python-programming-tools)
 
 
@@ -24,17 +21,13 @@ This is my self learning and practices on Python
 
 # Packaged Learning and Courses
 
-## Manim - Python library for technology animation
-
-[Manim Learning Mindmap](manim/Manim.md)
-
-## Learn Python GUI (guizero)
-
-[GUI_Python Readme](GUI_Python/README.md)
-
-## Scientific Programming with Python
-
-[Sci-Prog](Sci_Prog/README.md)
+- [Manim - Python library for technology animation](./Manim/)
+  - [Manim Learning Mindmap](manim/Manim.md)
+- [Learn Python GUI (guizero)](./GUI_Python/README.md)
+- [Scientific Programming with Python](./Sci_Prog/README.md)
+- \* [Doing Math with Python](https://github.com/yasenstar/DoingMathWithPython*)
+- \* [Python with Office](https://github.com/yasenstar/python_with_office)
+- [Mastering openpyxl](./openpyxl/README.md)
 
 ---
 
