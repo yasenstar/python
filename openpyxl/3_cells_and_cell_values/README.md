@@ -11,6 +11,17 @@
 
 ## 3.1 Accessing Cell Values
 
+Cell values are accessed using several methods.
+
+The most common method is indexing using the cell's coordinates as a string (e.g., "A1") or using the `cell()`1 method, which takes row and column numbers, see below sample:
+
+```python
+```
+
+Remeber - same as Excel - that cell coordinates are 1-based (the top-left cell is "A1").
+
+An empty cell will have a `value` of `None`.
+
 ## 3.2 Setting Cell Values
 
 ## 3.3 Data Types

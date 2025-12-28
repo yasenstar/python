@@ -25,7 +25,7 @@ Keep your `pip` in the latest version via `pip intall --upgrade pip` command.
 After successful installation, you can verify it by importing the library in a Python interpreter:
 
 ```python
-import openpyxl
+>>> import openpyxl
 ```
 
 If no errors occurs, `openpyxl` is correctly installed.
