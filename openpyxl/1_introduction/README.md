@@ -1,16 +1,16 @@
 # openpyxl - 1. Introduction
 
 - [openpyxl - 1. Introduction](#openpyxl---1-introduction)
-  - [What is `openpyxl`?](#what-is-openpyxl)
-  - [Installation and Setup](#installation-and-setup)
-  - [Basic Concepts and Terminology](#basic-concepts-and-terminology)
-  - [First Example: Reading \& Writing a Simple Spreadsheet](#first-example-reading--writing-a-simple-spreadsheet)
+  - [1.1 What is `openpyxl`?](#11-what-is-openpyxl)
+  - [1.2 Installation and Setup](#12-installation-and-setup)
+  - [1.3 Basic Concepts and Terminology](#13-basic-concepts-and-terminology)
+  - [1.4 First Example: Reading \& Writing a Simple Spreadsheet](#14-first-example-reading--writing-a-simple-spreadsheet)
 
-## What is `openpyxl`?
+## 1.1 What is `openpyxl`?
 
 `openpyxl` is a Python library for reading and writing Excel 2010 xlsx/xlsm/xltx/xltm files.
 
-## Installation and Setup
+## 1.2 Installation and Setup
 
 Using `pip` or `pip3`, as below:
 
@@ -52,7 +52,7 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'openpyxl'
 ```
 
-## Basic Concepts and Terminology
+## 1.3 Basic Concepts and Terminology
 
 `openpyxl` represents an Excel file as a `workbook`, which contains one or more `worksheets`. A `worksheet` is a grid of `cells` organized into `rows` and `columns`. Each `cell` can contain different data types: numbers, text, formulas, dates, booleans, etc.
 
@@ -68,7 +68,7 @@ Here are the key terminologies:
 | Cell Value | The content of a cell (string, number, formula, etc.) |
 | Cell Style | Formatting applied to a cell (font, alignment, number format, etc.) |
 
-## First Example: Reading & Writing a Simple Spreadsheet
+## 1.4 First Example: Reading & Writing a Simple Spreadsheet
 
 ```python
 
