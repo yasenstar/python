@@ -4,7 +4,7 @@
   - [What is `openpyxl`?](#what-is-openpyxl)
   - [Installation and Setup](#installation-and-setup)
   - [Basic Concepts and Terminology](#basic-concepts-and-terminology)
-  - [Fist Example: Reading \& Writing a Simple Spreadsheet](#fist-example-reading--writing-a-simple-spreadsheet)
+  - [First Example: Reading \& Writing a Simple Spreadsheet](#first-example-reading--writing-a-simple-spreadsheet)
 
 ## What is `openpyxl`?
 
@@ -19,6 +19,18 @@ pip install openpyxl
 ```
 
 This command will download and install the latest stable version of `openpyxl` and its dependencies. You'll need Python 3.7 or higher.
+
+```python
+pip install openpyxl
+Collecting openpyxl
+  Downloading openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting et-xmlfile (from openpyxl)
+  Downloading et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+Downloading openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+Downloading et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Installing collected packages: et-xmlfile, openpyxl
+Successfully installed et-xmlfile-2.0.0 openpyxl-3.1.5
+```
 
 Keep your `pip` in the latest version via `pip intall --upgrade pip` command.
 
@@ -56,7 +68,7 @@ Here are the key terminologies:
 | Cell Value | The content of a cell (string, number, formula, etc.) |
 | Cell Style | Formatting applied to a cell (font, alignment, number format, etc.) |
 
-## Fist Example: Reading & Writing a Simple Spreadsheet
+## First Example: Reading & Writing a Simple Spreadsheet
 
 ```python
 
