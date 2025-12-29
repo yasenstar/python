@@ -81,7 +81,7 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<node TEXT="1. Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_1381673064" CREATED="1766817605541" MODIFIED="1766817617918">
+<node TEXT="1. Introduction" POSITION="bottom_or_right" ID="ID_1381673064" CREATED="1766817605541" MODIFIED="1766817617918">
 <node TEXT="1.1 What is openpyxl?" ID="ID_1015109321" CREATED="1766817617923" MODIFIED="1766817623552"/>
 <node TEXT="1.2 Installation and Setup" ID="ID_1853887514" CREATED="1766817623733" MODIFIED="1766817629345"/>
 <node TEXT="1.3 Basic Concepts and Terminology" ID="ID_138159166" CREATED="1766817629510" MODIFIED="1766817640920"/>
