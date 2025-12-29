@@ -14,6 +14,15 @@
 Use `Workbook()` class constructor to create a new Excel workbook:
 
 ```python
+from openpyxl import Workbook
+
+workbook = Workbook()
+
+worksheet = workbook.active
+
+worksheet.cell(2,3).value = "Hello Excel!"
+
+workbook.save("my_new_workbook.xlsx")
 ```
 
 By default, a new workbook is created with a single, empty worksheet.
