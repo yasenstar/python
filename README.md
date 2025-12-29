@@ -27,7 +27,7 @@ This is my self learning and practices on Python
 - [Scientific Programming with Python](./Sci_Prog/README.md)
 - \* [Doing Math with Python](https://github.com/yasenstar/DoingMathWithPython*)
 - \* [Python with Office](https://github.com/yasenstar/python_with_office)
-- [Mastering openpyxl](./openpyxl/README.md)
+- \* [Mastering openpyxl]([./openpyxl/README.md](https://github.com/yasenstar/learn_openpyxl))
 
 ---
 
@@ -43,3 +43,5 @@ This is my self learning and practices on Python
 ---
 
 Welcome to add your comments in [Discussion Board](https://github.com/yasenstar/python/discussions), enjoy.
+
+Last updated at 2025-12-29
