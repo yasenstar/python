@@ -29,7 +29,7 @@ By default, a new workbook is created with a single, empty worksheet.
 
 You can add more worksheets as needed (using later commands).
 
-Source on `Workbook()`:
+Source on [`Workbook()`](https://foss.heptapod.net/openpyxl/openpyxl/-/blob/branch/default/openpyxl/workbook/workbook.py?ref_type=heads):
 
 ```python
 def __init__(self,
