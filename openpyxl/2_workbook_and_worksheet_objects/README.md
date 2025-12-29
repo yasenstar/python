@@ -107,6 +107,7 @@ Source code reference:
 
 - Class `load_workbook`: https://foss.heptapod.net/openpyxl/openpyxl/-/blob/branch/default/openpyxl/reader/excel.py?ref_type=heads#L316
 - `workbook.active`: https://foss.heptapod.net/openpyxl/openpyxl/-/blob/branch/default/openpyxl/workbook/workbook.py?ref_type=heads#L152
+- `workbook.worksheets`: https://foss.heptapod.net/openpyxl/openpyxl/-/blob/branch/default/openpyxl/workbook/workbook.py?ref_type=heads#L301
 - `workbook.sheetsnames`: https://foss.heptapod.net/openpyxl/openpyxl/-/blob/branch/default/openpyxl/workbook/workbook.py?ref_type=heads#L317
 
 ## 2.3 Creating Worksheets
