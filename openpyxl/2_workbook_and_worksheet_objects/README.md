@@ -25,11 +25,13 @@ worksheet.cell(2,3).value = "Hello Excel!"
 workbook.save("my_new_workbook.xlsx")
 ```
 
+File: [2.1_workbook-worksheet/2.1_Create-Workbools.py](2.1_workbook-worksheet/2.1_Create-Workbools.py)
+
 By default, a new workbook is created with a single, empty worksheet.
 
 You can add more worksheets as needed (using later commands).
 
-Source on [`Workbook()`](https://foss.heptapod.net/openpyxl/openpyxl/-/blob/branch/default/openpyxl/workbook/workbook.py?ref_type=heads):
+Source code reference: [`Workbook()` in openpyxl/workbook/workbook.py](https://foss.heptapod.net/openpyxl/openpyxl/-/blob/branch/default/openpyxl/workbook/workbook.py?ref_type=heads):
 
 ```python
 def __init__(self,
