@@ -32,6 +32,8 @@ Read the detail structure from the [exported markdown format](./Mastering_openpy
 
 ## Resources about `openpyxl`
 
+- [OpenPyXL page in gitpages](https://openpyxl.pages.heptapod.net/openpyxl/)
+  - [source code](https://foss.heptapod.net/openpyxl/openpyxl)
 - [openpyxl 3.1.3 documentation](https://openpyxl.readthedocs.io/en/stable/)
 - [Technical Manuals about openpyxl](https://manuals.muthu.co/posts/python-modules/openpyxl.html)
 - [A Guide on openpyxl, by Pedro Pregueiro](https://realpython.com/openpyxl-excel-spreadsheets-python/)

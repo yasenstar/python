@@ -33,8 +33,6 @@ This is my self learning and practices on Python
 
 # Python Programming Tools
 
-- [OpenPyXL page in gitpages](https://openpyxl.pages.heptapod.net/openpyxl/)
-  - [source code](https://foss.heptapod.net/openpyxl/openpyxl)
 - [Real Python Tutorial](https://realpython.com/)
 - http://docs.python.org/py3k/ has documentation and tutorials for the Python 3 programming language.
 - [PYnative](https://pynative.com/): Learn Python with Tutorials, Exercises, and Quizzes
