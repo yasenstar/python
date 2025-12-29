@@ -104,6 +104,20 @@ new_workbook.save("new_example1.xlsx")
 
 ## 1.5 First Exercise
 
+The dataset is as below sample:
+
+```txt
+dataset = [
+    ["Month", "Days"],
+    ["January", 31],
+    ["February", 28],
+    ["March", 31],
+    ["April", 30]
+]
+```
+
+Solution:
+
 ```python
 # Name: first_exercise
 # Purpose: practive writing into spreadsheet via iterating
