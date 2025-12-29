@@ -59,7 +59,7 @@ dotnetcore2==2.1.18
 entrypoints==0.3
 et-xmlfile==1.0.1
 fastcache==1.1.0
-filelock==3.0.12
+filelock>=3.20.1
 flake8 @ file:///tmp/build/80754af9/flake8_1601911421857/work
 Flask==2.2.5
 Flask-Bootstrap==3.3.7.1
