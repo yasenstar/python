@@ -59,7 +59,7 @@ dotnetcore2==2.1.18
 entrypoints==0.3
 et-xmlfile==1.0.1
 fastcache==1.1.0
-filelock==3.20.1
+filelock>=3.20.1
 flake8 @ file:///tmp/build/80754af9/flake8_1601911421857/work
 Flask==2.2.5
 Flask-Bootstrap==3.3.7.1
@@ -95,7 +95,7 @@ jupyter==1.0.0
 jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1601311786391/work
 jupyter-console @ file:///tmp/build/80754af9/jupyter_console_1598884538475/work
 jupyter-core @ file:///opt/concourse/worker/volumes/live/e8302867-5dbe-440b-7a37-f61bacc38ed8/volume/jupyter_core_1606148993907/work
-jupyterlab==3.6.8
+jupyterlab>=4.4.8
 jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
 jupyterlab-server @ file:///tmp/build/80754af9/jupyterlab_server_1594164409481/work
 keyring @ file:///opt/concourse/worker/volumes/live/54fc3ec2-338b-44f5-5e13-d62afa6b5820/volume/keyring_1601490916376/work
