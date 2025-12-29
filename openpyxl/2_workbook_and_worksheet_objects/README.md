@@ -20,6 +20,42 @@ By default, a new workbook is created with a single, empty worksheet.
 
 You can add more worksheets as needed (using later commands).
 
+Source on `Workbook()`:
+
+```python
+def __init__(self,
+            write_only=False,
+            iso_dates=False,
+            ):
+  self._sheets = []
+  self._pivots = []
+  self._active_sheet_index = 0
+  self.defined_names = DefinedNameDict()
+  self._external_links = []
+  self.properties = DocumentProperties()
+  self.custom_doc_props = CustomPropertyList()
+  self.security = DocumentSecurity()
+  self.__write_only = write_only
+  self.shared_strings = IndexedList()
+
+  self._setup_styles()
+
+  self.loaded_theme = None
+  self.vba_archive = None
+  self.is_template = False
+  self.code_name = None
+  self.epoch = WINDOWS_EPOCH
+  self.encoding = "utf-8"
+  self.iso_dates = iso_dates
+
+  if not self.write_only:
+      self._sheets.append(Worksheet(self))
+
+  self.rels = RelationshipList()
+  self.calculation = CalcProperties()
+  self.views = [BookView()]
+```
+
 ## 2.2 Accessing Worksheets
 
 Several methods provide access to worksheets within a workbook.
