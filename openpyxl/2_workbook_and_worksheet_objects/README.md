@@ -117,6 +117,10 @@ Adding new worksheets is straightforward using the `create_sheet()` method. This
 ```python
 ```
 
+Source code reference:
+
+- `workbook.create_sheet()`: https://foss.heptapod.net/openpyxl/openpyxl/-/blob/branch/default/openpyxl/workbook/workbook.py?ref_type=heads#L184
+
 ## 2.4 Deleting Worksheets
 
 To remove a worksheet, use the `remove()` method:
