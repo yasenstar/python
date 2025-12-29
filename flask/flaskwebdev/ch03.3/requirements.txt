@@ -228,7 +228,7 @@ visitor==0.1.3
 watchdog @ file:///opt/concourse/worker/volumes/live/4178155f-7c31-4cf0-463c-13c24817f979/volume/watchdog_1606939125879/work
 wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webencodings==0.5.1
-Werkzeug==3.1.3
+Werkzeug>=3.1.4
 widgetsnbextension==3.5.1
 wrapt @ file:///opt/concourse/worker/volumes/live/4fd63656-ef78-4d7f-42f4-6ab83f3ac507/volume/wrapt_1607712512486/work
 wurlitzer @ file:///opt/concourse/worker/volumes/live/01a17f3d-eafe-4806-57a1-4b9ef5d1815f/volume/wurlitzer_1594753845129/work
