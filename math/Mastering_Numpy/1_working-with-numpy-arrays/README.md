@@ -24,6 +24,15 @@ NumPy is the most fundamental package for **scientific computing** in Python, an
 
 Following are some well-known libraries which use NumPy features: pyflux, TPOT, xcessiv, xgboost, mlbox, torch, opencv, lightgbm, Keras, gensim, h5py, hyperopt, SciPy, Pandas, Matplotlib, Scikit-Learn
 
+The main work in numerical computing are with **vectors** and **matrices**.
+
+Two key advantages of NumPy from Python are as below:
+
+| Python | NumPy |
+| --- | --- |
+| Python lists don't support *vectorized* operations. | NumPy supports *vectorized* operations. |
+| Python doesn't have fixed type elements in lists and e.g., for loop is not very efficient because, at every iteration, data type needs to be checked. | In NumPy arrays, the data type is fixed. |
+
 ---
 
 Last updated at: 1/4/2026, 8:51:31 PM 
