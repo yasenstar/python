@@ -53,7 +53,7 @@ Two key advantages of NumPy from Python are as below:
 
 To display a matrix here in Markdown:
 
-$
+$\displaystyle
 A = \begin{pmatrix}
 a & b \\
 c & d
@@ -63,7 +63,7 @@ $
 Using syntax:
 
 ```
-$
+$\displaystyle
 A = \begin{pmatrix}
 a & b \\
 c & d
@@ -74,7 +74,7 @@ Note: you may you $$ to put formula center-aligned
 
 ### 1.4.1 Matrix Addition and Subtraction
 
-$
+$\displaystyle
 \begin{pmatrix}1 & 4 & 7 \\ 2 & 5 & 8\end{pmatrix} +
 \begin{pmatrix}10 & 14 & 16 \\ 13 & 18 & 21\end{pmatrix} =
 \begin{pmatrix}1+10 & 4+14 & 7+16 \\ 2+13 & 5+18 & 8+21\end{pmatrix} =
@@ -83,7 +83,7 @@ $
 
 ### 1.4.2 Scalar Multiplication
 
-$
+$\displaystyle
 4 \times \begin{pmatrix}1 & 2 \\ 3 & 4\end{pmatrix} = 
 \begin{pmatrix}4 \times 1 & 4 \times 2 \\ 4 \times 3 & 4 \times 4\end{pmatrix} =
 \begin{pmatrix}4 & 8 \\ 12 & 16\end{pmatrix}
@@ -93,7 +93,7 @@ $
 
 Imaging there're two matrices as $X$ and $Y$, where $X$ is an $a \times b$ matrix and $Y$ is an $b \times c$ matrix:
 
-$
+$\displaystyle
 X =
 \begin{pmatrix}
 X_{11} & X_{12} & X_{13} & \ldots & X_{1b} \\
@@ -115,7 +115,7 @@ $
 
 The product of these two matrices will be as follows:
 
-$
+$\displaystyle
 Z =
 \begin{pmatrix}
 z_{11} & z_{12} & z_{13} & \ldots & z_{1c} \\
