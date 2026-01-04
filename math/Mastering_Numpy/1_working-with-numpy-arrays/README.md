@@ -9,6 +9,7 @@
     - [1.4.1 Matrix Addition and Subtraction](#141-matrix-addition-and-subtraction)
     - [1.4.2 Scalar Multiplication](#142-scalar-multiplication)
     - [1.4.3 Matrix Multiplication](#143-matrix-multiplication)
+- [\\begin{pmatrix} (1\\times2)+(0\\times1)+(4\\times3) \& (1\\times5)+(0\\times1)+(4\\times2) \\ (3\\times2)+(3\\times1)+(1\\times3) \& (3\\times5)+(3\\times1)+(1\\times2) \\end{pmatrix}](#beginpmatrix-1times20times14times3--1times50times14times2--3times23times11times3--3times53times11times2-endpmatrix)
 
 ## 1.0 The Importance of NumPy
 
@@ -53,41 +54,41 @@ Two key advantages of NumPy from Python are as below:
 
 To display a matrix here in Markdown:
 
-$\displaystyle
+$$\displaystyle
 A = \begin{pmatrix}
 a & b \\
 c & d
 \end{pmatrix}
-$
+$$
 
 Using syntax:
 
 ```
-$\displaystyle
+$$\displaystyle
 A = \begin{pmatrix}
 a & b \\
 c & d
 \end{pmatrix}
-$
+$$
 Note: you may you $$ to put formula center-aligned
 ```
 
 ### 1.4.1 Matrix Addition and Subtraction
 
-$\displaystyle
+$$\displaystyle
 \begin{pmatrix}1 & 4 & 7 \\ 2 & 5 & 8\end{pmatrix} +
 \begin{pmatrix}10 & 14 & 16 \\ 13 & 18 & 21\end{pmatrix} =
 \begin{pmatrix}1+10 & 4+14 & 7+16 \\ 2+13 & 5+18 & 8+21\end{pmatrix} =
 \begin{pmatrix}11 & 18 & 23 \\ 15 & 23 & 29\end{pmatrix}
-$
+$$
 
 ### 1.4.2 Scalar Multiplication
 
-$\displaystyle
+$$\displaystyle
 4 \times \begin{pmatrix}1 & 2 \\ 3 & 4\end{pmatrix} = 
 \begin{pmatrix}4 \times 1 & 4 \times 2 \\ 4 \times 3 & 4 \times 4\end{pmatrix} =
 \begin{pmatrix}4 & 8 \\ 12 & 16\end{pmatrix}
-$
+$$
 
 ### 1.4.3 Matrix Multiplication
 
@@ -126,9 +127,38 @@ z_{a1} & z_{a2} & z_{a3} & \ldots & z_{ac} \end{pmatrix}
 
 So each element of the product matrix is calculated as follows:
 
-$\displaystyle
+$$\displaystyle
 Z_{ij} = x_{i1}y_{1j} + \ldots + x_{ib}y_{bj} = \sum\limits_{k=1}^{b} x_{ib}y_{bj}
-$
+$$
+
+For matrix product sample:
+
+$$
+Z_{22} = X_{23} \times Y_{32} =
+\begin{pmatrix} 1 & 0 & 4 \\ 3 & 3 & 1 \end{pmatrix}
+\times
+\begin{pmatrix} 2 & 5 \\ 1 & 1 \\ 3 & 2 \end{pmatrix}
+= \\
+\begin{pmatrix} (1\times2)+(0\times1)+(4\times3) & (1\times5)+(0\times1)+(4\times2) \\ (3\times2)+(3\times1)+(1\times3) & (3\times5)+(3\times1)+(1\times2) \end{pmatrix}
+=
+\begin{pmatrix} 14 & 13 \\ 12 & 20 \end{pmatrix}
+$$
+
+Verify in NumPy:
+
+```python
+import numpy as np
+x = np.array([
+    [1, 0, 4],
+    [3, 3, 1]
+])
+y = np.array([
+    [2, 5],
+    [1, 1],
+    [3, 2]
+])
+print(x.dot(y))
+```
 
 
 ---
