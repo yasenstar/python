@@ -132,6 +132,10 @@ $
 Z_{ij} = x_{i1}y_{1j} + \ldots + x_{ib}y_{bj} = \sum\limits_{k=1}^{b} x_{ib}y_{bj}
 $
 
+```latex
+Z_{ij} = x_{i1}y_{1j} + \ldots + x_{ib}y_{bj} = \sum\limits_{k=1}^{b} x_{ib}y_{bj}
+```
+
 
 ---
 
