@@ -9,8 +9,6 @@
     - [1.4.1 Matrix Addition and Subtraction](#141-matrix-addition-and-subtraction)
     - [1.4.2 Scalar Multiplication](#142-scalar-multiplication)
     - [1.4.3 Matrix Multiplication](#143-matrix-multiplication)
-- [\\begin{pmatrix} 2 \& 5 \\ 1 \& 1 \\ 3 \& 2 \\end{pmatrix}](#beginpmatrix-2--5--1--1--3--2-endpmatrix)
-- [\\begin{pmatrix} (1\\times2)+(0\\times1)+(4\\times3) \& (1\\times5)+(0\\times1)+(4\\times2) \\ (3\\times2)+(3\\times1)+(1\\times3) \& (3\\times5)+(3\\times1)+(1\\times2) \\end{pmatrix}](#beginpmatrix-1times20times14times3--1times50times14times2--3times23times11times3--3times53times11times2-endpmatrix)
 
 ## 1.0 The Importance of NumPy
 
@@ -134,16 +132,16 @@ $$
 
 For matrix product sample:
 
-$$
+```math
 Z_{22} = X_{23} \times Y_{32} =
 \begin{pmatrix} 1 & 0 & 4 \\ 3 & 3 & 1 \end{pmatrix}
 \times
 \begin{pmatrix} 2 & 5 \\ 1 & 1 \\ 3 & 2 \end{pmatrix}
-=
+= \\
 \begin{pmatrix} (1\times2)+(0\times1)+(4\times3) & (1\times5)+(0\times1)+(4\times2) \\ (3\times2)+(3\times1)+(1\times3) & (3\times5)+(3\times1)+(1\times2) \end{pmatrix}
 =
 \begin{pmatrix} 14 & 13 \\ 12 & 20 \end{pmatrix}
-$$
+```
 
 Verify in NumPy:
 
