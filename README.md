@@ -6,7 +6,7 @@ This is my self learning and practices on Python
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/yasenstar/python)
 ![GitHub forks](https://img.shields.io/github/forks/yasenstar/python)
-[![license](https://img.shields.io/pypi/l/spyder.svg)](./LICENSE.txt)
+![GitHub License](https://img.shields.io/github/license/yasenstar/python)
 ![GitHub language count](https://img.shields.io/github/languages/count/yasenstar/python)
 [![pages-build-deployment](https://github.com/yasenstar/python/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/yasenstar/python/actions/workflows/pages/pages-build-deployment)
 
