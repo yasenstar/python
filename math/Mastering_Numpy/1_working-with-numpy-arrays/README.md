@@ -93,7 +93,7 @@ $
 
 Imaging there're two matrices as $X$ and $Y$, where $X$ is an $a \times b$ matrix and $Y$ is an $b \times c$ matrix:
 
-$\displaystyle
+$$\displaystyle
 X =
 \begin{pmatrix}
 X_{11} & X_{12} & X_{13} & \ldots & X_{1b} \\
@@ -111,17 +111,18 @@ Y_{31} & Y_{32} & Y_{33} & \ldots & Y_{3d} \\
 \vdots & \vdots & \vdots & \vdots & \vdots \\
 Y_{b1} & Y_{b2} & Y_{b3} & \ldots & Y_{bc}
 \end{pmatrix}
-$
+$$
 
 The product of these two matrices will be as follows:
 
-$\displaystyle Z = \begin{pmatrix}
+```math
+Z = \begin{pmatrix}
 z_{11} & z_{12} & z_{13} & \ldots & z_{1c} \\
 z_{21} & z_{22} & z_{23} & \ldots & z_{2c} \\
 z_{31} & z_{32} & z_{33} & \ldots & z_{3c} \\
 \vdots & \vdots & \vdots & \vdots & \vdots \\
-z_{a1} & z_{a2} & z_{a3} & \ldots & z_{ac} \end{pmatrix} 
-$
+z_{a1} & z_{a2} & z_{a3} & \ldots & z_{ac} \end{pmatrix}
+```
 
 So each element of the product matrix is calculated as follows:
 
