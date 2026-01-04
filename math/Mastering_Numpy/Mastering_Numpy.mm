@@ -81,7 +81,16 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<node TEXT="1. Working with NumPy Arrays" POSITION="bottom_or_right" ID="ID_1121428479" CREATED="1767529686054" MODIFIED="1767529697297"/>
+<node TEXT="1. Working with NumPy Arrays" POSITION="bottom_or_right" ID="ID_1121428479" CREATED="1767529686054" MODIFIED="1767529697297">
+<node TEXT="1.1 Technical Requirements" ID="ID_1207448411" CREATED="1767530278593" MODIFIED="1767530283781"/>
+<node TEXT="1.2 Why do we need NumPy?" ID="ID_1445032302" CREATED="1767530283929" MODIFIED="1767530292916"/>
+<node TEXT="1.3 Who uses NumPy?" ID="ID_1248495472" CREATED="1767530293057" MODIFIED="1767530298972"/>
+<node TEXT="1.4 Introduction to Vectors and Matrices" ID="ID_1875695192" CREATED="1767530299193" MODIFIED="1767530308836"/>
+<node TEXT="1.5 Basics of NumPy Array Objects" ID="ID_1257957981" CREATED="1767530309153" MODIFIED="1767530320938"/>
+<node TEXT="1.6 NumPy Array Operations" ID="ID_727838673" CREATED="1767530321576" MODIFIED="1767530331379"/>
+<node TEXT="1.7 Working with Multi-Dimensional Arrays" ID="ID_764375635" CREATED="1767530331536" MODIFIED="1767530342859"/>
+<node TEXT="1.8 Indexing, Slicing, ReShaping, Resizing, and BroadCasting" ID="ID_1947605578" CREATED="1767530343032" MODIFIED="1767530359372"/>
+</node>
 <node TEXT="2. Linear Algebra with NumPy" POSITION="bottom_or_right" ID="ID_1477855336" CREATED="1767529702805" MODIFIED="1767529714377"/>
 <node TEXT="3. Exploratory Data Analysis of Boston Housing Data with NumPy Statistics" POSITION="bottom_or_right" ID="ID_911487320" CREATED="1767529717758" MODIFIED="1767529733033"/>
 <node TEXT="4. Predicting Housing Prices Using Linear Regression" POSITION="bottom_or_right" ID="ID_1936132074" CREATED="1767529735814" MODIFIED="1767529748458"/>
