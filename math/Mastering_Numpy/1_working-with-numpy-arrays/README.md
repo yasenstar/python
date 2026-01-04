@@ -48,6 +48,26 @@ Two key advantages of NumPy from Python are as below:
 - A `vector` is actually a `matrix` with one row or one column with more than one element.
   - A `vector` can be interpreted as an arrow or direction in an `m` dimensional space.
 
+To display a matrix here in Markdown:
+
+$$
+A = \begin{pmatrix}
+a & b \\
+c & d
+\end{pmatrix}
+$$
+
+Using syntax:
+
+```
+$$
+A = \begin{pmatrix}
+a & b \\
+c & d
+\end{pmatrix}
+$$
+```
+
 ---
 
 Last updated at: 1/4/2026, 8:51:31 PM 
