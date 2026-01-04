@@ -1,5 +1,8 @@
 # Mastering Numerical Computing with NumPy
 
+> [!IMPORTANT]
+> NumPy = Numerical Python
+
 - [Mastering Numerical Computing with NumPy](#mastering-numerical-computing-with-numpy)
   - [Contents](#contents)
 

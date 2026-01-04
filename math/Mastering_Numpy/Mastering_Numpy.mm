@@ -1,6 +1,6 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
-<node TEXT="Mastering_NumPy" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1767529701249"><hook NAME="MapStyle" background="#f5f5dcff">
+<node TEXT="Mastering_NumPy" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1767530788282"><hook NAME="MapStyle" background="#f5f5dcff">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" associatedTemplateLocation="template:/light_sepia_template.mm" show_tags="UNDER_NODES"/>
     <tags category_separator="::"/>
 
@@ -81,6 +81,7 @@
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
+<hook URI="img/book-cover_mastering-numpy.png" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="1. Working with NumPy Arrays" POSITION="bottom_or_right" ID="ID_1121428479" CREATED="1767529686054" MODIFIED="1767529697297">
 <node TEXT="1.1 Technical Requirements" ID="ID_1207448411" CREATED="1767530278593" MODIFIED="1767530283781"/>
 <node TEXT="1.2 Why do we need NumPy?" ID="ID_1445032302" CREATED="1767530283929" MODIFIED="1767530292916"/>
