@@ -115,15 +115,12 @@ $
 
 The product of these two matrices will be as follows:
 
-$\displaystyle
-Z =
-\begin{pmatrix}
+$\displaystyle Z = \begin{pmatrix}
 z_{11} & z_{12} & z_{13} & \ldots & z_{1c} \\
 z_{21} & z_{22} & z_{23} & \ldots & z_{2c} \\
 z_{31} & z_{32} & z_{33} & \ldots & z_{3c} \\
 \vdots & \vdots & \vdots & \vdots & \vdots \\
-z_{a1} & z_{a2} & z_{a3} & \ldots & z_{ac}
-\end{pmatrix}
+z_{a1} & z_{a2} & z_{a3} & \ldots & z_{ac} \end{pmatrix} 
 $
 
 So each element of the product matrix is calculated as follows:
