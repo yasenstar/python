@@ -9,6 +9,7 @@
     - [1.4.1 Matrix Addition and Subtraction](#141-matrix-addition-and-subtraction)
     - [1.4.2 Scalar Multiplication](#142-scalar-multiplication)
     - [1.4.3 Matrix Multiplication](#143-matrix-multiplication)
+  - [1.5 Basics of NumPy Array Objects](#15-basics-of-numpy-array-objects)
 
 ## 1.0 The Importance of NumPy
 
@@ -126,8 +127,8 @@ z_{a1} & z_{a2} & z_{a3} & \ldots & z_{ac} \end{pmatrix}
 
 So each element of the product matrix is calculated as follows:
 
-$$\displaystyle
-Z_{ij} = x_{i1}y_{1j} + \ldots + x_{ib}y_{bj} = \sum\limits_{k=1}^{b} x_{ib}y_{bj}
+$$
+Z_{ij} = x_{i1}y_{1j} + \ldots + x_{ib}y_{bj} = \sum_{k=1}^{b} x_{ib}y_{bj}
 $$
 
 For matrix product sample:
@@ -159,6 +160,9 @@ y = np.array([
 print(x.dot(y))
 ```
 
+## 1.5 Basics of NumPy Array Objects
+
+What makes NumPy special is the usage of multi-dimentional arrays called `ndarrays`.
 
 ---
 
