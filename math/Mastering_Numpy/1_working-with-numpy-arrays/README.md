@@ -10,6 +10,7 @@
     - [1.4.2 Scalar Multiplication](#142-scalar-multiplication)
     - [1.4.3 Matrix Multiplication](#143-matrix-multiplication)
   - [1.5 Basics of NumPy Array Objects](#15-basics-of-numpy-array-objects)
+  - [1.6 NumPy Array Operations](#16-numpy-array-operations)
 
 ## 1.0 The Importance of NumPy
 
@@ -163,6 +164,10 @@ print(x.dot(y))
 ## 1.5 Basics of NumPy Array Objects
 
 What makes NumPy special is the usage of multi-dimentional arrays called `ndarrays`.
+
+## 1.6 NumPy Array Operations
+
+This section covers creation and manipulation of numerical data with NumPy.
 
 ---
 
