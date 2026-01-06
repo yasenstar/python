@@ -21,7 +21,7 @@
 
 | Chapter | Knowledge Points | Demo Code (NoteBook) |
 | --- | --- | --- |
-| 1. Working with NumPy Arrays | [README](./1_working-with-numpy-arrays/README.md) | [Demo Codes](./1_working-with-numpy-arrays/ch01.ipynb) |
+| 1. Working with NumPy Arrays | [README](./1_working-with-numpy-arrays/README.md) | [Codes_1.4](./1_working-with-numpy-arrays/ch01_1.4.ipynb), [Codes_1.5](./1_working-with-numpy-arrays/ch01_1.5.ipynb), [Codes_1.6](./1_working-with-numpy-arrays/ch01_1.6.ipynb) |
 
 ## List of Reference Links for Typing Math Symbol using LaTeX Syntax
 
