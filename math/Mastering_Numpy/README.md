@@ -10,7 +10,7 @@
 ## Contents
 
 <map name="Mastering_NumPy_Contents" id="Mastering_NumPy_Contents_NaviMap">
-<area shape="rect" coords="954,157,1918,284" href="./1_working-with-numpy-arrays/README.md" alt="chapter1" title="1_working-with-numpy-array" />
+<area shape="rect" coords="334,50,669,89" href="./1_working-with-numpy-arrays/README.md" alt="chapter1" title="1_working-with-numpy-array" />
 </map>
 <img src="img/Mastering_Numpy.png", width="800", height="700", border="0", alt="", title="", usemap="#Mastering_NumPy_Contents_NaviMap" />
 
