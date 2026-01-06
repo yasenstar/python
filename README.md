@@ -29,6 +29,10 @@ This is my self learning and practices on Python
 - \* [Python with Office](https://github.com/yasenstar/python_with_office)
 - \* [Mastering openpyxl](https://github.com/yasenstar/learn_openpyxl)
 
+Learning:
+
+- [Mastering NumPy](math/Mastering_Numpy)
+
 ---
 
 # Python Programming Tools
