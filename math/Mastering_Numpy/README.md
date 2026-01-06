@@ -9,12 +9,12 @@
 
 ## Contents
 
-<map name="Mastering_NumPy_Contents" id="Mastering_NumPy_Contents_NaviMap">
+<!-- <map name="Mastering_NumPy_Contents" id="Mastering_NumPy_Contents_NaviMap">
 <area shape="rect" coords="334,50,669,89" href="./1_working-with-numpy-arrays/README.md" alt="chapter1" title="1_working-with-numpy-array" />
 </map>
-<img src="img/Mastering_Numpy.png", width="800", height="700", border="0", alt="", title="", usemap="#Mastering_NumPy_Contents_NaviMap" />
+<img src="img/Mastering_Numpy.png", width="800", height="700", border="0", alt="", title="", usemap="#Mastering_NumPy_Contents_NaviMap" /> -->
 
-<!-- ![content](img/Mastering_Numpy.png) -->
+![content](img/Mastering_Numpy.png)
 
 ## List of Reference Links for Typing Math Symbol using LaTeX Syntax
 
