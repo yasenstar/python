@@ -11,6 +11,8 @@
     - [1.4.3 Matrix Multiplication](#143-matrix-multiplication)
   - [1.5 Basics of NumPy Array Objects](#15-basics-of-numpy-array-objects)
   - [1.6 NumPy Array Operations](#16-numpy-array-operations)
+  - [1.7 Working with Multi-Dimensional Arrays](#17-working-with-multi-dimensional-arrays)
+  - [1.8 Indexing, Slicing, ReShaping, Resizing, and BroadCasting](#18-indexing-slicing-reshaping-resizing-and-broadcasting)
 
 ## 1.0 The Importance of NumPy
 
@@ -169,6 +171,10 @@ What makes NumPy special is the usage of multi-dimentional arrays called `ndarra
 
 This section covers creation and manipulation of numerical data with NumPy.
 
+## 1.7 Working with Multi-Dimensional Arrays
+
+## 1.8 Indexing, Slicing, ReShaping, Resizing, and BroadCasting
+
 ---
 
-Last updated at: 1/4/2026, 8:51:31 PM 
+Last updated at: 1/6/2026, 11:37:09 AM  
