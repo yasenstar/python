@@ -5,6 +5,7 @@
 
 - [Mastering Numerical Computing with NumPy](#mastering-numerical-computing-with-numpy)
   - [Contents](#contents)
+  - [Go to Chapters Directly](#go-to-chapters-directly)
   - [List of Reference Links for Typing Math Symbol using LaTeX Syntax](#list-of-reference-links-for-typing-math-symbol-using-latex-syntax)
 
 ## Contents
@@ -15,6 +16,12 @@
 <img src="img/Mastering_Numpy.png", width="800", height="700", border="0", alt="", title="", usemap="#Mastering_NumPy_Contents_NaviMap" /> -->
 
 ![content](img/Mastering_Numpy.png)
+
+## Go to Chapters Directly
+
+| Chapter | Knowledge Points | Demo Code (NoteBook) |
+| --- | --- | --- |
+| 1. Working with NumPy Arrays | [README](./1_working-with-numpy-arrays/README.md) | [Demo Codes](./1_working-with-numpy-arrays/ch01.ipynb) |
 
 ## List of Reference Links for Typing Math Symbol using LaTeX Syntax
 
