@@ -13,6 +13,8 @@
   - [1.6 NumPy Array Operations](#16-numpy-array-operations)
   - [1.7 Working with Multi-Dimensional Arrays](#17-working-with-multi-dimensional-arrays)
   - [1.8 Indexing, Slicing, ReShaping, Resizing, and BroadCasting](#18-indexing-slicing-reshaping-resizing-and-broadcasting)
+    - [1.8.1 Indexing](#181-indexing)
+    - [1.8.2 Slicing](#182-slicing)
 
 ## 1.0 The Importance of NumPy
 
@@ -178,6 +180,14 @@ Stacking: merge two arrays
 - `vstack`: is used for stacking arrays vertically (row-wise)
 
 ## 1.8 Indexing, Slicing, ReShaping, Resizing, and BroadCasting
+
+### 1.8.1 Indexing
+
+- Generally, Indexing helps to specify how to return desired elements of various data structures.
+- In NumPy, Indexing is controlling and manipulating the elements of arrays.
+  - Three child operations: 1) field access, 2) basic slicing, and 3) advanced indexing
+
+### 1.8.2 Slicing
 
 ---
 
