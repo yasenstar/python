@@ -173,6 +173,10 @@ This section covers creation and manipulation of numerical data with NumPy.
 
 ## 1.7 Working with Multi-Dimensional Arrays
 
+Stacking: merge two arrays
+- `hstack`: is used for stakcing arrays horizontally (column-wise)
+- `vstack`: is used for stacking arrays vertically (row-wise)
+
 ## 1.8 Indexing, Slicing, ReShaping, Resizing, and BroadCasting
 
 ---
