@@ -223,7 +223,7 @@ typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1598376058250/w
 ujson @ file:///opt/concourse/worker/volumes/live/2fc9988c-ebca-4577-6c4b-7383ea76e8ee/volume/ujson_1602523306974/work
 unicodecsv==0.14.1
 urllib3 @ file:///tmp/build/80754af9/urllib3_1603305693037/work
-virtualenv==20.26.6
+virtualenv==20.36.1
 visitor==0.1.3
 watchdog @ file:///opt/concourse/worker/volumes/live/4178155f-7c31-4cf0-463c-13c24817f979/volume/watchdog_1606939125879/work
 wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
