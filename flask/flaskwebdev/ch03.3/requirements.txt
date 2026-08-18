@@ -194,7 +194,7 @@ six @ file:///opt/concourse/worker/volumes/live/5b31cb27-1e37-4ca5-6e9f-86246eb2
 snowballstemmer==2.0.0
 sortedcollections==1.2.1
 sortedcontainers @ file:///tmp/build/80754af9/sortedcontainers_1606865132123/work
-soupsieve==2.0.1
+soupsieve==2.8.4
 Sphinx @ file:///tmp/build/80754af9/sphinx_1597428793432/work
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-devhelp==1.0.2
