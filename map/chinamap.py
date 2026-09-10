@@ -21,7 +21,7 @@ plt.rcParams["axes.unicode_minus"] = False  # 正常显示负号
 # 1. 销售数据
 data = {
     "province": ["山东省", "甘肃省", "广东省"],
-    "sales": [200, 115, 450]
+    "sales": [200, 115, 350]
 }
 df = pd.DataFrame(data)
 
