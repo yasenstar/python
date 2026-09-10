@@ -6,8 +6,8 @@ from io import BytesIO
 
 # 1. 销售数据
 data = {
-    "province": ["山东省", "甘肃省"],
-    "sales": [200, 15]
+    "province": ["山东省", "甘肃省", "广东省"],
+    "sales": [200, 115, 450]
 }
 df = pd.DataFrame(data)
 
